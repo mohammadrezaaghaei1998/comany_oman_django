@@ -1,0 +1,1464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-19 11:57+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\imports\apps.py:9
+msgid " imports"
+msgstr ""
+
+#: .\imports\forms.py:29 .\templates\main\login.html:15
+#, fuzzy
+#| msgid "Username:"
+msgid "Username"
+msgstr "Kullanıcı adı:"
+
+#: .\imports\forms.py:30
+msgid "First Name"
+msgstr "Adı"
+
+#: .\imports\forms.py:31
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: .\imports\forms.py:32 .\imports\forms.py:68
+#: .\templates\main\about_us.html:46
+msgid "Email"
+msgstr "E-posta"
+
+#: .\imports\forms.py:33 .\templates\main\login.html:18
+#, fuzzy
+#| msgid "Forgot Password?"
+msgid "Password"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: .\imports\forms.py:34
+msgid "Confirm Password"
+msgstr "Parolanızı onaylayın"
+
+#: .\imports\forms.py:67 .\templates\main\dashboard.html:165
+#: .\templates\main\dashboard.html:231
+msgid "Name"
+msgstr "Adı"
+
+#: .\imports\forms.py:69
+msgid "WhatsApp Number"
+msgstr "WhatsApp Numarası"
+
+#: .\imports\forms.py:70
+msgid "Country"
+msgstr "Ülke"
+
+#: .\imports\forms.py:71
+msgid "City"
+msgstr "Il"
+
+#: .\imports\forms.py:72
+msgid "Curriculum Vitae"
+msgstr "CV"
+
+#: .\imports\models.py:12 .\imports\models.py:26 .\imports\models.py:41
+#: .\imports\models.py:53 .\imports\models.py:66 .\imports\models.py:84
+#: .\imports\models.py:128 .\imports\models.py:174 .\imports\models.py:195
+#: .\imports\models.py:235 .\imports\models.py:254 .\imports\models.py:272
+#: .\imports\models.py:321 .\imports\models.py:335
+#, fuzzy
+#| msgid "Username:"
+msgid "name"
+msgstr "Kullanıcı adı:"
+
+#: .\imports\models.py:16
+msgid " Brand"
+msgstr ""
+
+#: .\imports\models.py:17
+#, fuzzy
+#| msgid "Our Branches"
+msgid " Brands"
+msgstr "Şubelerimiz"
+
+#: .\imports\models.py:27
+msgid "code"
+msgstr ""
+
+#: .\imports\models.py:30
+msgid " Color"
+msgstr ""
+
+#: .\imports\models.py:31
+msgid " Colors"
+msgstr ""
+
+#: .\imports\models.py:42 .\imports\models.py:83 .\imports\models.py:114
+#: .\imports\models.py:165 .\imports\models.py:204 .\imports\models.py:312
+msgid "image"
+msgstr ""
+
+#: .\imports\models.py:45
+#, fuzzy
+#| msgid "Categories"
+msgid "Category"
+msgstr "Kategoriler"
+
+#: .\imports\models.py:46 .\imports\models.py:96 .\templates\header.html:76
+#: .\templates\main\home.html:50
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: .\imports\models.py:57
+msgid " Subfield"
+msgstr ""
+
+#: .\imports\models.py:58
+msgid " Subfields"
+msgstr ""
+
+#: .\imports\models.py:71
+msgid " Subfield_Item"
+msgstr ""
+
+#: .\imports\models.py:72
+msgid " Subfield_Items"
+msgstr ""
+
+#: .\imports\models.py:85
+#, fuzzy
+#| msgid "Price:"
+msgid "price"
+msgstr "Fiyat:"
+
+#: .\imports\models.py:86
+#, fuzzy
+#| msgid "Information:"
+msgid "information"
+msgstr "Ek bilgi"
+
+#: .\imports\models.py:87 .\imports\models.py:151 .\imports\models.py:199
+#: .\imports\models.py:299 .\imports\models.py:337
+#, fuzzy
+#| msgid "Description"
+msgid "description"
+msgstr "Açıklama"
+
+#: .\imports\models.py:89 .\imports\models.py:150 .\imports\models.py:198
+#: .\imports\models.py:298
+#, fuzzy
+#| msgid "Origin"
+msgid "origin"
+msgstr "Üretim(Ülke)"
+
+#: .\imports\models.py:90 .\imports\models.py:148 .\imports\models.py:296
+#, fuzzy
+#| msgid "Quantity"
+msgid "quantity"
+msgstr "Miktar"
+
+#: .\imports\models.py:91 .\imports\models.py:149 .\imports\models.py:297
+#, fuzzy
+#| msgid "Quality"
+msgid "quality"
+msgstr "Kalıte"
+
+#: .\imports\models.py:94
+msgid "Subfield Item"
+msgstr ""
+
+#: .\imports\models.py:95
+msgid "Subfield"
+msgstr ""
+
+#: .\imports\models.py:97
+msgid "Brand"
+msgstr ""
+
+#: .\imports\models.py:98
+msgid "Color"
+msgstr ""
+
+#: .\imports\models.py:99
+msgid "discount_price "
+msgstr ""
+
+#: .\imports\models.py:104
+#, fuzzy
+#| msgid "Product Name"
+msgid "Product"
+msgstr "Ürün adı"
+
+#: .\imports\models.py:105
+#, fuzzy
+#| msgid "Product Name"
+msgid "Products"
+msgstr "Ürün adı"
+
+#: .\imports\models.py:118
+msgid "Image"
+msgstr ""
+
+#: .\imports\models.py:119
+msgid "Images"
+msgstr ""
+
+#: .\imports\models.py:129 .\imports\models.py:176 .\imports\models.py:236
+#: .\imports\models.py:255 .\imports\models.py:273 .\imports\models.py:324
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "E-posta"
+
+#: .\imports\models.py:130
+#, fuzzy
+#| msgid "Your Message:"
+msgid "message"
+msgstr "Mesajınız yazınız"
+
+#: .\imports\models.py:133
+#, fuzzy
+#| msgid "Contact"
+msgid "Cntact"
+msgstr "Iletişim"
+
+#: .\imports\models.py:134
+#, fuzzy
+#| msgid "Contact"
+msgid "Contacs"
+msgstr "Iletişim"
+
+#: .\imports\models.py:147 .\imports\models.py:295
+msgid "product name"
+msgstr "Ürun adı"
+
+#: .\imports\models.py:153 .\imports\models.py:177 .\imports\models.py:301
+msgid "whatsapp"
+msgstr "whatsapp"
+
+#: .\imports\models.py:157 .\templates\header.html:82
+msgid "Collaboration"
+msgstr "Işbirliği"
+
+#: .\imports\models.py:158
+#, fuzzy
+#| msgid "Collaboration"
+msgid "Collaborations"
+msgstr "Işbirliği"
+
+#: .\imports\models.py:168
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImage"
+msgstr "Işbirliği"
+
+#: .\imports\models.py:169
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImages"
+msgstr "Işbirliği"
+
+#: .\imports\models.py:175
+#, fuzzy
+#| msgid "Username:"
+msgid "surname"
+msgstr "Kullanıcı adı:"
+
+#: .\imports\models.py:178 .\imports\models.py:275 .\imports\models.py:322
+msgid "country"
+msgstr ""
+
+#: .\imports\models.py:179 .\imports\models.py:276 .\imports\models.py:323
+msgid "city"
+msgstr ""
+
+#: .\imports\models.py:180
+msgid "company"
+msgstr ""
+
+#: .\imports\models.py:184
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfo"
+msgstr "Kullanıcı Blgileri"
+
+#: .\imports\models.py:185
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfos"
+msgstr "Kullanıcı Blgileri"
+
+#: .\imports\models.py:196
+#, fuzzy
+#| msgid "Profitability"
+msgid "profitability_percentage"
+msgstr "kar Oranı"
+
+#: .\imports\models.py:197
+msgid "duration_staying_money"
+msgstr ""
+
+#: .\imports\models.py:200
+#, fuzzy
+#| msgid "Start Date"
+msgid "start date"
+msgstr "Başlangıç"
+
+#: .\imports\models.py:201
+msgid "end date"
+msgstr ""
+
+#: .\imports\models.py:202
+#, fuzzy
+#| msgid "Amount Invested"
+msgid "amount invested"
+msgstr "Yatırılan Tutar"
+
+#: .\imports\models.py:208
+#, fuzzy
+#| msgid "Investment"
+msgid " Investment"
+msgstr "Yatırımlar"
+
+#: .\imports\models.py:209
+#, fuzzy
+#| msgid "Investment"
+msgid " Investments"
+msgstr "Yatırımlar"
+
+#: .\imports\models.py:222 .\imports\models.py:223
+#, fuzzy
+#| msgid "Your favorites"
+msgid " Favorite"
+msgstr "Favoriler"
+
+#: .\imports\models.py:237 .\imports\models.py:256 .\imports\models.py:326
+#, fuzzy
+#| msgid "Address"
+msgid "address"
+msgstr "Adres"
+
+#: .\imports\models.py:238 .\imports\models.py:257
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "phone number"
+msgstr "Cep telefon numarası giriniz"
+
+#: .\imports\models.py:241
+msgid " OrderProduct"
+msgstr ""
+
+#: .\imports\models.py:242
+msgid " OrderProducts"
+msgstr ""
+
+#: .\imports\models.py:260
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestment"
+msgstr "Yatırımlar"
+
+#: .\imports\models.py:261
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestments"
+msgstr "Yatırımlar"
+
+#: .\imports\models.py:274
+#, fuzzy
+#| msgid "WhatsApp Number"
+msgid "whatsapp number"
+msgstr "WhatsApp Numarası"
+
+#: .\imports\models.py:277
+msgid "cv"
+msgstr ""
+
+#: .\imports\models.py:281
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplication"
+msgstr "İş Başvuru Formunu Doldurun"
+
+#: .\imports\models.py:282
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplications"
+msgstr "İş Başvuru Formunu Doldurun"
+
+#: .\imports\models.py:300
+#, fuzzy
+#| msgid "product_images"
+msgid "product image"
+msgstr "Ürün görseleri"
+
+#: .\imports\models.py:304
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistance"
+msgstr "Ürün Yardımı"
+
+#: .\imports\models.py:305
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistances"
+msgstr "Ürün Yardımı"
+
+#: .\imports\models.py:316
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImage"
+msgstr "Ürün Yardımı"
+
+#: .\imports\models.py:317
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImages"
+msgstr "Ürün Yardımı"
+
+#: .\imports\models.py:325
+#, fuzzy
+#| msgid "Number"
+msgid "number"
+msgstr "Iletişim"
+
+#: .\imports\models.py:329
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branch"
+msgstr "Şubelerimiz"
+
+#: .\imports\models.py:330
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branches"
+msgstr "Şubelerimiz"
+
+#: .\imports\models.py:336
+msgid "job title"
+msgstr ""
+
+#: .\templates\admin\base_site.html:12
+msgid "Businesses724  | ADMIN "
+msgstr ""
+
+#: .\templates\admin\base_site.html:24
+msgid "Businesses724 | ADMIN"
+msgstr ""
+
+#: .\templates\auth\change_password_done.html:8
+#, fuzzy
+#| msgid "Forgot Password?"
+msgid "Password changed"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: .\templates\auth\change_password_done.html:9
+msgid "Your password has been changed successfully."
+msgstr "Şifreniz başarıyla değiştirildi."
+
+#: .\templates\auth\change_password_done.html:10
+msgid "You can now "
+msgstr "Şimdi yapabilirsin"
+
+#: .\templates\auth\change_password_done.html:10
+msgid "LOG IN"
+msgstr "GIRIŞ "
+
+#: .\templates\auth\password_reset_sent.html:8
+msgid "Password Reset Sent"
+msgstr "Şifre Sıfırlama Gönderildi"
+
+#: .\templates\auth\password_reset_sent.html:9
+msgid ""
+" If an account already exists with the email address you entered,we have "
+"emailed you instructions for setting your password.You should receive these "
+"soon. If you do not receive an email,please make sure you entered the "
+"address you registered with and check your spam folder. "
+msgstr "Girdiğiniz e-posta adresine sahip bir hesap zaten mevcutsa, şifrenizi ayarlama talimatlarını size e-postayla gönderdik.Eğer e-posta alamazsanız, lütfen kayıt olduğunuz adresi girdiğinizden emin olun ve spam klasörünüzü kontrol edin."
+
+#: .\templates\auth\reset_password.html:10
+
+msgid "Enter your email"
+msgstr "E-pasta giriniz"
+
+#: .\templates\auth\reset_password.html:12
+#, fuzzy
+#| msgid "Confirm Password"
+msgid "Confirm"
+msgstr "Parolanızı onaylayın"
+
+#: .\templates\footer.html:8
+msgid "Explore our branches"
+msgstr "Şubelerimizi keşfedin"
+
+#: .\templates\footer.html:13
+msgid "Social Media"
+msgstr "Sosyal medya"
+
+#: .\templates\footer.html:26 .\templates\main\about_us.html:38
+msgid "Location"
+msgstr "Konum"
+
+#: .\templates\header.html:30
+msgid "Lan"
+msgstr "dil"
+
+#: .\templates\header.html:33
+msgid "Enlish"
+msgstr "Ingilizce"
+
+#: .\templates\header.html:34
+msgid "Persian"
+msgstr "Farsça"
+
+#: .\templates\header.html:35
+msgid "Deutch"
+msgstr "Almanca"
+
+#: .\templates\header.html:36
+msgid "Russian"
+msgstr "Rusça"
+
+#: .\templates\header.html:37
+msgid "Arabic"
+msgstr "Arapça"
+
+#: .\templates\header.html:38
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: .\templates\header.html:48
+msgid "Sign Out"
+msgstr "Çıkış"
+
+#: .\templates\header.html:50 .\templates\main\login.html:9
+#: .\templates\main\login.html:20
+msgid "Login"
+msgstr "Giriş"
+
+#: .\templates\header.html:51
+msgid "Sign Up"
+msgstr "Hesap oluştur"
+
+#: .\templates\header.html:72
+msgid "Home"
+msgstr "Ev"
+
+#: .\templates\header.html:79 .\templates\main\home.html:78
+msgid "Services"
+msgstr "Hizmetler"
+
+#: .\templates\header.html:85 .\templates\main\home.html:89
+#: .\templates\main\home.html:108
+msgid "Investment"
+msgstr "Yatırımlar"
+
+#: .\templates\header.html:88 .\templates\main\about_us.html:15
+#: .\templates\main\home.html:33
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: .\templates\header.html:91
+msgid "Contact"
+msgstr "Iletişim"
+
+#: .\templates\header.html:94
+msgid "Apply for Job"
+msgstr "Iş başvurusu"
+
+#: .\templates\header.html:112 .\templates\header.html:113
+msgid "Search"
+msgstr "Ara"
+
+#: .\templates\main\about_us.html:17 .\templates\main\home.html:35
+msgid ""
+"Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and "
+"careers in Oman. As a dynamic newcomer, we simplify international "
+"transactions, drive strategic investments, and offer exciting career paths. "
+"Based in Muscat, we're dedicated to propelling businesses forward in the "
+"dynamic global marketplace. Join us on this journey towards simplified "
+"trade, strategic investments, and boundless career opportunities."
+msgstr ""
+"Umman'daki küresel ticaret, yatırım ve kariyer merkeziniz AMIRAN FOR "
+"YATIRIM'a hoş geldiniz. Dinamik bir start-up olarak uluslararası işlemleri "
+"basitleştiriyor, stratejik yatırımları teşvik ediyor ve heyecan verici "
+"kariyer fırsatları sunuyoruz. Maskat merkezli olarak dinamik bir küresel "
+"pazarda iş yapmayı teşvik etmeye çalışıyoruz. Basitleştirilmiş ticaret, "
+"stratejik yatırım ve sınırsız kariyer fırsatlarına giden yolculuğumuzda bize "
+"katılın."
+
+#: .\templates\main\about_us.html:29
+msgid "Our Branches"
+msgstr "Şubelerimiz"
+
+#: .\templates\main\about_us.html:42
+msgid "Number"
+msgstr "Iletişim"
+
+#: .\templates\main\about_us.html:50
+msgid "Address"
+msgstr "Adres"
+
+#: .\templates\main\about_us.html:65
+msgid "Our Team"
+msgstr "bizim takım"
+
+#: .\templates\main\assistance_successful.html:7
+msgid "Your Request Has Been Successfully Submitted"
+msgstr "Talebiniz Başarıyla Gönderildi"
+
+#: .\templates\main\assistance_successful.html:8
+msgid ""
+"Thank you for reaching out to us! We have received your request, and our "
+"team is on it."
+msgstr ""
+"Bize ulaştığınız için teşekkür ederiz! Talebinizi aldık ve ekibimiz bunun "
+"üzerinde çalışıyor."
+
+#: .\templates\main\assistance_successful.html:9
+msgid ""
+"Within the next 24 hours, our dedicated team will carefully review your "
+"request and get back to you with the necessary information."
+msgstr ""
+"Önümüzdeki 24 saat içinde özel ekibimiz isteğinizi dikkatle inceleyecek ve "
+"gerekli bilgilerle size geri dönüş yapacaktır."
+
+#: .\templates\main\assistance_successful.html:13
+#: .\templates\main\job_application_success.html:9
+#: .\templates\main\order_success.html:13
+#: .\templates\main\success_submission.html:11
+msgid "Back to Home"
+msgstr "Ana sayfaya "
+
+#: .\templates\main\collaboration.html:8
+msgid "Welcome to AMIRAN FOR INVESTMENT"
+msgstr "Amiran yatırım şirketine hoş geldiniz"
+
+#: .\templates\main\collaboration.html:9
+msgid ""
+"We believe in the power of collaboration and providing a platform for "
+"exceptional products to thrive. If you have a unique product that you're "
+"passionate about and would like to share it with a wider audience, our "
+"collaboration program is designed just for you."
+msgstr ""
+"İşbirliğinin gücüne ve olağanüstü ürünlerin gelişmesi için bir platform "
+"sağlamanın gücüne inanıyoruz. Tutkulu olduğunuz benzersiz bir ürününüz varsa "
+"ve bunu daha geniş kitlelerle paylaşmak istiyorsanız işbirliği programımız "
+"tam size göre tasarlandı."
+
+#: .\templates\main\collaboration.html:12
+msgid "How it works"
+msgstr "Nasıl çalışıyor"
+
+#: .\templates\main\collaboration.html:13
+msgid "1.Submit Your Product:"
+msgstr "1.Ürününüzü Gönderin:"
+
+#: .\templates\main\collaboration.html:15
+msgid ""
+"Share the details of your product by filling out our easy-to-use Product "
+"Collaboration Information Form.Provide information such as the product name, "
+"quantity, quality, origin, a captivating description,and multiple images to "
+"showcase its uniqueness."
+msgstr ""
+"Kullanımı kolay Ürün İşbirliği Bilgi Formumuzu doldurarak ürününüzün "
+"ayrıntılarını paylaşın. Ürün adı, miktarı, kalitesi, menşei gibi bilgileri, "
+"ilgi çekici bir açıklamayı ve ürünün benzersizliğini gösteren birden fazla "
+"görseli sağlayın."
+
+#: .\templates\main\collaboration.html:19
+msgid "2.Thorough Review Process:"
+msgstr "2.Kapsamlı İnceleme Süreci:"
+
+#: .\templates\main\collaboration.html:21
+msgid ""
+"Our dedicated team carefully reviews each submission to ensure that the "
+"products featured on our platform meet our high standards of quality and "
+"innovation.We appreciate the diversity of ideas and are excited to discover "
+"products that stand out."
+msgstr ""
+"Özel ekibimiz, platformumuzda yer alan ürünlerin yüksek kalite ve yenilik "
+"standartlarımızı karşıladığından emin olmak için her gönderimi dikkatle "
+"inceler. Fikir çeşitliliğini takdir ediyoruz ve öne çıkan ürünleri "
+"keşfetmekten heyecan duyuyoruz."
+
+#: .\templates\main\collaboration.html:25
+msgid "3.Acceptance or Feedback:"
+msgstr "3.Kabul veya Geribildirim:"
+
+#: .\templates\main\collaboration.html:27
+msgid ""
+"Following the review process, we will notify you of the acceptance of your "
+"product for collaboration.If your product aligns with our vision and "
+"resonates with our audience,we'll be thrilled to feature it on our platform."
+msgstr ""
+"İnceleme sürecinin ardından, ürününüzün işbirliği için kabul edildiğini size "
+"bildireceğiz. Ürününüz vizyonumuza uygunsa ve hedef kitlemizde yankı "
+"uyandırıyorsa, onu platformumuzda öne çıkarmaktan heyecan duyacağız."
+
+#: .\templates\main\collaboration.html:31
+msgid "4.Commence Collaboration:"
+msgstr "4. İşbirliğine Başlayın:"
+
+#: .\templates\main\collaboration.html:33
+msgid ""
+"Once accepted, our team will reach out to discuss the details of the "
+"collaboration.This includes logistics, sales strategies,and any additional "
+"information needed to make the collaboration a success."
+msgstr ""
+"Kabul edildikten sonra ekibimiz işbirliğinin ayrıntılarını görüşmek üzere "
+"sizinle iletişime geçecektir. Buna lojistik, satış stratejileri ve "
+"işbirliğinin başarılı olması için gereken her türlü ek bilgi dahildir."
+
+#: .\templates\main\collaboration.html:37
+msgid "5.Join a Community of Innovators:"
+msgstr "5. Yenilikçiler Topluluğuna Katılın:"
+
+#: .\templates\main\collaboration.html:39
+msgid ""
+"Become part of a community of like-minded individuals and businesses that "
+"share a passion for innovation.Our platform is not just about selling "
+"products;it's about building lasting connections and supporting each other's "
+"growth."
+msgstr ""
+"Yenilik tutkusunu paylaşan, benzer düşüncelere sahip bireylerden ve "
+"işletmelerden oluşan bir topluluğun parçası olun. Platformumuz yalnızca ürün "
+"satmakla ilgili değil; kalıcı bağlantılar kurmak ve birbirimizin büyümesini "
+"desteklemekle de ilgilidir."
+
+#: .\templates\main\collaboration.html:44
+#: .\templates\main\product_assistance.html:11
+msgid "Submit Your Product for Collaboration"
+msgstr "Ürününüzü İşbirliğine Gönderin"
+
+#: .\templates\main\collaboration.html:48
+#: .\templates\main\product_assistance.html:15
+msgid "Product Name"
+msgstr "Ürün adı"
+
+#: .\templates\main\collaboration.html:49
+#: .\templates\main\product_assistance.html:16
+msgid "Enter product name"
+msgstr "ÜrÜn adı giriniz"
+
+#: .\templates\main\collaboration.html:52
+#: .\templates\main\product_assistance.html:19
+msgid "Quantity"
+msgstr "Miktar"
+
+#: .\templates\main\collaboration.html:53
+#: .\templates\main\product_assistance.html:20
+msgid "Enter quantity"
+msgstr "Mıktar giriniz"
+
+#: .\templates\main\collaboration.html:56
+#: .\templates\main\product_assistance.html:23
+msgid "Quality"
+msgstr "Kalıte"
+
+#: .\templates\main\collaboration.html:57
+#: .\templates\main\product_assistance.html:24
+msgid "Enter quality"
+msgstr "Ürün kalıtesını yazınız"
+
+#: .\templates\main\collaboration.html:60 .\templates\main\dashboard.html:168
+#: .\templates\main\dashboard.html:234
+#: .\templates\main\product_assistance.html:27
+msgid "Origin"
+msgstr "Üretim(Ülke)"
+
+#: .\templates\main\collaboration.html:61
+#: .\templates\main\product_assistance.html:28
+msgid "Enter origin"
+msgstr "Hangi Ülkede üretildiğini yazınız"
+
+#: .\templates\main\collaboration.html:64
+#: .\templates\main\product_assistance.html:31
+msgid "Description"
+msgstr "Açıklama"
+
+#: .\templates\main\collaboration.html:65
+#: .\templates\main\product_assistance.html:32
+msgid "Enter product description"
+msgstr "AÇıklama giriniz"
+
+#: .\templates\main\collaboration.html:68
+#: .\templates\main\product_assistance.html:35
+msgid "Product Images (4 or more)"
+msgstr "Ürün Görselleri (4 veya daha fazla)"
+
+#: .\templates\main\collaboration.html:69
+#: .\templates\main\product_assistance.html:36
+msgid "product_images"
+msgstr "Ürün görseleri"
+
+#: .\templates\main\collaboration.html:72
+#: .\templates\main\product_assistance.html:39
+msgid "Contact Number(Whatsapp)"
+msgstr "Iletişim numarası(Whatsapp)"
+
+#: .\templates\main\collaboration.html:73
+#: .\templates\main\product_assistance.html:40
+msgid "Enter WhatsApp number"
+msgstr "Whatsapp giriniz"
+
+#: .\templates\main\collaboration.html:76
+#: .\templates\main\product_assistance.html:42
+msgid "Submit for Collaboration"
+msgstr "İşbirliği için Onayla"
+
+#: .\templates\main\collaboration.html:79 .\templates\main\home.html:133
+msgid "Log in to Submit"
+msgstr "Onaylamak için giriş yap"
+
+#: .\templates\main\dashboard.html:46
+msgid "Your submitted products for collaboration"
+msgstr "İşbirliği için gönderdiğiniz ürünler"
+
+#: .\templates\main\dashboard.html:60
+msgid "No images available"
+msgstr "Resim bulunmadı"
+
+#: .\templates\main\dashboard.html:77 .\templates\main\order_product.html:15
+msgid " Quality:"
+msgstr "Kalite"
+
+#: .\templates\main\dashboard.html:78 .\templates\main\order_product.html:14
+msgid " Quantity:"
+msgstr "Mıktar"
+
+#: .\templates\main\dashboard.html:79
+#: .\templates\main\investment_product.html:19
+#: .\templates\main\order_product.html:13
+#: .\templates\main\product_detail.html:45
+msgid "Origin:"
+msgstr ""
+
+#: .\templates\main\dashboard.html:80
+msgid "Description:"
+msgstr "Menşei"
+
+#: .\templates\main\dashboard.html:81
+msgid "WhatsApp Number:"
+msgstr "WhatsApp Numarası:"
+
+#: .\templates\main\dashboard.html:89
+msgid "You haven't submitted any products for collaboration"
+msgstr "İşbirliği için herhangi bir ürün göndermediniz"
+
+#: .\templates\main\dashboard.html:99
+msgid "Welcome,"
+msgstr "Hoşgeldiniz,"
+
+#: .\templates\main\dashboard.html:100
+msgid " Here is your user information:"
+msgstr "İşte kullanıcı bilgileriniz:"
+
+#: .\templates\main\dashboard.html:102
+msgid "Username:"
+msgstr "Kullanıcı adı:"
+
+#: .\templates\main\dashboard.html:103
+msgid "First Name:"
+msgstr "Adı:"
+
+#: .\templates\main\dashboard.html:104
+msgid "Last Name:"
+msgstr "Soyadı:"
+
+#: .\templates\main\dashboard.html:105
+msgid "Email:"
+msgstr "E-posta"
+
+#: .\templates\main\dashboard.html:113
+msgid "Investment Opportunities Await:"
+msgstr "Bekleyen Yatırım Fırsatları:"
+
+#: .\templates\main\dashboard.html:127 .\templates\main\dashboard.html:166
+#: .\templates\main\dashboard.html:232
+msgid "Profitability"
+msgstr "kar Oranı"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid " Duration:"
+msgstr "Yatırım Süresi:"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid "months"
+msgstr "Ay"
+
+#: .\templates\main\dashboard.html:130
+#: .\templates\main\order_investment.html:12
+#: .\templates\main\search_results.html:40
+msgid " Origin:"
+msgstr "Menşei:"
+
+#: .\templates\main\dashboard.html:131
+#: .\templates\main\order_investment.html:13
+msgid "Start Date:"
+msgstr "Başlangıç:"
+
+#: .\templates\main\dashboard.html:132
+#: .\templates\main\order_investment.html:14
+msgid "End Date:"
+msgstr "Bitiş:"
+
+#: .\templates\main\dashboard.html:133
+#: .\templates\main\investment_product.html:22
+#: .\templates\main\order_investment.html:15
+msgid "Amount Invested:"
+msgstr "Yatırılan Tutar:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+#: .\templates\main\order_investment.html:16
+msgid "Active:"
+msgstr "Aktif:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+msgid "Yes"
+msgstr "Evet"
+
+#: .\templates\main\dashboard.html:134
+msgid "No"
+msgstr "Hayır"
+
+#: .\templates\main\dashboard.html:139
+msgid "Apply"
+msgstr "Onayla"
+
+#: .\templates\main\dashboard.html:157
+msgid "Your favorites"
+msgstr "Favoriler"
+
+#: .\templates\main\dashboard.html:167 .\templates\main\dashboard.html:233
+msgid "Duration"
+msgstr "Süre"
+
+#: .\templates\main\dashboard.html:169 .\templates\main\dashboard.html:235
+msgid "Start Date"
+msgstr "Başlangıç"
+
+#: .\templates\main\dashboard.html:170 .\templates\main\dashboard.html:236
+msgid "End Date"
+msgstr "Bitiş"
+
+#: .\templates\main\dashboard.html:171 .\templates\main\dashboard.html:237
+msgid "Amount Invested"
+msgstr "Yatırılan Tutar"
+
+#: .\templates\main\dashboard.html:172
+msgid "Active"
+msgstr "Aktif"
+
+#: .\templates\main\dashboard.html:173
+msgid "Action"
+msgstr "Aksiyon"
+
+#: .\templates\main\dashboard.html:198
+msgid "Remove"
+msgstr "Sil"
+
+#: .\templates\main\dashboard.html:210
+msgid "No favorite investments found."
+msgstr "Favoriler listesinde yatırım fırsatı bulunmadı"
+
+#: .\templates\main\dashboard.html:223
+msgid "Your Investment"
+msgstr "Yatırımlar"
+
+#: .\templates\main\dashboard.html:246
+msgid "Month"
+msgstr "Ay"
+
+#: .\templates\main\home.html:13
+msgid "Welcome to Amiran for investment, where borders are not barriers"
+msgstr "Amiran yatırım şirketine hoş geldiniz,Sınırların engel olamadığı yer"
+
+#: .\templates\main\home.html:14
+msgid "Explore a world of seamless import and export solutions"
+msgstr "Kusursuz ithalat ve ihracat çözümleri dünyasını keşfedin"
+
+#: .\templates\main\home.html:84 .\templates\main\home.html:100
+msgid "Import & Export"
+msgstr "ithalat ve ihracat"
+
+#: .\templates\main\home.html:94 .\templates\main\home.html:128
+msgid "Search Assistance"
+msgstr "Arama Yardımı"
+
+#: .\templates\main\home.html:101
+msgid ""
+"We specialize in providing tailored import and export solutions, ensuring a "
+"seamless and efficient flow of goods across international borders."
+msgstr ""
+"Uluslararası sınırlar arasında kesintisiz ve verimli ürün akışını sağlayarak "
+"kişiye özel ithalat ve ihracat çözümleri sunma konusunda uzmanız."
+
+#: .\templates\main\home.html:102
+msgid ""
+"With expert knowledge in navigating regulations and a robust global network, "
+"we connect businesses to key markets, expanding their reach worldwide."
+msgstr ""
+"Mevzuatlara yön verme konusundaki uzman bilgimiz ve güçlü bir küresel "
+"ağımızla, işletmeleri önemli pazarlara bağlayarak dünya çapındaki "
+"erişimlerini genişletiyoruz."
+
+#: .\templates\main\home.html:103
+msgid ""
+"Our reliable logistics, transparent processes, and cost-effective solutions "
+"make us the ideal partner for businesses seeking success in the global "
+"marketplace."
+msgstr ""
+"Güvenilir lojistik, şeffaf süreçlerimiz ve uygun maliyetli çözümlerimiz bizi "
+"küresel pazarda başarı arayan işletmeler için ideal ortak haline getiriyor."
+
+#: .\templates\main\home.html:104
+msgid ""
+"Whether you're an established player or new to international trade, AMIRAN "
+"FOR INVESTMENT is here to simplify your journey and optimize your global "
+"operations."
+msgstr ""
+"İster köklü bir oyuncu olun ister uluslararası ticarette yeni olun, AMIRAN "
+"FOR INVESTMENT yolculuğunuzu kolaylaştırmak ve küresel operasyonlarınızı "
+"optimize etmek için yanınızdadır."
+
+#: .\templates\main\home.html:109
+msgid ""
+"Explore strategic growth opportunities worldwide with AMIRAN FOR INVESTMENT, "
+"your trusted global investment partner. Specializing in tailored investment "
+"solutions, we provide deep market insights and a transparent approach to "
+"empower your financial journey."
+msgstr ""
+"Güvenilir küresel yatırım ortağınız AMIRAN FOR INVESTMENT ile dünya "
+"çapındaki stratejik büyüme fırsatlarını keşfedin. Özel yatırım çözümlerinde "
+"uzmanlaşarak, finansal yolculuğunuzu güçlendirmek için derin pazar "
+"öngörüleri ve şeffaf bir yaklaşım sağlıyoruz."
+
+#: .\templates\main\home.html:110
+msgid ""
+"Our diversified portfolios, crafted with a focus on risk management, aim to "
+"deliver resilience in dynamic market conditions. Leveraging our extensive "
+"global network, we offer unique and lucrative investment opportunities in "
+"various countries."
+msgstr ""
+"Risk yönetimine odaklanarak hazırlanan çeşitlendirilmiş portföylerimiz, "
+"dinamik piyasa koşullarında esneklik sağlamayı amaçlamaktadır. Kapsamlı "
+"küresel ağımızdan yararlanarak çeşitli ülkelerde benzersiz ve kazançlı "
+"yatırım fırsatları sunuyoruz."
+
+#: .\templates\main\home.html:111
+msgid ""
+"Whether you're an experienced investor or new to the financial realm, AMIRAN "
+"FOR INVESTMENT is dedicated to providing customized solutions that align "
+"with your goals. Join us in navigating the world of finance with confidence "
+"and innovation."
+msgstr ""
+"Ister deneyimli bir oyuncu olun ister uluslararası ticarete yeni başlayan "
+"biri olun, AMIRAN FOR INVESTMENT yolculuğunuzu kolaylaştırmak ve küresel "
+"operasyonlarınızı kolaylaştırmak için burada."
+
+#: .\templates\main\home.html:114
+msgid "Explore opportunities"
+msgstr "Fırsatları keşfedin"
+
+#: .\templates\main\home.html:120
+msgid "Product Search Assistance!"
+msgstr "Ürün Arama Yardımı!"
+
+#: .\templates\main\home.html:121
+msgid ""
+"Discover the ease of our Product Search Assistance. Can't find what you need?"
+msgstr ""
+"Ürün Arama Yardımımızın kolaylığını keşfedin. İhtiyacınız olanı bulamıyor "
+"musunuz?"
+
+#: .\templates\main\home.html:122
+msgid ""
+"Click the Product Search Assistance button, fill the form, and let our team "
+"do the work."
+msgstr ""
+"Ürün Arama Yardımı butonuna tıklayın, formu doldurun ve işi ekibimize "
+"bırakın."
+
+#: .\templates\main\home.html:123
+msgid ""
+"We'll find your item, share details promptly, and guide you through a hassle-"
+"free ordering process."
+msgstr ""
+"Ürününüzü bulacağız, ayrıntıları hemen paylaşacağız ve sorunsuz bir sipariş "
+"süreci boyunca size rehberlik edeceğiz."
+
+#: .\templates\main\home.html:124
+msgid "Trust us to turn your product dreams into reality!"
+msgstr "Ürün hayallerinizi gerçeğe dönüştürmek için bize güvenin!"
+
+#: .\templates\main\home.html:138
+msgid "Select a service to see the description."
+msgstr "Açıklamayı görmek için bir hizmet seçin."
+
+#: .\templates\main\home.html:154
+msgid "Contact Us"
+msgstr "Iletişim"
+
+#: .\templates\main\home.html:160
+msgid "Your Name:"
+msgstr "Adı"
+
+#: .\templates\main\home.html:165
+msgid "Your Email:"
+msgstr "E-posta"
+
+#: .\templates\main\home.html:170
+msgid "Your Message:"
+msgstr "Mesajınız yazınız"
+
+#: .\templates\main\home.html:174
+#: .\templates\main\job_application_form.html:52
+msgid "Submit"
+msgstr "Gönder"
+
+#: .\templates\main\investment.html:10
+msgid "Welcome to Our Exclusive Investment Opportunity!"
+msgstr "Ayrıcalıklı Yatırım Fırsatımıza Hoş Geldiniz!"
+
+#: .\templates\main\investment.html:11
+msgid "At"
+msgstr "."
+
+#: .\templates\main\investment.html:11
+msgid "AMIRAN FOR INVESTMENT"
+msgstr "AMIRAN YATIRIM ŞIRKETINDE"
+
+#: .\templates\main\investment.html:11
+msgid "we believe in creating opportunities for growth and prosperity"
+msgstr "Büyüme ve refah için fırsatlar yaratmaya inanıyoruz ."
+
+#: .\templates\main\investment.html:19
+msgid "How It Works"
+msgstr "Nasıl çalışıyor"
+
+#: .\templates\main\investment.html:20
+msgid ""
+"Explore our curated selection of high-quality products, each with its own "
+"distinct investment season.This is the time when these products shine, "
+"presenting a golden opportunity for investors like you to reap significant "
+"returns."
+msgstr ""
+"Her biri kendine özgü yatırım sezonuna sahip, özenle seçilmiş yüksek "
+"kaliteli ürünlerimizi keşfedin.ürünlerin parladığı ve sizin gibi "
+"yatırımcılara önemli getiri elde etmeleri için altın bir fırsat sunduğu "
+"zamandır."
+
+#: .\templates\main\investment.html:26
+msgid "Customizable Profitability"
+msgstr "Özelleştirilebilir Karlılık"
+
+#: .\templates\main\investment.html:27
+#, fuzzy, python-format
+#| msgid ""
+#| "We understand that one size doesn't fit all. That's why we give you the "
+#| "flexibility to choose your level of involvement. Adjust the profitability "
+#| "rate according to your investment strategy, ranging from 5%% to 40%%. "
+#| "Whether you're a conservative investor or seeking higher returns, we've "
+#| "got options tailored for you."
+msgid ""
+"We understand that one size doesn't fit all. That's why we give you the "
+"flexibility to choose your level of involvement. Adjust the profitability "
+"rate according to your investment strategy, ranging from 5%% to 40%%. "
+"Whether you're a conservative investor or seeking higher returns, we've got "
+"options tailored for you."
+msgstr ""
+"Tek bir boyutun herkese uymadığının bilincindeyiz. Bu nedenle size katılım "
+"düzeyinizi seçme esnekliği sunuyoruz. Kârlılık oranını yatırım stratejinize "
+"göre %%5 ila %40 arasında ayarlayın. İster muhafazakar bir yatırımcı olun "
+"ister daha yüksek getiri peşinde olun, size özel seçeneklerimiz var."
+
+#: .\templates\main\investment.html:32
+msgid "Why Invest with Us"
+msgstr "Neden Bizimle Yatırım Yapın"
+
+#: .\templates\main\investment.html:34
+msgid "Diversification:"
+msgstr "Çeşitlendirme:"
+
+#: .\templates\main\investment.html:34
+msgid ""
+"Spread your investments across a range of products, reducing risk and "
+"maximizing potential returns."
+msgstr ""
+"Yatırımlarınızı çeşitli ürünlere yayarak riski azaltın ve potansiyel "
+"getirileri en üst düzeye çıkarın."
+
+#: .\templates\main\investment.html:35
+msgid "Transparency:"
+msgstr "Şeffaflık:"
+
+#: .\templates\main\investment.html:35
+msgid ""
+" We believe in open communication. Track your investments, "
+"monitorperformance, and stay informed about market trends."
+msgstr ""
+"Açık iletişime inanıyoruz. Yatırımlarınızı takip edin, performansı izleyin "
+"ve pazar trendleri hakkında bilgi sahibi olun."
+
+#: .\templates\main\investment.html:36
+msgid "Expert Curation:"
+msgstr "Uzman Kürasyonu:"
+
+#: .\templates\main\investment.html:36
+msgid ""
+"Our team of experts carefully selects products with a proven track record, "
+"ensuring you invest in opportunities with real growth potential."
+msgstr ""
+"Uzmanlardan oluşan ekibimiz, kanıtlanmış performansa sahip ürünleri dikkatle "
+"seçerek, gerçek büyüme potansiyeli olan fırsatlara yatırım yapmanızı sağlar. "
+"Gerçek büyüme potansiyeli olan fırsatlara yatırım yapmanızı sağlar."
+
+#: .\templates\main\investment.html:43
+msgid "Get Started Today"
+msgstr "Hemen başlayın"
+
+#: .\templates\main\investment.html:44
+msgid ""
+"Seize the moment and embark on a journey of financial growth with Your "
+"Company Name. Our Investmen Opportunity is not just an option; it's a "
+"gateway to a brighter and more prosperous future. Take control of your "
+"financial destiny and invest with confidence."
+msgstr ""
+"Anı yakalayın ve Şirket Adınız ile finansal büyüme yolculuğuna çıkın. "
+"Yatırımcı Fırsatımız sadece bir seçenek değil; daha parlak ve daha müreffeh "
+"bir geleceğe açılan bir kapıdır. Finansal kaderinizin kontrolünü elinize "
+"alın ve güvenle yatırım yapın."
+
+#: .\templates\main\investment.html:45
+msgid "Your success is our success. Let's grow together."
+msgstr "Sizin başarınız bizim başarımızdır. Birlikte büyüyelim."
+
+#: .\templates\main\investment.html:46
+msgid "Explore Exciting Investment Opportunities"
+msgstr "Heyecan Verici Yatırım Fırsatlarını Keşfedin"
+
+#: .\templates\main\investment_product.html:17
+msgid "Profitability:"
+msgstr "Kar oranı:"
+
+#: .\templates\main\investment_product.html:67
+msgid ""
+"Oops! Currently, there are no investments available. Please check back soon "
+"for exciting updates and new opportunities."
+msgstr ""
+"ÜZGÜNÜZ! Şu anda herhangi bir yatırım mevcut değildir. Heyecan verici "
+"güncellemeler ve yeni fırsatlar için lütfen kısa süre sonra tekrar kontrol "
+"edin"
+
+#: .\templates\main\investment_product.html:78
+msgid "Copy Link"
+msgstr "Kopyala"
+
+#: .\templates\main\job_application_form.html:7
+msgid "Complete the Job Application Form"
+msgstr "İş Başvuru Formunu Doldurun"
+
+#: .\templates\main\job_application_success.html:5
+msgid "Job Application Submitted Successfully!"
+msgstr "İş Başvurusu Başarıyla Gönderildi!"
+
+#: .\templates\main\job_application_success.html:6
+msgid ""
+"Thank you for applying to our company. Your job application has been "
+"successfully submitted."
+msgstr ""
+"Şirketimize başvurduğunuz için teşekkür ederiz. İş başvurunuz başarıyla "
+"gönderildi."
+
+#: .\templates\main\job_application_success.html:7
+msgid "We will review your information and get in touch with you soon."
+msgstr "Bilgilerinizi inceleyip sizinle en kısa sürede iletişime geçeceğiz."
+
+#: .\templates\main\login.html:11
+msgid "User Information"
+msgstr "Kullanıcı Blgileri"
+
+#: .\templates\main\login.html:21
+msgid "Forgot Password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: .\templates\main\order_investment.html:10
+msgid " Profitability:"
+msgstr "Kar oranı:"
+
+#: .\templates\main\order_investment.html:11
+msgid "Duration:"
+msgstr "Süre:"
+
+#: .\templates\main\order_investment.html:23
+#: .\templates\main\order_product.html:22
+msgid "Enter your name"
+msgstr "Isım giriniz"
+
+#: .\templates\main\order_investment.html:25
+#: .\templates\main\order_product.html:24
+msgid "Enter your Email"
+msgstr "E-pasta giriniz"
+
+#: .\templates\main\order_investment.html:27
+#: .\templates\main\order_product.html:26
+msgid "Enter your address"
+msgstr "Adres giriniz"
+
+#: .\templates\main\order_investment.html:29
+#: .\templates\main\order_product.html:28
+msgid "Enter your phone number"
+msgstr "Cep telefon numarası giriniz"
+
+#: .\templates\main\order_investment.html:31
+#: .\templates\main\order_product.html:30
+msgid "Submit Order"
+msgstr "Onayla"
+
+#: .\templates\main\order_product.html:10
+msgid " Price:"
+msgstr "Fiyat:"
+
+#: .\templates\main\order_product.html:11
+msgid "Information:"
+msgstr "Ek bilgi"
+
+#: .\templates\main\order_product.html:12
+msgid " Description:"
+msgstr "Açıklama"
+
+#: .\templates\main\order_success.html:8
+msgid "Order Successfully Placed"
+msgstr "Sipariş Başarıyla Verildi"
+
+#: .\templates\main\order_success.html:9
+msgid ""
+"Thank you for placing your order with us! Your request has been received, "
+"and our team is processing it."
+msgstr ""
+"Sipariş verdiğiniz için teşekkür ederiz! Talebiniz alındı ​​ve ekibimiz işleme "
+"alıyor."
+
+#: .\templates\main\order_success.html:10
+msgid ""
+"Within the next 24 hours, our dedicated team will review your order details "
+"and contact you to confirm and provide further information."
+msgstr ""
+"Önümüzdeki 24 saat içinde özel ekibimiz sipariş ayrıntılarınızı inceleyecek "
+"ve onaylamak ve daha fazla bilgi sağlamak için sizinle iletişime geçecektir."
+
+#: .\templates\main\order_success.html:11
+msgid ""
+"We appreciate your business and look forward to serving you. If you have any "
+"urgent inquiries, please feel free to reach out to our customer support."
+msgstr ""
+"İşinizi takdir ediyoruz ve size hizmet vermeyi sabırsızlıkla bekliyoruz. "
+"Acil sorularınız varsa lütfen müşteri desteğimizle iletişime geçmekten "
+"çekinmeyin."
+
+#: .\templates\main\product_detail.html:36
+#: .\templates\main\search_results.html:37
+msgid "Quantity:"
+msgstr "Mıktar:"
+
+#: .\templates\main\product_detail.html:39
+#: .\templates\main\search_results.html:38
+msgid "Price:"
+msgstr "Fiyat:"
+
+#: .\templates\main\product_detail.html:42
+#: .\templates\main\search_results.html:39
+msgid "Quality:"
+msgstr "Kalite:"
+
+#: .\templates\main\product_detail.html:49
+#: .\templates\main\search_results.html:45
+msgid "Order now"
+msgstr "Onayla"
+
+#: .\templates\main\product_detail.html:51
+#: .\templates\main\search_results.html:48
+msgid "Login to Order"
+msgstr "Onaylamak için giriş yapın"
+
+#: .\templates\main\product_detail.html:60
+msgid ""
+"We currently do not have the specified product in our inventory. Please "
+"check back soon,as we are continuously updating our selection and will be "
+"adding new products shortly"
+msgstr ""
+"Belirtilen ürün şu anda stoklarımızda bulunmamaktadır. Seçimimizi sürekli "
+"olarak güncellediğimiz ve kısa süre içinde yeni ürünler ekleyeceğimiz için "
+"lütfen kısa süre sonra tekrar kontrol edin."
+
+#: .\templates\main\register.html:25 .\templates\main\register.html:37
+msgid "Register"
+msgstr "Hesap oluştur"
+
+#: .\templates\main\register.html:26
+msgid "Create a new account to get started."
+msgstr "Başlamak için yeni bir hesap oluşturun."
+
+#: .\templates\main\register.html:28
+msgid "Registration Information"
+msgstr "Kayıt Bilgileri"
+
+#: .\templates\main\register.html:39
+msgid "Already have an account?"
+msgstr "Hesabınız var mı?"
+
+#: .\templates\main\search_results.html:36
+msgid "Product name:"
+msgstr "Ürun adı:"
+
+#: .\templates\main\search_results.html:57
+#, fuzzy
+#| msgid "No results found."
+msgid "No results found"
+msgstr "Sonuç Bulunmadı"
+
+#: .\templates\main\search_results.html:62
+msgid ""
+"Searching for a particular product? Utilize our product search assistance. "
+"Complete the form, and allow our team to locate precisely what you're "
+"seeking."
+msgstr ""
+
+#: .\templates\main\search_results.html:63
+msgid "Click here"
+msgstr ""
+
+#: .\templates\main\success_submission.html:7
+msgid "Submission Successful!"
+msgstr "Başarılı Gönderim!"
+
+#: .\templates\main\success_submission.html:8
+msgid "Thank you for submitting your product for collaboration."
+msgstr "Ürününüzü işbirliğine gönderdiğiniz için teşekkür ederiz."
+
+#: .\templates\main\success_submission.html:9
+msgid ""
+"Our team of experts will carefully review your submission, and we'll get "
+"back to you within 24 hours."
+msgstr ""
+"Uzman ekibimiz gönderiminizi dikkatle inceleyecek ve 24 saat içinde size "
+"geri dönüş yapacağız."
+
+#~ msgid "Product Search Assistance"
+#~ msgstr "Ürün Yardımı"

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container jop-app">
+    <h2 class="title-style" style=" font-family: Courier New, monospace; font-weight:bold;">{% translate "Complete the Job Application Form" %} </h2>
+</div>
+    <form method="post" class="job-application-form" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="form-row">
+            <div class="form-column">
+                {{ form.name.label_tag }}
+                {{ form.name }}
+            </div>
+
+            <div class="form-column">
+                {{ form.email.label_tag }}
+                {{ form.email }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-column">
+                {{ form.whatsapp_number.label_tag }}
+                {{ form.whatsapp_number }}
+            </div>
+
+            <div class="form-column">
+                {{ form.country.label_tag }}
+                {{ form.country }}
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-column">
+                {{ form.city.label_tag }}
+                {{ form.city }}
+            </div>
+
+            <div class="form-row">
+                <div class="form-column">
+                    {{ form.cv.label_tag }}
+                    {{ form.cv }}
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-dark">{% translate "Submit" %}</button>
+        </div>
+    </form>
+</div>
+
+{% endblock content %}
+
+
+

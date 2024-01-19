@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
+
+  <!-- Header-->
+  <div class="p-5 text-center bg-image" style="background-image: url('{% static "assets/images/75.png" %}'); background-position: center center; height: 600px; margin-bottom: -80px;">
+    <div class="mask" style="background-color:rgba(5, 5, 5, 0.322); margin-top:100px;">
+        <div class="d-flex justify-content-center align-items-center h-100 mt-5">
+            <div class="text-white header-content" style="margin-top:50px;">
+                <h1 class="mb-3"> {% translate "Welcome to Amiran for investment, where borders are not barriers" %} </h1>
+                <h4 class="mb-3">{% translate "Explore a world of seamless import and export solutions" %} </h4>
+            </div>
+        </div>
+    </div>
+</div>
+   <!--End Header-->
+
+
+  
+ 
+ <!-- About us -->
+<section class="py-5">
+  <div class="container services">
+      <div class="row">
+          <div class="col-md-6 fade-up">
+              <img src="{% static 'assets/images/aboutus.jpeg' %}" alt="About Us Image" class="img-fluid rounded">
+          </div>
+
+          <div class="col-md-6 fade-up" style="animation-delay: 0.5s;">
+              <h2 class="font-weight-bold" id="about_us">{% translate "About Us" %} </h2>
+              <p class="lead">
+                {% translate "Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and careers in Oman. As a dynamic newcomer, we simplify international transactions, drive strategic investments, and offer exciting career paths. Based in Muscat, we're dedicated to propelling businesses forward in the dynamic global marketplace. Join us on this journey towards simplified trade, strategic investments, and boundless career opportunities." %}
+              </p>
+             
+          </div>
+      </div>
+  </div>
+</section>
+    <!--End About us -->
+
+
+
+  
+    <!--Category -->
+
+  <div class="container mt-5 category">
+    <h2 class="text-center mb-4 fade-up" id="category">{% translate "Categories" %} </h2>
+    <div class="row justify-content-center">
+        {% for category in categories %}
+            <div class="col-md-2 mb-4 fade-up">
+                <div class="card cat-card text-center" id="cat-card" style="height: 190px; ">
+                    <a href="{% url 'category_detail' category.id %}">
+                        <img src="{{ category.image.url }}" class="card-img-top" alt="Category Image">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ category.name }}</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% if forloop.counter|divisibleby:5 and not forloop.last %}
+                </div><div class="row justify-content-center">
+            {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+
+    <!--Category  End-->
+
+
+
+
+<!--Services-->
+<section style="background:white; padding:10px;">
+  <div class="containers mt-5 fade-up">
+    <h2 class="text-center mb-4" id="services">{% translate "Services" %} </h2>
+  
+    <div class="services-container">
+      <ul class="services-list" id="servicesList">
+        <li data-service="service1" style="margin-right:10px;">
+          <img src="{% static 'assets/images/importexport.png' %}" alt="Service 1 Image">
+         {% translate "Import & Export" %} 
+        </li>
+        <li data-service="service2" style="margin-right:10px;">
+          <img src="{% static 'assets/images/investment.png' %}" alt="Service 2 Image">
+          
+          {% translate "Investment" %}
+        </li>
+        <li data-service="service3" style="margin-right:10px;">
+          <img src="{% static 'assets/images/search.png' %}" alt="Service 3 Image">
+          
+          {% translate "Search Assistance" %}
+        </li>
+      </ul>
+  
+      <div class="service-description" id="serviceDescription">
+        <div data-service="service1" class="description" style="display: none;">
+          <h2>{% translate "Import & Export" %}</h2>
+          <p>{% translate "We specialize in providing tailored import and export solutions, ensuring a seamless and efficient flow of goods across international borders." %}</p>
+          <p>{% translate "With expert knowledge in navigating regulations and a robust global network, we connect businesses to key markets, expanding their reach worldwide." %}</p>
+          <p>{% translate "Our reliable logistics, transparent processes, and cost-effective solutions make us the ideal partner for businesses seeking success in the global marketplace." %}</p>
+          <p>{% translate "Whether you're an established player or new to international trade, AMIRAN FOR INVESTMENT is here to simplify your journey and optimize your global operations." %}</p>
+      </div>
+
+      <div data-service="service2" class="description" style="display: none;">
+        <h2>{% translate "Investment" %}</h2>
+        <p>{% translate "Explore strategic growth opportunities worldwide with AMIRAN FOR INVESTMENT, your trusted global investment partner. Specializing in tailored investment solutions, we provide deep market insights and a transparent approach to empower your financial journey." %}</p>
+        <p>{% translate "Our diversified portfolios, crafted with a focus on risk management, aim to deliver resilience in dynamic market conditions. Leveraging our extensive global network, we offer unique and lucrative investment opportunities in various countries." %}</p>
+        <p>{% translate "Whether you're an experienced investor or new to the financial realm, AMIRAN FOR INVESTMENT is dedicated to providing customized solutions that align with your goals. Join us in navigating the world of finance with confidence and innovation." %}</p>
+        <a href="{% url 'investment_product' %}">
+            <div class="text-center">
+                <button class="btn btn-outline-light btn-dark mt-4 ">{% translate "Explore opportunities" %}</button>
+            </div>
+        </a>
+      </div>
+
+        <div data-service="service3" class="description"  style="display: none;">
+          <h2>{% translate "Product Search Assistance!" %} </h2>
+        <p>{% translate "Discover the ease of our Product Search Assistance. Can't find what you need?" %} </p>
+        <p>{% translate "Click the Product Search Assistance button, fill the form, and let our team do the work." %}</p>
+        <p>{% translate "We'll find your item, share details promptly, and guide you through a hassle-free ordering process." %}</p>
+        <p>{% translate "Trust us to turn your product dreams into reality!" %}</p>
+        {% if user.is_authenticated %}
+          <a href="{% url 'product_assistance' %}">
+            <div class="text-center">
+              <button class=" btn btn-outline-light btn-dark mt-4 ">{% translate "Search Assistance" %}</button>
+            </div>
+          </a>
+        {% else %}
+             <a href="{% url 'login' %}">
+              <button type="button" class="btn btn-dark my-2 my-sm-0 btn-block btn-outline-light">{% translate "Log in to Submit" %}</button>
+            </a>
+        {% endif %}
+
+        </div>
+        <p class="default-description">{% translate "Select a service to see the description." %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Our Services -->
+
+ 
+
+
+
+ <!-- Contact Form Section -->
+ <section class="py-5" style="margin-top:0;">
+  <div class="container contact fade-up">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2 class="text-center mb-4" id="contact_us">{% translate "Contact Us" %}</h2>
+        <form action="{% url 'contact' %}" method="post">
+  
+          {% csrf_token %}
+  
+          <div class="form-group">
+            <label for="name">{% translate "Your Name:" %}</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="email">{% translate "Your Email:" %}</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+  
+          <div class="form-group">
+            <label for="message">{% translate "Your Message:" %}</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+  
+          <button type="submit" class="btn btn-outline-light my-2 my-sm-0 btn-dark">{% translate "Submit" %}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- End Contact Form Section -->
+
+
+
+  
+{% endblock content %}

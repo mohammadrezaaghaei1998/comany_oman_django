@@ -1,0 +1,1488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-19 11:26+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\imports\apps.py:9
+msgid " imports"
+msgstr ""
+
+#: .\imports\forms.py:29 .\templates\main\login.html:15
+#, fuzzy
+#| msgid "Username:"
+msgid "Username"
+msgstr "Nutzername:"
+
+#: .\imports\forms.py:30
+msgid "First Name"
+msgstr "Vorname"
+
+#: .\imports\forms.py:31
+msgid "Last Name"
+msgstr "Nachname"
+
+#: .\imports\forms.py:32 .\imports\forms.py:68
+#: .\templates\main\about_us.html:46
+msgid "Email"
+msgstr "Email"
+
+#: .\imports\forms.py:33 .\templates\main\login.html:18
+#, fuzzy
+#| msgid "Forgot Password?"
+msgid "Password"
+msgstr "Passwort vergessen?"
+
+#: .\imports\forms.py:34
+msgid "Confirm Password"
+msgstr "Bestätige das Passwort"
+
+#: .\imports\forms.py:67 .\templates\main\dashboard.html:165
+#: .\templates\main\dashboard.html:231
+msgid "Name"
+msgstr "Name"
+
+#: .\imports\forms.py:69
+msgid "WhatsApp Number"
+msgstr "WhatsApp Nummer "
+
+#: .\imports\forms.py:70
+msgid "Country"
+msgstr "Land"
+
+#: .\imports\forms.py:71
+msgid "City"
+msgstr "Stadt"
+
+#: .\imports\forms.py:72
+msgid "Curriculum Vitae"
+msgstr "Lebenslauf"
+
+#: .\imports\models.py:12 .\imports\models.py:26 .\imports\models.py:41
+#: .\imports\models.py:53 .\imports\models.py:66 .\imports\models.py:84
+#: .\imports\models.py:128 .\imports\models.py:174 .\imports\models.py:195
+#: .\imports\models.py:235 .\imports\models.py:254 .\imports\models.py:272
+#: .\imports\models.py:321 .\imports\models.py:335
+#, fuzzy
+#| msgid "Username:"
+msgid "name"
+msgstr "Nutzername:"
+
+#: .\imports\models.py:16
+msgid " Brand"
+msgstr "Marke"
+
+#: .\imports\models.py:17
+#, fuzzy
+#| msgid "Our Branches"
+msgid " Brands"
+msgstr "UNSERE FILIALEN"
+
+#: .\imports\models.py:27
+msgid "code"
+msgstr "Code"
+
+#: .\imports\models.py:30
+msgid " Color"
+msgstr "Farbe"
+
+#: .\imports\models.py:31
+msgid " Colors"
+msgstr "Farben"
+
+#: .\imports\models.py:42 .\imports\models.py:83 .\imports\models.py:114
+#: .\imports\models.py:165 .\imports\models.py:204 .\imports\models.py:312
+msgid "image"
+msgstr ""
+
+#: .\imports\models.py:45
+#, fuzzy
+#| msgid "Categories"
+msgid "Category"
+msgstr "Kategorien"
+
+#: .\imports\models.py:46 .\imports\models.py:96 .\templates\header.html:76
+#: .\templates\main\home.html:50
+msgid "Categories"
+msgstr "Kategorien"
+
+#: .\imports\models.py:57
+msgid " Subfield"
+msgstr ""
+
+#: .\imports\models.py:58
+msgid " Subfields"
+msgstr ""
+
+#: .\imports\models.py:71
+msgid " Subfield_Item"
+msgstr ""
+
+#: .\imports\models.py:72
+msgid " Subfield_Items"
+msgstr ""
+
+#: .\imports\models.py:85
+#, fuzzy
+#| msgid "Price:"
+msgid "price"
+msgstr "Preis:"
+
+#: .\imports\models.py:86
+#, fuzzy
+#| msgid "Information:"
+msgid "information"
+msgstr "Information:"
+
+#: .\imports\models.py:87 .\imports\models.py:151 .\imports\models.py:199
+#: .\imports\models.py:299 .\imports\models.py:337
+#, fuzzy
+#| msgid "Description"
+msgid "description"
+msgstr "Beschreibung"
+
+#: .\imports\models.py:89 .\imports\models.py:150 .\imports\models.py:198
+#: .\imports\models.py:298
+#, fuzzy
+#| msgid "Origin"
+msgid "origin"
+msgstr "Herkunft"
+
+#: .\imports\models.py:90 .\imports\models.py:148 .\imports\models.py:296
+#, fuzzy
+#| msgid "Quantity"
+msgid "quantity"
+msgstr "Menge"
+
+#: .\imports\models.py:91 .\imports\models.py:149 .\imports\models.py:297
+#, fuzzy
+#| msgid "Quality"
+msgid "quality"
+msgstr "Qualität"
+
+#: .\imports\models.py:94
+msgid "Subfield Item"
+msgstr ""
+
+#: .\imports\models.py:95
+msgid "Subfield"
+msgstr ""
+
+#: .\imports\models.py:97
+msgid "Brand"
+msgstr ""
+
+#: .\imports\models.py:98
+msgid "Color"
+msgstr ""
+
+#: .\imports\models.py:99
+msgid "discount_price "
+msgstr ""
+
+#: .\imports\models.py:104
+#, fuzzy
+#| msgid "Product Name"
+msgid "Product"
+msgstr "Produktname"
+
+#: .\imports\models.py:105
+#, fuzzy
+#| msgid "Product Name"
+msgid "Products"
+msgstr "Produktname"
+
+#: .\imports\models.py:118
+msgid "Image"
+msgstr ""
+
+#: .\imports\models.py:119
+msgid "Images"
+msgstr ""
+
+#: .\imports\models.py:129 .\imports\models.py:176 .\imports\models.py:236
+#: .\imports\models.py:255 .\imports\models.py:273 .\imports\models.py:324
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "Email"
+
+#: .\imports\models.py:130
+#, fuzzy
+#| msgid "Your Message:"
+msgid "message"
+msgstr "Ihre Nachricht:"
+
+#: .\imports\models.py:133
+#, fuzzy
+#| msgid "Contact"
+msgid "Cntact"
+msgstr "Kontakt"
+
+#: .\imports\models.py:134
+#, fuzzy
+#| msgid "Contact"
+msgid "Contacs"
+msgstr "Kontakt"
+
+#: .\imports\models.py:147 .\imports\models.py:295
+#, fuzzy
+#| msgid "Product name:"
+msgid "product name"
+msgstr "Produktname:"
+
+#: .\imports\models.py:153 .\imports\models.py:177 .\imports\models.py:301
+msgid "whatsapp"
+msgstr ""
+
+#: .\imports\models.py:157 .\templates\header.html:82
+msgid "Collaboration"
+msgstr "Zusammenarbeit"
+
+#: .\imports\models.py:158
+#, fuzzy
+#| msgid "Collaboration"
+msgid "Collaborations"
+msgstr "Zusammenarbeit"
+
+#: .\imports\models.py:168
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImage"
+msgstr "Zusammenarbeit"
+
+#: .\imports\models.py:169
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImages"
+msgstr "Zusammenarbeit"
+
+#: .\imports\models.py:175
+#, fuzzy
+#| msgid "Username:"
+msgid "surname"
+msgstr "Nutzername:"
+
+#: .\imports\models.py:178 .\imports\models.py:275 .\imports\models.py:322
+msgid "country"
+msgstr ""
+
+#: .\imports\models.py:179 .\imports\models.py:276 .\imports\models.py:323
+msgid "city"
+msgstr ""
+
+#: .\imports\models.py:180
+msgid "company"
+msgstr ""
+
+#: .\imports\models.py:184
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfo"
+msgstr "Nutzerinformation"
+
+#: .\imports\models.py:185
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfos"
+msgstr "Nutzerinformation"
+
+#: .\imports\models.py:196
+#, fuzzy
+#| msgid "Profitability"
+msgid "profitability_percentage"
+msgstr "Rentabilität"
+
+#: .\imports\models.py:197
+msgid "duration_staying_money"
+msgstr ""
+
+#: .\imports\models.py:200
+#, fuzzy
+#| msgid "Start Date"
+msgid "start date"
+msgstr "Start Date"
+
+#: .\imports\models.py:201
+msgid "end date"
+msgstr ""
+
+#: .\imports\models.py:202
+#, fuzzy
+#| msgid "Amount Invested"
+msgid "amount invested"
+msgstr "Investierter Betrag"
+
+#: .\imports\models.py:208
+#, fuzzy
+#| msgid "Investment"
+msgid " Investment"
+msgstr "Investition"
+
+#: .\imports\models.py:209
+#, fuzzy
+#| msgid "Investment"
+msgid " Investments"
+msgstr "Investition"
+
+#: .\imports\models.py:222 .\imports\models.py:223
+#, fuzzy
+#| msgid "Your favorites"
+msgid " Favorite"
+msgstr "Deine Favoriten"
+
+#: .\imports\models.py:237 .\imports\models.py:256 .\imports\models.py:326
+#, fuzzy
+#| msgid "Address"
+msgid "address"
+msgstr "Adresse"
+
+#: .\imports\models.py:238 .\imports\models.py:257
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "phone number"
+msgstr "Gib deine Telefonnummer ein"
+
+#: .\imports\models.py:241
+msgid " OrderProduct"
+msgstr ""
+
+#: .\imports\models.py:242
+msgid " OrderProducts"
+msgstr ""
+
+#: .\imports\models.py:260
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestment"
+msgstr "Investition"
+
+#: .\imports\models.py:261
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestments"
+msgstr "Investition"
+
+#: .\imports\models.py:274
+msgid "whatsapp number"
+msgstr "WhatsApp Nummer"
+
+#: .\imports\models.py:277
+msgid "cv"
+msgstr ""
+
+#: .\imports\models.py:281
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplication"
+msgstr "Füllen Sie das Bewerbungsformular aus"
+
+#: .\imports\models.py:282
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplications"
+msgstr "Füllen Sie das Bewerbungsformular aus"
+
+#: .\imports\models.py:300
+#, fuzzy
+#| msgid "product_images"
+msgid "product image"
+msgstr "Produktbilder"
+
+#: .\imports\models.py:304
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistance"
+msgstr "Suchhilfe"
+
+#: .\imports\models.py:305
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistances"
+msgstr "Suchhilfe"
+
+#: .\imports\models.py:316
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImage"
+msgstr "Suchhilfe"
+
+#: .\imports\models.py:317
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImages"
+msgstr "Suchhilfe"
+
+#: .\imports\models.py:325
+#, fuzzy
+#| msgid "Number"
+msgid "number"
+msgstr "Nummer"
+
+#: .\imports\models.py:329
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branch"
+msgstr "UNSERE FILIALEN"
+
+#: .\imports\models.py:330
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branches"
+msgstr "UNSERE FILIALEN"
+
+#: .\imports\models.py:336
+msgid "job title"
+msgstr ""
+
+#: .\templates\admin\base_site.html:12
+msgid "Businesses724  | ADMIN "
+msgstr ""
+
+#: .\templates\admin\base_site.html:24
+msgid "Businesses724 | ADMIN"
+msgstr ""
+
+#: .\templates\auth\change_password_done.html:8
+
+msgid "Password changed"
+msgstr "Passwort geändert"
+
+#: .\templates\auth\change_password_done.html:9
+msgid "Your password has been changed successfully."
+msgstr "Ihr Passwort wurde erfolgreich geändert."
+
+#: .\templates\auth\change_password_done.html:10
+msgid "You can now "
+msgstr "Jetzt können Sie sich"
+
+#: .\templates\auth\change_password_done.html:10
+msgid "LOG IN"
+msgstr "anmelden"
+
+#: .\templates\auth\password_reset_sent.html:8
+msgid "Password Reset Sent"
+msgstr "Passwort-Reset gesendet"
+
+#: .\templates\auth\password_reset_sent.html:9
+msgid ""
+" If an account already exists with the email address you entered,we have "
+"emailed you instructions for setting your password.You should receive these "
+"soon. If you do not receive an email,please make sure you entered the "
+"address you registered with and check your spam folder. "
+msgstr "Wenn mit der von Ihnen eingegebenen E-Mail-Adresse bereits ein Konto besteht, haben wir Ihnen per E-Mail Anweisungen zum Festlegen Ihres Passworts zugesandt. Sie sollten diese bald erhalten. Wenn Sie keine E-Mail erhalten, stellen Sie bitte sicher, dass Sie die Adresse eingegeben haben, mit der Sie sich registriert haben, und überprüfen Sie Ihren Spam-Ordner."
+
+
+
+
+msgid "Enter your email"
+msgstr "Geben sie ihre E-Mail Adresse ein"
+
+
+
+#: .\templates\auth\reset_password.html:12
+#, fuzzy
+#| msgid "Confirm Password"
+msgid "Confirm"
+msgstr "Bestätige das Passwort"
+
+#: .\templates\footer.html:8
+msgid "Explore our branches"
+msgstr "Entdecken Sie unsere Filialen"
+
+#: .\templates\footer.html:13
+msgid "Social Media"
+msgstr "Sozialen Medien"
+
+#: .\templates\footer.html:26 .\templates\main\about_us.html:38
+msgid "Location"
+msgstr "Standort"
+
+#: .\templates\header.html:30
+msgid "Lan"
+msgstr "Sprache"
+
+#: .\templates\header.html:33
+msgid "Enlish"
+msgstr "Englisch"
+
+#: .\templates\header.html:34
+msgid "Persian"
+msgstr "persisch"
+
+#: .\templates\header.html:35
+msgid "Deutch"
+msgstr "Deutsch"
+
+#: .\templates\header.html:36
+msgid "Russian"
+msgstr "Russisch"
+
+#: .\templates\header.html:37
+msgid "Arabic"
+msgstr ""
+
+#: .\templates\header.html:38
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: .\templates\header.html:48
+msgid "Sign Out"
+msgstr "Abmelden"
+
+#: .\templates\header.html:50 .\templates\main\login.html:9
+#: .\templates\main\login.html:20
+msgid "Login"
+msgstr "Anmelden "
+
+#: .\templates\header.html:51
+msgid "Sign Up"
+msgstr "Registrieren"
+
+#: .\templates\header.html:72
+msgid "Home"
+msgstr "Heim "
+
+#: .\templates\header.html:79 .\templates\main\home.html:78
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: .\templates\header.html:85 .\templates\main\home.html:89
+#: .\templates\main\home.html:108
+msgid "Investment"
+msgstr "Investition"
+
+#: .\templates\header.html:88 .\templates\main\about_us.html:15
+#: .\templates\main\home.html:33
+msgid "About Us"
+msgstr "Über uns"
+
+#: .\templates\header.html:91
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\templates\header.html:94
+msgid "Apply for Job"
+msgstr "Für einen Job bewerben"
+
+#: .\templates\header.html:112 .\templates\header.html:113
+msgid "Search"
+msgstr "Suchen"
+
+#: .\templates\main\about_us.html:17 .\templates\main\home.html:35
+msgid ""
+"Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and "
+"careers in Oman. As a dynamic newcomer, we simplify international "
+"transactions, drive strategic investments, and offer exciting career paths. "
+"Based in Muscat, we're dedicated to propelling businesses forward in the "
+"dynamic global marketplace. Join us on this journey towards simplified "
+"trade, strategic investments, and boundless career opportunities."
+msgstr ""
+"Willkommen bei „AMIRAN FOR INVESTMENT“, Ihrem Zentrum für globalen Handel, "
+"Investitionen und Karrieren im Oman. Als dynamischer Newcomer vereinfachen "
+"wir internationale Transaktionen, treiben strategische Investitionen voran "
+"und bieten spannende Karrierewege. Mit Sitz in Maskat widmen wir uns der "
+"Weiterentwicklung von Unternehmen auf dem dynamischen globalen Markt. "
+"Begleiten Sie uns auf dieser Reise zu vereinfachtem Handel, strategischen "
+"Investitionen und grenzenlosen Karrieremöglichkeiten."
+
+#: .\templates\main\about_us.html:29
+msgid "Our Branches"
+msgstr "UNSERE FILIALEN"
+
+#: .\templates\main\about_us.html:42
+msgid "Number"
+msgstr "Nummer"
+
+#: .\templates\main\about_us.html:50
+msgid "Address"
+msgstr "Adresse"
+
+#: .\templates\main\about_us.html:65
+msgid "Our Team"
+msgstr "Unser Team"
+
+#: .\templates\main\assistance_successful.html:7
+msgid "Your Request Has Been Successfully Submitted"
+msgstr "Ihre Anfrage wurde erfolgreich übermittelt"
+
+#: .\templates\main\assistance_successful.html:8
+msgid ""
+"Thank you for reaching out to us! We have received your request, and our "
+"team is on it."
+msgstr ""
+"Vielen Dank, dass Sie sich an uns gewandt haben! Wir haben Ihre Anfrage "
+"erhalten und unser Team ist damit beschäftigt."
+
+#: .\templates\main\assistance_successful.html:9
+msgid ""
+"Within the next 24 hours, our dedicated team will carefully review your "
+"request and get back to you with the necessary information."
+msgstr ""
+"Innerhalb der nächsten 24 Stunden wird unser engagiertes Team Ihre Anfrage "
+"sorgfältig prüfen und sich mit den erforderlichen Informationen bei Ihnen "
+"melden."
+
+#: .\templates\main\assistance_successful.html:13
+#: .\templates\main\job_application_success.html:9
+#: .\templates\main\order_success.html:13
+#: .\templates\main\success_submission.html:11
+msgid "Back to Home"
+msgstr "Zurück nach Hause"
+
+#: .\templates\main\collaboration.html:8
+msgid "Welcome to AMIRAN FOR INVESTMENT"
+msgstr "Willkommen bei AMIRAN FOR INVESTMENT"
+
+#: .\templates\main\collaboration.html:9
+msgid ""
+"We believe in the power of collaboration and providing a platform for "
+"exceptional products to thrive. If you have a unique product that you're "
+"passionate about and would like to share it with a wider audience, our "
+"collaboration program is designed just for you."
+msgstr ""
+"Wir glauben an die Kraft der Zusammenarbeit und an die Bereitstellung einer "
+"Plattform für das Gedeihen außergewöhnlicher Produkte. Wenn Sie ein "
+"einzigartiges Produkt haben, für das Sie eine Leidenschaft haben und es mit "
+"einem breiteren Publikum teilen möchten, ist unser Kooperationsprogramm "
+"genau das Richtige für Sie."
+
+#: .\templates\main\collaboration.html:12
+msgid "How it works"
+msgstr "Wie es funktioniert:"
+
+#: .\templates\main\collaboration.html:13
+msgid "1.Submit Your Product:"
+msgstr "1. Reichen Sie Ihr Produkt ein:"
+
+#: .\templates\main\collaboration.html:15
+msgid ""
+"Share the details of your product by filling out our easy-to-use Product "
+"Collaboration Information Form.Provide information such as the product name, "
+"quantity, quality, origin, a captivating description,and multiple images to "
+"showcase its uniqueness."
+msgstr ""
+"eilen Sie die Details Ihres Produkts mit, indem Sie unser "
+"benutzerfreundliches Informationsformular zur Produktzusammenarbeit "
+"ausfüllen. Geben Sie Informationen wie den Produktnamen, die Menge, die "
+"Qualität, die Herkunft, eine fesselnde Beschreibung und mehrere Bilder an, "
+"um die Einzigartigkeit des Produkts hervorzuheben."
+
+#: .\templates\main\collaboration.html:19
+msgid "2.Thorough Review Process:"
+msgstr "2. Gründlicher Prüfprozess:"
+
+#: .\templates\main\collaboration.html:21
+msgid ""
+"Our dedicated team carefully reviews each submission to ensure that the "
+"products featured on our platform meet our high standards of quality and "
+"innovation.We appreciate the diversity of ideas and are excited to discover "
+"products that stand out."
+msgstr ""
+" Unser engagiertes Team prüft jede Einreichung sorgfältig, um "
+"sicherzustellen, dass die auf unserer Plattform vorgestellten Produkte "
+"unseren hohen Qualitäts- und Innovationsstandards entsprechen. Wir schätzen "
+"die Vielfalt der Ideen und freuen uns, Produkte zu entdecken, die auffallen."
+
+#: .\templates\main\collaboration.html:25
+msgid "3.Acceptance or Feedback:"
+msgstr "3.Annahme oder Feedback:"
+
+#: .\templates\main\collaboration.html:27
+msgid ""
+"Following the review process, we will notify you of the acceptance of your "
+"product for collaboration.If your product aligns with our vision and "
+"resonates with our audience,we'll be thrilled to feature it on our platform."
+msgstr ""
+"Nach dem Überprüfungsprozess benachrichtigen wir Sie über die Annahme Ihres "
+"Produkts zur Zusammenarbeit. Wenn Ihr Produkt unserer Vision entspricht und "
+"bei unserem Publikum Anklang findet, freuen wir uns, es auf unserer "
+"Plattform zu präsentieren."
+
+#: .\templates\main\collaboration.html:31
+msgid "4.Commence Collaboration:"
+msgstr "4. Beginn der Zusammenarbeit:"
+
+#: .\templates\main\collaboration.html:33
+msgid ""
+"Once accepted, our team will reach out to discuss the details of the "
+"collaboration.This includes logistics, sales strategies,and any additional "
+"information needed to make the collaboration a success."
+msgstr ""
+"Nach der Annahme wird sich unser Team mit Ihnen in Verbindung setzen, um die "
+"Einzelheiten der Zusammenarbeit zu besprechen. Dazu gehören Logistik, "
+"Vertriebsstrategien und alle zusätzlichen Informationen, die für eine "
+"erfolgreiche Zusammenarbeit erforderlich sind."
+
+#: .\templates\main\collaboration.html:37
+msgid "5.Join a Community of Innovators:"
+msgstr "5. Treten Sie einer Gemeinschaft von Innovatoren bei:"
+
+#: .\templates\main\collaboration.html:39
+msgid ""
+"Become part of a community of like-minded individuals and businesses that "
+"share a passion for innovation.Our platform is not just about selling "
+"products;it's about building lasting connections and supporting each other's "
+"growth."
+msgstr ""
+"Werden Sie Teil einer Gemeinschaft gleichgesinnter Einzelpersonen und "
+"Unternehmen, die eine Leidenschaft für Innovation teilen. Auf unserer "
+"Plattform geht es nicht nur um den Verkauf von Produkten; Es geht darum, "
+"dauerhafte Verbindungen aufzubauen und sich gegenseitig beim Wachstum zu "
+"unterstützen."
+
+#: .\templates\main\collaboration.html:44
+#: .\templates\main\product_assistance.html:11
+msgid "Submit Your Product for Collaboration"
+msgstr "Senden Sie Ihr Produkt zur Zusammenarbeit"
+
+#: .\templates\main\collaboration.html:48
+#: .\templates\main\product_assistance.html:15
+msgid "Product Name"
+msgstr "Produktname"
+
+#: .\templates\main\collaboration.html:49
+#: .\templates\main\product_assistance.html:16
+msgid "Enter product name"
+msgstr "Geben Sie den Produktnamen ein"
+
+#: .\templates\main\collaboration.html:52
+#: .\templates\main\product_assistance.html:19
+msgid "Quantity"
+msgstr "Menge"
+
+#: .\templates\main\collaboration.html:53
+#: .\templates\main\product_assistance.html:20
+msgid "Enter quantity"
+msgstr "Geben Sie die Menge ein"
+
+#: .\templates\main\collaboration.html:56
+#: .\templates\main\product_assistance.html:23
+msgid "Quality"
+msgstr "Qualität"
+
+#: .\templates\main\collaboration.html:57
+#: .\templates\main\product_assistance.html:24
+msgid "Enter quality"
+msgstr "Geben Sie Qualität ein"
+
+#: .\templates\main\collaboration.html:60 .\templates\main\dashboard.html:168
+#: .\templates\main\dashboard.html:234
+#: .\templates\main\product_assistance.html:27
+msgid "Origin"
+msgstr "Herkunft"
+
+#: .\templates\main\collaboration.html:61
+#: .\templates\main\product_assistance.html:28
+msgid "Enter origin"
+msgstr "Geben Sie den Ursprung ein"
+
+#: .\templates\main\collaboration.html:64
+#: .\templates\main\product_assistance.html:31
+msgid "Description"
+msgstr "Beschreibung"
+
+#: .\templates\main\collaboration.html:65
+#: .\templates\main\product_assistance.html:32
+msgid "Enter product description"
+msgstr "Geben Sie eine Produktbeschreibung ein"
+
+#: .\templates\main\collaboration.html:68
+#: .\templates\main\product_assistance.html:35
+msgid "Product Images (4 or more)"
+msgstr "Produktbilder (4 oder mehr)"
+
+#: .\templates\main\collaboration.html:69
+#: .\templates\main\product_assistance.html:36
+msgid "product_images"
+msgstr "Produktbilder"
+
+#: .\templates\main\collaboration.html:72
+#: .\templates\main\product_assistance.html:39
+msgid "Contact Number(Whatsapp)"
+msgstr "Kontaktnummer (WhatsApp)"
+
+#: .\templates\main\collaboration.html:73
+#: .\templates\main\product_assistance.html:40
+msgid "Enter WhatsApp number"
+msgstr "Geben Sie die WhatsApp-Nummer ein"
+
+#: .\templates\main\collaboration.html:76
+#: .\templates\main\product_assistance.html:42
+msgid "Submit for Collaboration"
+msgstr "Zur Zusammenarbeit einreichen"
+
+#: .\templates\main\collaboration.html:79 .\templates\main\home.html:133
+msgid "Log in to Submit"
+msgstr "Melden Sie sich zum Senden an"
+
+#: .\templates\main\dashboard.html:46
+msgid "Your submitted products for collaboration"
+msgstr "Ihre zur Zusammenarbeit eingereichten Produkte"
+
+#: .\templates\main\dashboard.html:60
+msgid "No images available"
+msgstr "Keine Bilder verfügbar"
+
+#: .\templates\main\dashboard.html:77 .\templates\main\order_product.html:15
+msgid " Quality:"
+msgstr "Qualität:"
+
+#: .\templates\main\dashboard.html:78 .\templates\main\order_product.html:14
+msgid " Quantity:"
+msgstr "Menge:"
+
+#: .\templates\main\dashboard.html:79
+#: .\templates\main\investment_product.html:19
+#: .\templates\main\order_product.html:13
+#: .\templates\main\product_detail.html:45
+msgid "Origin:"
+msgstr "Herkunft:"
+
+#: .\templates\main\dashboard.html:80
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: .\templates\main\dashboard.html:81
+msgid "WhatsApp Number:"
+msgstr "WhatsApp-Nummer:"
+
+#: .\templates\main\dashboard.html:89
+msgid "You haven't submitted any products for collaboration"
+msgstr "Sie haben keine Produkte zur Zusammenarbeit eingereicht"
+
+#: .\templates\main\dashboard.html:99
+msgid "Welcome,"
+msgstr "Willkommen,"
+
+#: .\templates\main\dashboard.html:100
+msgid " Here is your user information:"
+msgstr "Hier sind Ihre Benutzerinformationen:"
+
+#: .\templates\main\dashboard.html:102
+msgid "Username:"
+msgstr "Nutzername:"
+
+#: .\templates\main\dashboard.html:103
+msgid "First Name:"
+msgstr "Vorname:"
+
+#: .\templates\main\dashboard.html:104
+msgid "Last Name:"
+msgstr "Nachname:"
+
+#: .\templates\main\dashboard.html:105
+msgid "Email:"
+msgstr "Email:"
+
+#: .\templates\main\dashboard.html:113
+msgid "Investment Opportunities Await:"
+msgstr "Es erwarten Sie Investitionsmöglichkeiten:"
+
+#: .\templates\main\dashboard.html:127 .\templates\main\dashboard.html:166
+#: .\templates\main\dashboard.html:232
+msgid "Profitability"
+msgstr "Rentabilität"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid " Duration:"
+msgstr "Dauer:"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid "months"
+msgstr "Monate"
+
+#: .\templates\main\dashboard.html:130
+#: .\templates\main\order_investment.html:12
+#: .\templates\main\search_results.html:40
+msgid " Origin:"
+msgstr "Herkunft:"
+
+#: .\templates\main\dashboard.html:131
+#: .\templates\main\order_investment.html:13
+msgid "Start Date:"
+msgstr "Startdatum:"
+
+#: .\templates\main\dashboard.html:132
+#: .\templates\main\order_investment.html:14
+msgid "End Date:"
+msgstr "Endtermin:"
+
+#: .\templates\main\dashboard.html:133
+#: .\templates\main\investment_product.html:22
+#: .\templates\main\order_investment.html:15
+msgid "Amount Invested:"
+msgstr "Investierter Betrag:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+#: .\templates\main\order_investment.html:16
+msgid "Active:"
+msgstr "Aktiv:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+msgid "Yes"
+msgstr "Ja"
+
+#: .\templates\main\dashboard.html:134
+msgid "No"
+msgstr "Nein"
+
+#: .\templates\main\dashboard.html:139
+msgid "Apply"
+msgstr "Anwenden"
+
+#: .\templates\main\dashboard.html:157
+msgid "Your favorites"
+msgstr "Deine Favoriten"
+
+#: .\templates\main\dashboard.html:167 .\templates\main\dashboard.html:233
+msgid "Duration"
+msgstr "Dauer"
+
+#: .\templates\main\dashboard.html:169 .\templates\main\dashboard.html:235
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: .\templates\main\dashboard.html:170 .\templates\main\dashboard.html:236
+msgid "End Date"
+msgstr "Endtermin"
+
+#: .\templates\main\dashboard.html:171 .\templates\main\dashboard.html:237
+msgid "Amount Invested"
+msgstr "Investierter Betrag"
+
+#: .\templates\main\dashboard.html:172
+msgid "Active"
+msgstr "Aktiv"
+
+#: .\templates\main\dashboard.html:173
+msgid "Action"
+msgstr "Action"
+
+#: .\templates\main\dashboard.html:198
+msgid "Remove"
+msgstr "Entfernen"
+
+#: .\templates\main\dashboard.html:210
+msgid "No favorite investments found."
+msgstr "Keine Lieblingsinvestitionen gefunden."
+
+#: .\templates\main\dashboard.html:223
+msgid "Your Investment"
+msgstr "Ihre Investition"
+
+#: .\templates\main\dashboard.html:246
+msgid "Month"
+msgstr "Monat"
+
+#: .\templates\main\home.html:13
+msgid "Welcome to Amiran for investment, where borders are not barriers"
+msgstr ""
+"Willkommen in Amiran für Investitionen, wo Grenzen keine Barrieren darstellen"
+
+#: .\templates\main\home.html:14
+msgid "Explore a world of seamless import and export solutions"
+msgstr "Entdecken Sie eine Welt nahtloser Import- und Exportlösungen"
+
+#: .\templates\main\home.html:84 .\templates\main\home.html:100
+msgid "Import & Export"
+msgstr "Import & Export"
+
+#: .\templates\main\home.html:94 .\templates\main\home.html:128
+msgid "Search Assistance"
+msgstr "Suchhilfe"
+
+#: .\templates\main\home.html:101
+msgid ""
+"We specialize in providing tailored import and export solutions, ensuring a "
+"seamless and efficient flow of goods across international borders."
+msgstr ""
+"Wir sind auf die Bereitstellung maßgeschneiderter Import- und Exportlösungen "
+"spezialisiert und sorgen so für einen nahtlosen und effizienten Warenfluss "
+"über internationale Grenzen hinweg."
+
+#: .\templates\main\home.html:102
+msgid ""
+"With expert knowledge in navigating regulations and a robust global network, "
+"we connect businesses to key markets, expanding their reach worldwide."
+msgstr ""
+"Mit Expertenwissen im Umgang mit Vorschriften und einem robusten globalen "
+"Netzwerk verbinden wir Unternehmen mit Schlüsselmärkten und erweitern ihre "
+"Reichweite weltweit."
+
+#: .\templates\main\home.html:103
+msgid ""
+"Our reliable logistics, transparent processes, and cost-effective solutions "
+"make us the ideal partner for businesses seeking success in the global "
+"marketplace."
+msgstr ""
+"Unsere zuverlässige Logistik, transparente Prozesse und kostengünstige "
+"Lösungen machen uns zum idealen Partner für Unternehmen, die auf dem "
+"globalen Markt erfolgreich sein wollen."
+
+#: .\templates\main\home.html:104
+msgid ""
+"Whether you're an established player or new to international trade, AMIRAN "
+"FOR INVESTMENT is here to simplify your journey and optimize your global "
+"operations."
+msgstr ""
+"Egal, ob Sie ein etablierter Akteur oder Neuling im internationalen Handel "
+"sind, AMIRAN FOR INVESTMENT ist hier, um Ihnen den Weg zu erleichtern und "
+"Ihre globalen Abläufe zu optimieren.“"
+
+#: .\templates\main\home.html:109
+msgid ""
+"Explore strategic growth opportunities worldwide with AMIRAN FOR INVESTMENT, "
+"your trusted global investment partner. Specializing in tailored investment "
+"solutions, we provide deep market insights and a transparent approach to "
+"empower your financial journey."
+msgstr ""
+"Entdecken Sie strategische Wachstumschancen weltweit mit AMIRAN FOR "
+"INVESTMENT, Ihrem vertrauenswürdigen globalen Investmentpartner. Wir sind "
+"auf maßgeschneiderte Anlagelösungen spezialisiert und bieten tiefe "
+"Markteinblicke und einen transparenten Ansatz, um Sie bei Ihrer finanziellen "
+"Reise zu unterstützen."
+
+#: .\templates\main\home.html:110
+msgid ""
+"Our diversified portfolios, crafted with a focus on risk management, aim to "
+"deliver resilience in dynamic market conditions. Leveraging our extensive "
+"global network, we offer unique and lucrative investment opportunities in "
+"various countries."
+msgstr ""
+"Unsere diversifizierten Portfolios, die mit Schwerpunkt auf Risikomanagement "
+"zusammengestellt wurden, zielen darauf ab, Widerstandsfähigkeit in "
+"dynamischen Marktbedingungen zu bieten. Mithilfe unseres umfassenden "
+"globalen Netzwerks bieten wir einzigartige und lukrative "
+"Investitionsmöglichkeiten in verschiedenen Ländern."
+
+#: .\templates\main\home.html:111
+msgid ""
+"Whether you're an experienced investor or new to the financial realm, AMIRAN "
+"FOR INVESTMENT is dedicated to providing customized solutions that align "
+"with your goals. Join us in navigating the world of finance with confidence "
+"and innovation."
+msgstr ""
+"Egal, ob Sie ein erfahrener Investor oder ein Neuling im Finanzbereich sind, "
+"AMIRAN FOR INVESTMENT ist bestrebt, maßgeschneiderte Lösungen anzubieten, "
+"die Ihren Zielen entsprechen. Navigieren Sie mit uns selbstbewusst und "
+"innovativ durch die Welt der Finanzen."
+
+#: .\templates\main\home.html:114
+msgid "Explore opportunities"
+msgstr "Entdecken Sie Möglichkeiten"
+
+#: .\templates\main\home.html:120
+msgid "Product Search Assistance!"
+msgstr "Unterstützung bei der Produktsuche!"
+
+#: .\templates\main\home.html:121
+msgid ""
+"Discover the ease of our Product Search Assistance. Can't find what you need?"
+msgstr ""
+"Entdecken Sie die Einfachheit unserer Produktsuchunterstützung. Sie können "
+"nicht finden, was Sie brauchen?"
+
+#: .\templates\main\home.html:122
+msgid ""
+"Click the Product Search Assistance button, fill the form, and let our team "
+"do the work."
+msgstr ""
+"Klicken Sie auf die Schaltfläche „Unterstützung bei der Produktsuche“, "
+"füllen Sie das Formular aus und überlassen Sie die Arbeit unserem Team."
+
+#: .\templates\main\home.html:123
+msgid ""
+"We'll find your item, share details promptly, and guide you through a hassle-"
+"free ordering process."
+msgstr ""
+"Wir finden Ihren Artikel, teilen Ihnen umgehend die Details mit und führen "
+"Sie durch einen problemlosen Bestellvorgang."
+
+#: .\templates\main\home.html:124
+msgid "Trust us to turn your product dreams into reality!"
+msgstr ""
+"Vertrauen Sie darauf, dass wir Ihre Produktträume in die Realität umsetzen!"
+
+#: .\templates\main\home.html:138
+msgid "Select a service to see the description."
+msgstr "Wählen Sie einen Dienst aus, um die Beschreibung anzuzeigen."
+
+#: .\templates\main\home.html:154
+msgid "Contact Us"
+msgstr "Kontaktiere uns"
+
+#: .\templates\main\home.html:160
+msgid "Your Name:"
+msgstr "Ihr Name:"
+
+#: .\templates\main\home.html:165
+msgid "Your Email:"
+msgstr "Deine E-Mail:"
+
+#: .\templates\main\home.html:170
+msgid "Your Message:"
+msgstr "Ihre Nachricht:"
+
+#: .\templates\main\home.html:174
+#: .\templates\main\job_application_form.html:52
+msgid "Submit"
+msgstr "Einreichen"
+
+#: .\templates\main\investment.html:10
+msgid "Welcome to Our Exclusive Investment Opportunity!"
+msgstr "Willkommen bei unserer exklusiven Investitionsmöglichkeit!"
+
+#: .\templates\main\investment.html:11
+msgid "At"
+msgstr "Bei "
+
+#: .\templates\main\investment.html:11
+msgid "AMIRAN FOR INVESTMENT"
+msgstr "AMIRAN FOR INVESTMENT"
+
+#: .\templates\main\investment.html:11
+msgid "we believe in creating opportunities for growth and prosperity"
+msgstr ""
+"glauben wir an die Schaffung von Möglichkeiten für Wachstum und Wohlstand."
+
+#: .\templates\main\investment.html:19
+msgid "How It Works"
+msgstr "Wie es funktioniert"
+
+#: .\templates\main\investment.html:20
+msgid ""
+"Explore our curated selection of high-quality products, each with its own "
+"distinct investment season.This is the time when these products shine, "
+"presenting a golden opportunity for investors like you to reap significant "
+"returns."
+msgstr ""
+"Entdecken Sie unsere kuratierte Auswahl an hochwertigen Produkten, jedes mit "
+"seiner eigenen Anlagesaison. Dies ist die Zeit, in der diese Produkte "
+"glänzen und Anlegern wie Ihnen eine einmalige Gelegenheit bieten, erhebliche "
+"Renditen zu erzielen."
+
+#: .\templates\main\investment.html:26
+msgid "Customizable Profitability"
+msgstr "Anpassbare Rentabilität"
+
+#: .\templates\main\investment.html:27
+#, fuzzy, python-format
+#| msgid ""
+#| "We understand that one size doesn't fit all. That's why we give you the "
+#| "flexibility to choose your level of involvement. Adjust the profitability "
+#| "rate according to your investment strategy, ranging from 5%% to 40%%. "
+#| "Whether you're a conservative investor or seeking higher returns, we've "
+#| "got options tailored for you."
+msgid ""
+"We understand that one size doesn't fit all. That's why we give you the "
+"flexibility to choose your level of involvement. Adjust the profitability "
+"rate according to your investment strategy, ranging from 5%% to 40%%. "
+"Whether you're a conservative investor or seeking higher returns, we've got "
+"options tailored for you."
+msgstr ""
+"Wir verstehen, dass eine Einheitsgröße nicht für alle passt. Deshalb geben "
+"wir Ihnen die Flexibilität, den Grad Ihrer Beteiligung zu wählen. Passen Sie "
+"die Rentabilitätsrate entsprechend Ihrer Anlagestrategie an und liegen Sie "
+"zwischen 5 % und 40 %. Egal, ob Sie ein konservativer Anleger sind oder "
+"höhere Renditen anstreben, wir haben die auf Sie zugeschnittenen Optionen."
+
+#: .\templates\main\investment.html:32
+msgid "Why Invest with Us"
+msgstr "Warum bei uns investieren?"
+
+#: .\templates\main\investment.html:34
+msgid "Diversification:"
+msgstr "Diversifizierung: "
+
+#: .\templates\main\investment.html:34
+msgid ""
+"Spread your investments across a range of products, reducing risk and "
+"maximizing potential returns."
+msgstr ""
+"Verteilen Sie Ihre Anlagen auf eine Reihe von Produkten, um das Risiko zu "
+"reduzieren und die potenziellen Erträge zu maximieren."
+
+#: .\templates\main\investment.html:35
+msgid "Transparency:"
+msgstr "Transparenz:"
+
+#: .\templates\main\investment.html:35
+msgid ""
+" We believe in open communication. Track your investments, "
+"monitorperformance, and stay informed about market trends."
+msgstr ""
+"Wir glauben an offene Kommunikation. Verfolgen Sie Ihre Investitionen, "
+"überwachen Sie die Leistung und bleiben Sie über Markttrends auf dem "
+"Laufenden."
+
+#: .\templates\main\investment.html:36
+msgid "Expert Curation:"
+msgstr "Expertenkuration:"
+
+#: .\templates\main\investment.html:36
+msgid ""
+"Our team of experts carefully selects products with a proven track record, "
+"ensuring you invest in opportunities with real growth potential."
+msgstr ""
+"Unser Expertenteam wählt sorgfältig Produkte mit nachgewiesener "
+"Erfolgsbilanz aus und stellt so sicher, dass Sie in Chancen mit echtem "
+"Wachstumspotenzial investieren."
+
+#: .\templates\main\investment.html:43
+msgid "Get Started Today"
+msgstr "Beginnen Sie noch heute"
+
+#: .\templates\main\investment.html:44
+msgid ""
+"Seize the moment and embark on a journey of financial growth with Your "
+"Company Name. Our Investmen Opportunity is not just an option; it's a "
+"gateway to a brighter and more prosperous future. Take control of your "
+"financial destiny and invest with confidence."
+msgstr ""
+"Nutzen Sie den Moment und begeben Sie sich mit Ihrem Firmennamen auf eine "
+"Reise des finanziellen Wachstums. Unsere Investitionsmöglichkeit ist nicht "
+"nur eine Option; Es ist ein Tor zu einer besseren und wohlhabenderen "
+"Zukunft. Übernehmen Sie die Kontrolle über Ihr finanzielles Schicksal und "
+"investieren Sie mit Zuversicht."
+
+#: .\templates\main\investment.html:45
+msgid "Your success is our success. Let's grow together."
+msgstr "Ihr Erfolg ist unser Erfolg. Lasst uns gemeinsam wachsen."
+
+#: .\templates\main\investment.html:46
+msgid "Explore Exciting Investment Opportunities"
+msgstr "Entdecken Sie spannende Investitionsmöglichkeiten"
+
+#: .\templates\main\investment_product.html:17
+msgid "Profitability:"
+msgstr "Rentabilität:"
+
+#: .\templates\main\investment_product.html:67
+msgid ""
+"Oops! Currently, there are no investments available. Please check back soon "
+"for exciting updates and new opportunities."
+msgstr ""
+"Hoppla! Derzeit sind keine Investitionen verfügbar. Bitte schauen Sie bald "
+"wieder vorbei, um spannende Updates und neue Möglichkeiten zu erhalten."
+
+#: .\templates\main\investment_product.html:78
+msgid "Copy Link"
+msgstr "Link kopieren"
+
+#: .\templates\main\job_application_form.html:7
+msgid "Complete the Job Application Form"
+msgstr "Füllen Sie das Bewerbungsformular aus"
+
+#: .\templates\main\job_application_success.html:5
+msgid "Job Application Submitted Successfully!"
+msgstr "Bewerbung erfolgreich eingereicht!"
+
+#: .\templates\main\job_application_success.html:6
+msgid ""
+"Thank you for applying to our company. Your job application has been "
+"successfully submitted."
+msgstr ""
+"Vielen Dank für Ihre Bewerbung bei unserem Unternehmen. Ihre Bewerbung wurde "
+"erfolgreich übermittelt."
+
+#: .\templates\main\job_application_success.html:7
+msgid "We will review your information and get in touch with you soon."
+msgstr ""
+"Wir werden Ihre Angaben prüfen und uns zeitnah mit Ihnen in Verbindung "
+"setzen."
+
+#: .\templates\main\login.html:11
+msgid "User Information"
+msgstr "Nutzerinformation"
+
+#: .\templates\main\login.html:21
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: .\templates\main\order_investment.html:10
+msgid " Profitability:"
+msgstr "Rentabilität:"
+
+#: .\templates\main\order_investment.html:11
+msgid "Duration:"
+msgstr "Dauer:"
+
+#: .\templates\main\order_investment.html:23
+#: .\templates\main\order_product.html:22
+msgid "Enter your name"
+msgstr "Gib deinen Namen ein"
+
+#: .\templates\main\order_investment.html:25
+#: .\templates\main\order_product.html:24
+msgid "Enter your Email"
+msgstr "Geben sie ihre E-Mail Adresse ein"
+
+#: .\templates\main\order_investment.html:27
+#: .\templates\main\order_product.html:26
+msgid "Enter your address"
+msgstr "Geben Sie Ihre Adresse ein"
+
+#: .\templates\main\order_investment.html:29
+#: .\templates\main\order_product.html:28
+msgid "Enter your phone number"
+msgstr "Gib deine Telefonnummer ein"
+
+#: .\templates\main\order_investment.html:31
+#: .\templates\main\order_product.html:30
+msgid "Submit Order"
+msgstr "Bestellung abschicken"
+
+#: .\templates\main\order_product.html:10
+msgid " Price:"
+msgstr "Preis:"
+
+#: .\templates\main\order_product.html:11
+msgid "Information:"
+msgstr "Information:"
+
+#: .\templates\main\order_product.html:12
+msgid " Description:"
+msgstr "Beschreibung:"
+
+#: .\templates\main\order_success.html:8
+msgid "Order Successfully Placed"
+msgstr "Bestellung erfolgreich aufgegeben"
+
+#: .\templates\main\order_success.html:9
+msgid ""
+"Thank you for placing your order with us! Your request has been received, "
+"and our team is processing it."
+msgstr ""
+"Vielen Dank, dass Sie Ihre Bestellung bei uns aufgegeben haben! Ihre Anfrage "
+"ist bei uns eingegangen und wird von unserem Team bearbeitet."
+
+#: .\templates\main\order_success.html:10
+msgid ""
+"Within the next 24 hours, our dedicated team will review your order details "
+"and contact you to confirm and provide further information."
+msgstr ""
+"Innerhalb der nächsten 24 Stunden wird unser engagiertes Team Ihre "
+"Bestelldaten überprüfen und Sie zur Bestätigung und Bereitstellung weiterer "
+"Informationen kontaktieren."
+
+#: .\templates\main\order_success.html:11
+msgid ""
+"We appreciate your business and look forward to serving you. If you have any "
+"urgent inquiries, please feel free to reach out to our customer support."
+msgstr ""
+"Wir schätzen Ihr Geschäft und freuen uns darauf, Sie zu bedienen. Bei "
+"dringenden Anfragen können Sie sich gerne an unseren Kundensupport wenden."
+
+#: .\templates\main\product_detail.html:36
+#: .\templates\main\search_results.html:37
+msgid "Quantity:"
+msgstr "Menge:"
+
+#: .\templates\main\product_detail.html:39
+#: .\templates\main\search_results.html:38
+msgid "Price:"
+msgstr "Preis:"
+
+#: .\templates\main\product_detail.html:42
+#: .\templates\main\search_results.html:39
+msgid "Quality:"
+msgstr "Qualität:"
+
+#: .\templates\main\product_detail.html:49
+#: .\templates\main\search_results.html:45
+msgid "Order now"
+msgstr "Jetzt bestellen"
+
+#: .\templates\main\product_detail.html:51
+#: .\templates\main\search_results.html:48
+msgid "Login to Order"
+msgstr "Melden Sie sich an, um zu bestellen"
+
+#: .\templates\main\product_detail.html:60
+msgid ""
+"We currently do not have the specified product in our inventory. Please "
+"check back soon,as we are continuously updating our selection and will be "
+"adding new products shortly"
+msgstr ""
+"Wir haben das angegebene Produkt derzeit nicht in unserem Lagerbestand. "
+"Bitte schauen Sie bald wieder vorbei, da wir unsere Auswahl kontinuierlich "
+"aktualisieren und in Kürze neue Produkte hinzufügen werden"
+
+#: .\templates\main\register.html:25 .\templates\main\register.html:37
+msgid "Register"
+msgstr "Registrieren"
+
+#: .\templates\main\register.html:26
+msgid "Create a new account to get started."
+msgstr "Erstellen Sie ein neues Konto, um loszulegen."
+
+#: .\templates\main\register.html:28
+msgid "Registration Information"
+msgstr "Informationen zur Anmeldung"
+
+#: .\templates\main\register.html:39
+msgid "Already have an account?"
+msgstr "Sie haben bereits ein Konto?"
+
+#: .\templates\main\search_results.html:36
+msgid "Product name:"
+msgstr "Produktname:"
+
+#: .\templates\main\search_results.html:57
+#, fuzzy
+#| msgid "No results found."
+msgid "No results found"
+msgstr "Keine Ergebnisse gefunden"
+
+#: .\templates\main\search_results.html:62
+msgid ""
+"Searching for a particular product? Utilize our product search assistance. "
+"Complete the form, and allow our team to locate precisely what you're "
+"seeking."
+msgstr ""
+
+#: .\templates\main\search_results.html:63
+msgid "Click here"
+msgstr ""
+
+#: .\templates\main\success_submission.html:7
+msgid "Submission Successful!"
+msgstr "Einreichung erfolgreich!"
+
+#: .\templates\main\success_submission.html:8
+msgid "Thank you for submitting your product for collaboration."
+msgstr ""
+"Vielen Dank, dass Sie Ihr Produkt zur Zusammenarbeit eingereicht haben."
+
+#: .\templates\main\success_submission.html:9
+msgid ""
+"Our team of experts will carefully review your submission, and we'll get "
+"back to you within 24 hours."
+msgstr ""
+"Unser Expertenteam wird Ihre Einreichung sorgfältig prüfen und wir werden "
+"uns innerhalb von 24 Stunden bei Ihnen melden."
+
+#~ msgid "Product Search Assistance"
+#~ msgstr "Suchhilfe"
+
+#~ msgid "Locataion"
+#~ msgstr "Standort"

@@ -1,0 +1,116 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #969696;
+}
+
+.preloader-content {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    animation: fade-in 3s ease-out forwards, slide-in 2s ease-out forwards;
+    white-space: nowrap; /* Keeps the text in a single line */
+}
+
+.preloader-text {
+    display: inline-block; /* Make each text element inline-block to be next to each other */
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #ce0000;
+    border-top-color: #f5c572;
+    border-bottom-color: #f5c572;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Different animations for each word */
+.anim-up {
+    animation: move-left 1s ease-out forwards;
+}
+
+.anim-left {
+    animation: move-left 1s ease-out forwards;
+}
+
+.anim-right {
+    animation: move-right 1s ease-out forwards;
+}
+
+.anim-down {
+    animation: move-right 1s ease-out forwards;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes move-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,51 @@
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.login-box {
+    background-color: #dadada;
+    color: #000000;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    
+   
+}
+
+.user-info-box {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #f8fbfd;
+    margin-bottom: 80px !important;
+}
+
+.user-info-box form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.user-info-box .form-group {
+    margin-bottom: 15px;
+}
+
+
+.user-info-box button {
+    margin-bottom: 20px;
+}
+
+.user-info-box a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.4s ease;
+}
+
+
+.user-info-box a:hover{
+    color: #929292 !important;
+    text-decoration: none !important;
+}

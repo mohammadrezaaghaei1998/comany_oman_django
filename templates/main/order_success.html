@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+<div class="container order-success">
+    <h2>{% translate "Order Successfully Placed" %}</h2>
+        <p>{% translate "Thank you for placing your order with us! Your request has been received, and our team is processing it." %}</p>
+        <p>{% translate "Within the next 24 hours, our dedicated team will review your order details and contact you to confirm and provide further information." %}</p>
+        <p>{% translate "We appreciate your business and look forward to serving you. If you have any urgent inquiries, please feel free to reach out to our customer support." %}</p>
+    <div class="text-center mt-4">
+        <a href="{% url 'home' %}"  style="color:white;">{% translate "Back to Home" %}</a>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+
+

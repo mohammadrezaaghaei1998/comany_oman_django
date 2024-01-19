@@ -1,0 +1,1357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-19 11:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\imports\apps.py:9
+msgid " imports"
+msgstr "الواردات"
+
+#: .\imports\forms.py:29 .\templates\main\login.html:15
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: .\imports\forms.py:30
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: .\imports\forms.py:31
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: .\imports\forms.py:32 .\imports\forms.py:68
+#: .\templates\main\about_us.html:46
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: .\imports\forms.py:33 .\templates\main\login.html:18
+msgid "Password"
+msgstr "كلمة المرور   "
+
+#: .\imports\forms.py:34
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور  "
+
+#: .\imports\forms.py:67 .\templates\main\dashboard.html:165
+#: .\templates\main\dashboard.html:231
+msgid "Name"
+msgstr "اسم"
+
+#: .\imports\forms.py:69
+msgid "WhatsApp Number"
+msgstr "رقم الواتساب"
+
+#: .\imports\forms.py:70
+msgid "Country"
+msgstr "دولة"
+
+#: .\imports\forms.py:71
+msgid "City"
+msgstr "مدينة"
+
+#: .\imports\forms.py:72
+msgid "Curriculum Vitae"
+msgstr "السيرة الذاتية"
+
+#: .\imports\models.py:12 .\imports\models.py:26 .\imports\models.py:41
+#: .\imports\models.py:53 .\imports\models.py:66 .\imports\models.py:84
+#: .\imports\models.py:128 .\imports\models.py:174 .\imports\models.py:195
+#: .\imports\models.py:235 .\imports\models.py:254 .\imports\models.py:272
+#: .\imports\models.py:321 .\imports\models.py:335
+msgid "name"
+msgstr "اسم"
+
+#: .\imports\models.py:16
+msgid " Brand"
+msgstr "ماركة"
+
+#: .\imports\models.py:17
+msgid " Brands"
+msgstr "العلامات التجارية"
+
+#: .\imports\models.py:27
+msgid "code"
+msgstr "شفرة"
+
+#: .\imports\models.py:30
+msgid " Color"
+msgstr "لون"
+
+#: .\imports\models.py:31
+msgid " Colors"
+msgstr "الألوان"
+
+#: .\imports\models.py:42 .\imports\models.py:83 .\imports\models.py:114
+#: .\imports\models.py:165 .\imports\models.py:204 .\imports\models.py:312
+msgid "image"
+msgstr "صورة"
+
+#: .\imports\models.py:45
+msgid "Category"
+msgstr "فئة"
+
+#: .\imports\models.py:46 .\imports\models.py:96 .\templates\header.html:76
+#: .\templates\main\home.html:50
+msgid "Categories"
+msgstr "فئات"
+
+#: .\imports\models.py:57
+msgid " Subfield"
+msgstr "الحقل الفرعي"
+
+#: .\imports\models.py:58
+msgid " Subfields"
+msgstr "الحقول الفرعية"
+
+#: .\imports\models.py:71
+msgid " Subfield_Item"
+msgstr "عنصر الحقل الفرعي"
+
+#: .\imports\models.py:72
+msgid " Subfield_Items"
+msgstr "عناصر الحقول الفرعية"
+
+#: .\imports\models.py:85
+msgid "price"
+msgstr "سعر"
+
+#: .\imports\models.py:86
+msgid "information"
+msgstr "معلومة"
+
+#: .\imports\models.py:87 .\imports\models.py:151 .\imports\models.py:199
+#: .\imports\models.py:299 .\imports\models.py:337
+msgid "description"
+msgstr "وصف"
+
+#: .\imports\models.py:89 .\imports\models.py:150 .\imports\models.py:198
+#: .\imports\models.py:298
+msgid "origin"
+msgstr "أصل"
+
+#: .\imports\models.py:90 .\imports\models.py:148 .\imports\models.py:296
+msgid "quantity"
+msgstr "كمية"
+
+#: .\imports\models.py:91 .\imports\models.py:149 .\imports\models.py:297
+msgid "quality"
+msgstr "جودة"
+
+#: .\imports\models.py:94
+msgid "Subfield Item"
+msgstr "عنصر الحقل الفرعي"
+
+#: .\imports\models.py:95
+msgid "Subfield"
+msgstr "الحقل الفرعي"
+
+#: .\imports\models.py:97
+msgid "Brand"
+msgstr "ماركة"
+
+#: .\imports\models.py:98
+msgid "Color"
+msgstr "لون"
+
+#: .\imports\models.py:99
+msgid "discount_price "
+msgstr "بعد الخصم"
+
+#: .\imports\models.py:104
+msgid "Product"
+msgstr "منتج"
+
+#: .\imports\models.py:105
+msgid "Products"
+msgstr "منتجات"
+
+#: .\imports\models.py:118
+msgid "Image"
+msgstr "صورة"
+
+#: .\imports\models.py:119
+msgid "Images"
+msgstr "Images"
+
+#: .\imports\models.py:129 .\imports\models.py:176 .\imports\models.py:236
+#: .\imports\models.py:255 .\imports\models.py:273 .\imports\models.py:324
+msgid "email"
+msgstr "بريد إلكتروني"
+
+#: .\imports\models.py:130
+msgid "message"
+msgstr "رسالة"
+
+#: .\imports\models.py:133
+msgid "Cntact"
+msgstr "اتصال"
+
+#: .\imports\models.py:134
+msgid "Contacs"
+msgstr "جهات الاتصال"
+
+#: .\imports\models.py:147 .\imports\models.py:295
+msgid "product name"
+msgstr "اسم المنتج"
+
+#: .\imports\models.py:153 .\imports\models.py:177 .\imports\models.py:301
+msgid "whatsapp"
+msgstr "واتس اب"
+
+#: .\imports\models.py:157 .\templates\header.html:82
+msgid "Collaboration"
+msgstr "تعاون"
+
+#: .\imports\models.py:158
+msgid "Collaborations"
+msgstr "التعاون"
+
+#: .\imports\models.py:168
+msgid " CollaborationImage"
+msgstr "صورة التعاون"
+
+#: .\imports\models.py:169
+msgid " CollaborationImages"
+msgstr "صور التعاون"
+
+#: .\imports\models.py:175
+msgid "surname"
+msgstr "اسم العائلة"
+
+#: .\imports\models.py:178 .\imports\models.py:275 .\imports\models.py:322
+msgid "country"
+msgstr "دولة"
+
+#: .\imports\models.py:179 .\imports\models.py:276 .\imports\models.py:323
+msgid "city"
+msgstr "مدينة"
+
+#: .\imports\models.py:180
+msgid "company"
+msgstr "شركة"
+
+#: .\imports\models.py:184
+msgid " UserInfo"
+msgstr "معلومات المستخدم"
+
+#: .\imports\models.py:185
+msgid " UserInfos"
+msgstr "معلومات المستخدم"
+
+#: .\imports\models.py:196
+msgid "profitability_percentage"
+msgstr "نسبة الربحية"
+
+#: .\imports\models.py:197
+msgid "duration_staying_money"
+msgstr "مدة وديعة المال"
+
+#: .\imports\models.py:200
+msgid "start date"
+msgstr "تاريخ البدء:"
+
+#: .\imports\models.py:201
+msgid "end date"
+msgstr "تاريخ الانتهاء"
+
+#: .\imports\models.py:202
+msgid "amount invested"
+msgstr "المبلغ المستثمر"
+
+#: .\imports\models.py:208
+msgid " Investment"
+msgstr "استثمار"
+
+#: .\imports\models.py:209
+msgid " Investments"
+msgstr "الاستثمارات"
+
+#: .\imports\models.py:222 .\imports\models.py:223
+msgid " Favorite"
+msgstr "مفضل"
+
+#: .\imports\models.py:237 .\imports\models.py:256 .\imports\models.py:326
+msgid "address"
+msgstr "عنوان"
+
+#: .\imports\models.py:238 .\imports\models.py:257
+msgid "phone number"
+msgstr "رقم التلفون"
+
+#: .\imports\models.py:241
+msgid " OrderProduct"
+msgstr "اطلب المنتج"
+
+#: .\imports\models.py:242
+msgid " OrderProducts"
+msgstr "اطلب المنتجات"
+
+#: .\imports\models.py:260
+msgid " OrderInvestment"
+msgstr "طلب الاستثمار"
+
+#: .\imports\models.py:261
+msgid " OrderInvestments"
+msgstr "طلب الاستثمارات"
+
+#: .\imports\models.py:274
+msgid "whatsapp number"
+msgstr "رقم واتس اب"
+
+#: .\imports\models.py:277
+msgid "cv"
+msgstr "السيرة الذاتية"
+
+#: .\imports\models.py:281
+msgid " JobApplication"
+msgstr "طلب وظيفي"
+
+#: .\imports\models.py:282
+msgid " JobApplications"
+msgstr "تطبيقات وظيفة"
+
+#: .\imports\models.py:300
+msgid "product image"
+msgstr "صورة المنتج"
+
+#: .\imports\models.py:304
+msgid " Product_Assistance"
+msgstr "المساعدة للحصول على المنتج"
+
+#: .\imports\models.py:305
+msgid " Product_Assistances"
+msgstr "المساعدات للحصول على المنتج"
+
+#: .\imports\models.py:316
+msgid " Product_AssistanceImage"
+msgstr "صورة مساعدة المنتج"
+
+#: .\imports\models.py:317
+msgid " Product_AssistanceImages"
+msgstr "صور مساعدة المنتج"
+
+#: .\imports\models.py:325
+msgid "number"
+msgstr "رقم"
+
+#: .\imports\models.py:329
+msgid "Branch"
+msgstr "Branch"
+
+#: .\imports\models.py:330
+msgid "Branches"
+msgstr "الفروع"
+
+#: .\imports\models.py:336
+msgid "job title"
+msgstr ""
+
+#: .\templates\admin\base_site.html:12
+msgid "Businesses724  | ADMIN "
+msgstr ""
+
+#: .\templates\admin\base_site.html:24
+msgid "Businesses724 | ADMIN"
+msgstr ""
+
+#: .\templates\auth\change_password_done.html:8
+msgid "Password changed"
+msgstr "تم تغيير كلمة السر "
+
+#: .\templates\auth\change_password_done.html:9
+msgid "Your password has been changed successfully."
+msgstr "لقد تم تغيير كلمة المرور الخاصة بك بنجاح."
+
+#: .\templates\auth\change_password_done.html:10
+msgid "You can now "
+msgstr "الآن يمكنك تسجيل"
+
+#: .\templates\auth\change_password_done.html:10
+msgid "LOG IN"
+msgstr "الدخول"
+
+#: .\templates\auth\password_reset_sent.html:8
+msgid "Password Reset Sent"
+msgstr "تم إرسال إعادة تعيين كلمة المرور"
+
+#: .\templates\auth\password_reset_sent.html:9
+msgid ""
+" If an account already exists with the email address you entered,we have "
+"emailed you instructions for setting your password.You should receive these "
+"soon. If you do not receive an email,please make sure you entered the "
+"address you registered with and check your spam folder. "
+msgstr ""
+"إذا كان هناك حساب موجود بالفعل باستخدام عنوان البريد الإلكتروني الذي أدخلته، "
+"فقد أرسلنا إليك عبر البريد الإلكتروني تعليمات لإعداد كلمة المرور الخاصة بك. "
+"يجب أن تتلقى هذه قريبا. إذا لم تتلق بريدًا إلكترونيًا، فيرجى التأكد من إدخال "
+"العنوان الذي قمت بالتسجيل به والتحقق من مجلد الرسائل غير المرغوب فيها."
+
+#: .\templates\auth\reset_password.html:9
+msgid "Enter your Email"
+msgstr "أدخل بريدك الإلكتروني"
+
+msgid "Enter your email"
+msgstr "أدخل بريدك الإلكتروني"
+
+
+
+#: .\templates\auth\reset_password.html:11
+#, fuzzy
+#| msgid "Confirm Password"
+msgid "Confirm"
+msgstr "تأكيد كلمة المرور  "
+
+#: .\templates\footer.html:8
+msgid "Explore our branches"
+msgstr "اكتشف فروعنا"
+
+#: .\templates\footer.html:13
+msgid "Social Media"
+msgstr "وسائل التواصل الاجتماعي"
+
+#: .\templates\footer.html:26 .\templates\main\about_us.html:38
+msgid "Location"
+msgstr "موقع"
+
+#: .\templates\header.html:30
+msgid "Lan"
+msgstr "لغة"
+
+#: .\templates\header.html:33
+msgid "Enlish"
+msgstr "الإنجليزية"
+
+#: .\templates\header.html:34
+msgid "Persian"
+msgstr " الفارسية"
+
+#: .\templates\header.html:35
+msgid "Deutch"
+msgstr "ألمانية"
+
+#: .\templates\header.html:36
+msgid "Russian"
+msgstr "الروسية"
+
+#: .\templates\header.html:37
+msgid "Arabic"
+msgstr "عربي"
+
+#: .\templates\header.html:38
+msgid "Turkish"
+msgstr " التركية"
+
+#: .\templates\header.html:48
+msgid "Sign Out"
+msgstr "خروج"
+
+#: .\templates\header.html:50 .\templates\main\login.html:9
+#: .\templates\main\login.html:20
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: .\templates\header.html:51
+msgid "Sign Up"
+msgstr "اشتراك"
+
+#: .\templates\header.html:72
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: .\templates\header.html:79 .\templates\main\home.html:78
+msgid "Services"
+msgstr "خدمات"
+
+#: .\templates\header.html:85 .\templates\main\home.html:89
+#: .\templates\main\home.html:108
+msgid "Investment"
+msgstr "استثمار"
+
+#: .\templates\header.html:88 .\templates\main\about_us.html:15
+#: .\templates\main\home.html:33
+msgid "About Us"
+msgstr "معلومات عنا"
+
+#: .\templates\header.html:91
+msgid "Contact"
+msgstr "اتصال"
+
+#: .\templates\header.html:94
+msgid "Apply for Job"
+msgstr "تقدم لوظيفة"
+
+#: .\templates\header.html:112 .\templates\header.html:113
+msgid "Search"
+msgstr "يبحث"
+
+#: .\templates\main\about_us.html:17 .\templates\main\home.html:35
+msgid ""
+"Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and "
+"careers in Oman. As a dynamic newcomer, we simplify international "
+"transactions, drive strategic investments, and offer exciting career paths. "
+"Based in Muscat, we're dedicated to propelling businesses forward in the "
+"dynamic global marketplace. Join us on this journey towards simplified "
+"trade, strategic investments, and boundless career opportunities."
+msgstr ""
+"مرحبًا بكم في أميران للاستثمار، مركزكم للتجارة العالمية والاستثمار والمهن في "
+"سلطنة عمان. باعتبارنا وافدًا جديدًا متحرك، فإننا نعمل على تبسيط المعاملات "
+"الدولية، وتحفيز الاستثمارات الإستراتيجية، وتقديم مسارات وظيفية مثيرة. يقع "
+"مقرنا في مسقط، ونحن ملتزمون بدفع الأعمال إلى الأمام في الاسواق العالمية "
+"المتحركة. انضم إلينا في هذه الرحلة نحو التجارة المبسطة والاستثمارات "
+"الإستراتيجية وفرص العمل التي لا حدود لها"
+
+#: .\templates\main\about_us.html:29
+msgid "Our Branches"
+msgstr "فروعنا"
+
+#: .\templates\main\about_us.html:42
+msgid "Number"
+msgstr "رقم"
+
+#: .\templates\main\about_us.html:50
+msgid "Address"
+msgstr "عنوان"
+
+#: .\templates\main\about_us.html:65
+msgid "Our Team"
+msgstr "فريقنا"
+
+#: .\templates\main\assistance_successful.html:7
+msgid "Your Request Has Been Successfully Submitted"
+msgstr "لقد تم تسجيل طلبك بنجاح"
+
+#: .\templates\main\assistance_successful.html:8
+msgid ""
+"Thank you for reaching out to us! We have received your request, and our "
+"team is on it."
+msgstr ".شكر لتواصلك معنا! لقد تلقينا طلبك، وفريقنا يعمل على ذلك"
+
+#: .\templates\main\assistance_successful.html:9
+msgid ""
+"Within the next 24 hours, our dedicated team will carefully review your "
+"request and get back to you with the necessary information."
+msgstr ""
+" .سيقوم فريقنا المخصص بمراجعة طلبك بعناية وسيقوم بالرد عليك بالمعلومات "
+"اللازمة وفي غضون الـ 24 ساعة القادمة"
+
+#: .\templates\main\assistance_successful.html:13
+#: .\templates\main\job_application_success.html:9
+#: .\templates\main\order_success.html:13
+#: .\templates\main\success_submission.html:11
+msgid "Back to Home"
+msgstr "العودة إلى الصفحة الرئيسية "
+
+#: .\templates\main\collaboration.html:8
+msgid "Welcome to AMIRAN FOR INVESTMENT"
+msgstr "مرحبا بكم في أميران للاستثمار"
+
+#: .\templates\main\collaboration.html:9
+msgid ""
+"We believe in the power of collaboration and providing a platform for "
+"exceptional products to thrive. If you have a unique product that you're "
+"passionate about and would like to share it with a wider audience, our "
+"collaboration program is designed just for you."
+msgstr ""
+"نحن نؤمن بقوة التعاون وتوفير منصة للمنتجات الاستثنائية لتزدهر. إذا كان لديك "
+"منتج فريد يثير شغفك وترغب في مشاركته مع جمهور أوسع، فإن برنامج التعاون الخاص "
+"بنا مصمم خصيصًا لك"
+
+#: .\templates\main\collaboration.html:12
+msgid "How it works"
+msgstr "كيف تعمل"
+
+#: .\templates\main\collaboration.html:13
+msgid "1.Submit Your Product:"
+msgstr "أرسل منتجك: "
+
+#: .\templates\main\collaboration.html:15
+msgid ""
+"Share the details of your product by filling out our easy-to-use Product "
+"Collaboration Information Form.Provide information such as the product name, "
+"quantity, quality, origin, a captivating description,and multiple images to "
+"showcase its uniqueness."
+msgstr ""
+"شارك تفاصيل منتجك عن طريق ملء نموذج معلومات التعاون حول المنتج سهل "
+"الاستخدام. تقديم معلومات مثل اسم المنتج وكميته وجودته وأصله ووصفه وصور "
+"متعددة لإظهار تفرده"
+
+#: .\templates\main\collaboration.html:19
+msgid "2.Thorough Review Process:"
+msgstr " عملية المراجعة الشاملة:"
+
+#: .\templates\main\collaboration.html:21
+msgid ""
+"Our dedicated team carefully reviews each submission to ensure that the "
+"products featured on our platform meet our high standards of quality and "
+"innovation.We appreciate the diversity of ideas and are excited to discover "
+"products that stand out."
+msgstr ""
+"يقوم فريقنا المتخصص بمراجعة كل إرسال بعناية للتأكد من أن المنتجات المعروضة "
+"على منصتنا تلبي معاييرنا العالية للجودة والابتكار. نحن نقدر تنوع الأفكار "
+"ومتحمسون لاكتشاف المنتجات المتميزة"
+
+#: .\templates\main\collaboration.html:25
+msgid "3.Acceptance or Feedback:"
+msgstr "القبول أو ردود الفعل:"
+
+#: .\templates\main\collaboration.html:27
+msgid ""
+"Following the review process, we will notify you of the acceptance of your "
+"product for collaboration.If your product aligns with our vision and "
+"resonates with our audience,we'll be thrilled to feature it on our platform."
+msgstr ""
+"بعد عملية المراجعة، سنخطرك بقبول منتجك للتعاون. إذا كان منتجك يتوافق مع "
+"رؤيتنا ويلقى صدى لدى جمهورنا، فسنكون سعداء لعرضه على منصتنا"
+
+#: .\templates\main\collaboration.html:31
+msgid "4.Commence Collaboration:"
+msgstr "بدء التعاون:"
+
+#: .\templates\main\collaboration.html:33
+msgid ""
+"Once accepted, our team will reach out to discuss the details of the "
+"collaboration.This includes logistics, sales strategies,and any additional "
+"information needed to make the collaboration a success."
+msgstr ""
+"بمجرد قبول الطلب، سيتواصل فريقنا معك لمناقشة تفاصيل التعاون. يتضمن ذلك "
+"الخدمات اللوجستية واستراتيجيات المبيعات وأي معلومات إضافية مطلوبة لإنجاح "
+"التعاون"
+
+#: .\templates\main\collaboration.html:37
+msgid "5.Join a Community of Innovators:"
+msgstr "انضم إلى مجتمع المبتكرين:"
+
+#: .\templates\main\collaboration.html:39
+msgid ""
+"Become part of a community of like-minded individuals and businesses that "
+"share a passion for innovation.Our platform is not just about selling "
+"products;it's about building lasting connections and supporting each other's "
+"growth."
+msgstr ""
+"كن جزءًا من مجتمع من الأفراد والشركات ذوي التفكير المماثل الذين يشتركون في "
+"شغف الابتكار. منصتنا لا تقتصر فقط على بيع المنتجات؛ يتعلق الأمر ببناء "
+"اتصالات دائمة ودعم نمو بعضنا البعض"
+
+#: .\templates\main\collaboration.html:44
+#: .\templates\main\product_assistance.html:11
+msgid "Submit Your Product for Collaboration"
+msgstr "أرسل منتجك للتعاون"
+
+#: .\templates\main\collaboration.html:48
+#: .\templates\main\product_assistance.html:15
+msgid "Product Name"
+msgstr "اسم المنتج"
+
+#: .\templates\main\collaboration.html:49
+#: .\templates\main\product_assistance.html:16
+msgid "Enter product name"
+msgstr "أدخل اسم المنتج"
+
+#: .\templates\main\collaboration.html:52
+#: .\templates\main\product_assistance.html:19
+msgid "Quantity"
+msgstr "كمية"
+
+#: .\templates\main\collaboration.html:53
+#: .\templates\main\product_assistance.html:20
+msgid "Enter quantity"
+msgstr "أدخل الكمية"
+
+#: .\templates\main\collaboration.html:56
+#: .\templates\main\product_assistance.html:23
+msgid "Quality"
+msgstr "جودة"
+
+#: .\templates\main\collaboration.html:57
+#: .\templates\main\product_assistance.html:24
+msgid "Enter quality"
+msgstr "أدخل الجودة"
+
+#: .\templates\main\collaboration.html:60 .\templates\main\dashboard.html:168
+#: .\templates\main\dashboard.html:234
+#: .\templates\main\product_assistance.html:27
+msgid "Origin"
+msgstr "أصل"
+
+#: .\templates\main\collaboration.html:61
+#: .\templates\main\product_assistance.html:28
+msgid "Enter origin"
+msgstr "أدخل الأصل"
+
+#: .\templates\main\collaboration.html:64
+#: .\templates\main\product_assistance.html:31
+msgid "Description"
+msgstr "وصف"
+
+#: .\templates\main\collaboration.html:65
+#: .\templates\main\product_assistance.html:32
+msgid "Enter product description"
+msgstr "أدخل وصف المنتج"
+
+#: .\templates\main\collaboration.html:68
+#: .\templates\main\product_assistance.html:35
+msgid "Product Images (4 or more)"
+msgstr "صور المنتج (4 أو أكثر)"
+
+#: .\templates\main\collaboration.html:69
+#: .\templates\main\product_assistance.html:36
+msgid "product_images"
+msgstr "صور المنتج"
+
+#: .\templates\main\collaboration.html:72
+#: .\templates\main\product_assistance.html:39
+msgid "Contact Number(Whatsapp)"
+msgstr "رقم التواصل (واتس اب)"
+
+#: .\templates\main\collaboration.html:73
+#: .\templates\main\product_assistance.html:40
+msgid "Enter WhatsApp number"
+msgstr "أدخل رقم الواتساب"
+
+#: .\templates\main\collaboration.html:76
+#: .\templates\main\product_assistance.html:42
+msgid "Submit for Collaboration"
+msgstr "إرسال للتعاون"
+
+#: .\templates\main\collaboration.html:79 .\templates\main\home.html:133
+msgid "Log in to Submit"
+msgstr "قم بتسجيل الدخول للإرسال"
+
+#: .\templates\main\dashboard.html:46
+msgid "Your submitted products for collaboration"
+msgstr "المنتجات المقدمة للتعاون"
+
+#: .\templates\main\dashboard.html:60
+msgid "No images available"
+msgstr "لا توجد صور متاحة"
+
+#: .\templates\main\dashboard.html:77 .\templates\main\order_product.html:15
+msgid " Quality:"
+msgstr ":جودة"
+
+#: .\templates\main\dashboard.html:78 .\templates\main\order_product.html:14
+msgid " Quantity:"
+msgstr ":كمية"
+
+#: .\templates\main\dashboard.html:79
+#: .\templates\main\investment_product.html:19
+#: .\templates\main\order_product.html:13
+#: .\templates\main\product_detail.html:45
+msgid "Origin:"
+msgstr "أصل:"
+
+#: .\templates\main\dashboard.html:80
+msgid "Description:"
+msgstr "وصف:"
+
+#: .\templates\main\dashboard.html:81
+msgid "WhatsApp Number:"
+msgstr ":رقم الواتساب"
+
+#: .\templates\main\dashboard.html:89
+msgid "You haven't submitted any products for collaboration"
+msgstr "لم تقم بإرسال أي منتجات للتعاون"
+
+#: .\templates\main\dashboard.html:99
+msgid "Welcome,"
+msgstr "مرحباً"
+
+#: .\templates\main\dashboard.html:100
+msgid " Here is your user information:"
+msgstr "هنا معلومات المستخدم الخاصة بك"
+
+#: .\templates\main\dashboard.html:102
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: .\templates\main\dashboard.html:103
+msgid "First Name:"
+msgstr "الاسم الأول:"
+
+#: .\templates\main\dashboard.html:104
+msgid "Last Name:"
+msgstr "اسم العائلة:"
+
+#: .\templates\main\dashboard.html:105
+msgid "Email:"
+msgstr "بريد إلكتروني:"
+
+#: .\templates\main\dashboard.html:113
+msgid "Investment Opportunities Await:"
+msgstr "فرص الاستثمار في انتظار"
+
+#: .\templates\main\dashboard.html:127 .\templates\main\dashboard.html:166
+#: .\templates\main\dashboard.html:232
+msgid "Profitability"
+msgstr "الربحية"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid " Duration:"
+msgstr ":مدة"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid "months"
+msgstr "شهور"
+
+#: .\templates\main\dashboard.html:130
+#: .\templates\main\order_investment.html:12
+#: .\templates\main\search_results.html:40
+msgid " Origin:"
+msgstr ":أصل"
+
+#: .\templates\main\dashboard.html:131
+#: .\templates\main\order_investment.html:13
+msgid "Start Date:"
+msgstr "تاريخ البدء:"
+
+#: .\templates\main\dashboard.html:132
+#: .\templates\main\order_investment.html:14
+msgid "End Date:"
+msgstr "تاريخ الانتهاء:"
+
+#: .\templates\main\dashboard.html:133
+#: .\templates\main\investment_product.html:22
+#: .\templates\main\order_investment.html:15
+msgid "Amount Invested:"
+msgstr "المبلغ المستثمر:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+#: .\templates\main\order_investment.html:16
+msgid "Active:"
+msgstr "نشيط:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+msgid "Yes"
+msgstr "نعم"
+
+#: .\templates\main\dashboard.html:134
+msgid "No"
+msgstr "لا"
+
+#: .\templates\main\dashboard.html:139
+msgid "Apply"
+msgstr "يتقدم"
+
+#: .\templates\main\dashboard.html:157
+msgid "Your favorites"
+msgstr "المفضلة لديك"
+
+#: .\templates\main\dashboard.html:167 .\templates\main\dashboard.html:233
+msgid "Duration"
+msgstr "مدة"
+
+#: .\templates\main\dashboard.html:169 .\templates\main\dashboard.html:235
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: .\templates\main\dashboard.html:170 .\templates\main\dashboard.html:236
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#: .\templates\main\dashboard.html:171 .\templates\main\dashboard.html:237
+msgid "Amount Invested"
+msgstr "المبلغ المستثمر"
+
+#: .\templates\main\dashboard.html:172
+msgid "Active"
+msgstr "نشيط"
+
+#: .\templates\main\dashboard.html:173
+msgid "Action"
+msgstr "فعل"
+
+#: .\templates\main\dashboard.html:198
+msgid "Remove"
+msgstr "يزيل"
+
+#: .\templates\main\dashboard.html:210
+msgid "No favorite investments found."
+msgstr ".لم يتم العثور على استثمارات مفضلة"
+
+#: .\templates\main\dashboard.html:223
+msgid "Your Investment"
+msgstr "استثمارك"
+
+#: .\templates\main\dashboard.html:246
+msgid "Month"
+msgstr "شهر"
+
+#: .\templates\main\home.html:13
+msgid "Welcome to Amiran for investment, where borders are not barriers"
+msgstr "مرحباً بكم في أميران للاستثمار، حيث الحدود بلا حواجز"
+
+#: .\templates\main\home.html:14
+msgid "Explore a world of seamless import and export solutions"
+msgstr "اكتشف عالمًا من حلول الاستيراد والتصدير السلسة"
+
+#: .\templates\main\home.html:84 .\templates\main\home.html:100
+msgid "Import & Export"
+msgstr "استيراد و تصدير"
+
+#: .\templates\main\home.html:94 .\templates\main\home.html:128
+msgid "Search Assistance"
+msgstr "مساعدة البحث"
+
+#: .\templates\main\home.html:101
+msgid ""
+"We specialize in providing tailored import and export solutions, ensuring a "
+"seamless and efficient flow of goods across international borders."
+msgstr ""
+"نحن متخصصون في تقديم حلول استيراد وتصدير مصممة خصيصًا، مما يضمن التدفق السلس "
+"والفعال للبضائع عبر الحدود الدولية"
+
+#: .\templates\main\home.html:102
+msgid ""
+"With expert knowledge in navigating regulations and a robust global network, "
+"we connect businesses to key markets, expanding their reach worldwide."
+msgstr ""
+"بفضل المعرفة المتخصصة في التعامل مع اللوائح والشبكة العالمية القوية، نقوم "
+"بربط الشركات بالأسواق الرئيسية، وتوسيع نطاق وصولها إلى جميع أنحاء العالم"
+
+#: .\templates\main\home.html:103
+msgid ""
+"Our reliable logistics, transparent processes, and cost-effective solutions "
+"make us the ideal partner for businesses seeking success in the global "
+"marketplace."
+msgstr ""
+"إن خدماتنا اللوجستية الموثوقة وعملياتنا الشفافة وحلولنا الفعالة من حيث "
+"التكلفة تجعلنا الشريك المثالي للشركات التي تسعى إلى النجاح في السوق العالمية"
+
+#: .\templates\main\home.html:104
+msgid ""
+"Whether you're an established player or new to international trade, AMIRAN "
+"FOR INVESTMENT is here to simplify your journey and optimize your global "
+"operations."
+msgstr ""
+"سواء كنت لاعبًا راسخًا أو جديدًا في التجارة الدولية، فإن شركة أميران للاستثمار "
+"هنا لتبسيط رحلتك وتحسين عملياتك العالمية"
+
+#: .\templates\main\home.html:109
+msgid ""
+"Explore strategic growth opportunities worldwide with AMIRAN FOR INVESTMENT, "
+"your trusted global investment partner. Specializing in tailored investment "
+"solutions, we provide deep market insights and a transparent approach to "
+"empower your financial journey."
+msgstr ""
+"استكشف فرص النمو الاستراتيجي في جميع أنحاء العالم مع شركة أميران للاستثمار، "
+"شريكك الاستثماري العالمي الموثوق به. نحن متخصصون في حلول الاستثمار المصممة "
+"خصيصًا، ونقدم رؤى عميقة للسوق ونهجًا شفافًا لتمكين رحلتك المالية"
+
+#: .\templates\main\home.html:110
+msgid ""
+"Our diversified portfolios, crafted with a focus on risk management, aim to "
+"deliver resilience in dynamic market conditions. Leveraging our extensive "
+"global network, we offer unique and lucrative investment opportunities in "
+"various countries."
+msgstr ""
+"تهدف محافظنا الاستثمارية المتنوعة، المصممة مع التركيز على إدارة المخاطر، إلى "
+"توفير المرونة في ظروف السوق المتحرك. ومن خلال الاستفادة من شبكتنا العالمية "
+"الواسعة، فإننا نقدم فرصًا استثمارية فريدة ومربحة في مختلف البلدان"
+
+#: .\templates\main\home.html:111
+msgid ""
+"Whether you're an experienced investor or new to the financial realm, AMIRAN "
+"FOR INVESTMENT is dedicated to providing customized solutions that align "
+"with your goals. Join us in navigating the world of finance with confidence "
+"and innovation."
+msgstr ""
+"سواء كنت مستثمرًا ذا خبرة أو جديدًا في المجال المالي، فإن شركة أميران "
+"للاستثمار مكرسة لتقديم حلول مخصصة تتوافق مع أهدافك. انضم إلينا في التنقل في "
+"عالم التمويل بثقة وابتكار"
+
+#: .\templates\main\home.html:114
+msgid "Explore opportunities"
+msgstr "استكشاف الفرص"
+
+#: .\templates\main\home.html:120
+msgid "Product Search Assistance!"
+msgstr "البحث عن منتج!"
+
+#: .\templates\main\home.html:121
+msgid ""
+"Discover the ease of our Product Search Assistance. Can't find what you need?"
+msgstr ""
+" اكتشف سهولة مساعد البحث عن المنتجات لدينا.لم تتمكن من العثور على ما تحتاجه؟"
+
+#: .\templates\main\home.html:122
+msgid ""
+"Click the Product Search Assistance button, fill the form, and let our team "
+"do the work."
+msgstr ""
+"انقر فوق زر المساعدة في البحث عن منتج، واملأ النموذج، ودع فريقنا يقوم بالعمل"
+
+#: .\templates\main\home.html:123
+msgid ""
+"We'll find your item, share details promptly, and guide you through a hassle-"
+"free ordering process."
+msgstr ""
+"سنبحث عن العنصر الخاص بك ونشارك التفاصيل على الفور ونرشدك خلال عملية طلب "
+"خالية من المتاعب"
+
+#: .\templates\main\home.html:124
+msgid "Trust us to turn your product dreams into reality!"
+msgstr "ثق بنا لتحويل أحلام منتجك إلى حقيقة!"
+
+#: .\templates\main\home.html:138
+msgid "Select a service to see the description."
+msgstr "اختر خدمة استمر فی التصفح"
+
+#: .\templates\main\home.html:154
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: .\templates\main\home.html:160
+msgid "Your Name:"
+msgstr "اسمك:"
+
+#: .\templates\main\home.html:165
+msgid "Your Email:"
+msgstr "بريدك الالكتروني:"
+
+#: .\templates\main\home.html:170
+msgid "Your Message:"
+msgstr "رسالتك:"
+
+#: .\templates\main\home.html:174
+#: .\templates\main\job_application_form.html:52
+msgid "Submit"
+msgstr "يُقدِّم"
+
+#: .\templates\main\investment.html:10
+msgid "Welcome to Our Exclusive Investment Opportunity!"
+msgstr " بكم في فرصتنا الاستثمارية الحصرية"
+
+#: .\templates\main\investment.html:11
+msgid "At"
+msgstr "في"
+
+#: .\templates\main\investment.html:11
+msgid "AMIRAN FOR INVESTMENT"
+msgstr "أميران للاستثمار"
+
+#: .\templates\main\investment.html:11
+msgid "we believe in creating opportunities for growth and prosperity"
+msgstr "نحن نؤمن بخلق فرص للنمو والازدهار"
+
+#: .\templates\main\investment.html:19
+msgid "How It Works"
+msgstr "كيف تعمل"
+
+#: .\templates\main\investment.html:20
+msgid ""
+"Explore our curated selection of high-quality products, each with its own "
+"distinct investment season.This is the time when these products shine, "
+"presenting a golden opportunity for investors like you to reap significant "
+"returns."
+msgstr ""
+"استكشف مجموعتنا المختارة من المنتجات عالية الجودة، ولكل منها موسم استثماري "
+"مميز خاص بها. هذا هو الوقت الذي تتألق فيه هذه المنتجات، مما يوفر فرصة ذهبية "
+"للمستثمرين مثلك لجني عوائد كبيرة"
+
+#: .\templates\main\investment.html:26
+msgid "Customizable Profitability"
+msgstr "ربحية قابلة للتخصيص"
+
+#: .\templates\main\investment.html:27
+#, fuzzy, python-format
+#| msgid ""
+#| "We understand that one size doesn't fit all. That's why we give you the "
+#| "flexibility to choose your level of involvement. Adjust the profitability "
+#| "rate according to your investment strategy, ranging from 5%% to 40%%. "
+#| "Whether you're a conservative investor or seeking higher returns, we've "
+#| "got options tailored for you."
+msgid ""
+"We understand that one size doesn't fit all. That's why we give you the "
+"flexibility to choose your level of involvement. Adjust the profitability "
+"rate according to your investment strategy, ranging from 5%% to 40%%. "
+"Whether you're a conservative investor or seeking higher returns, we've got "
+"options tailored for you."
+msgstr ""
+".نحن ندرك أن مقاسًا واحدًا لا يناسب الجميع. ولهذا السبب نمنحك المرونة لاختيار "
+"مستوى مشاركتك. اضبط معدل الربحية وفقًا لاستراتيجيتك الاستثمارية، حيث يتراوح "
+"من 5% إلى 40%. سواء كنت مستثمرًا محافظًا أو تبحث عن عوائد أعلى، فلدينا خيارات "
+"مصممة خصيصًا لك"
+
+#: .\templates\main\investment.html:32
+msgid "Why Invest with Us"
+msgstr "لماذا تستثمر معنا"
+
+#: .\templates\main\investment.html:34
+msgid "Diversification:"
+msgstr "تنويع:"
+
+#: .\templates\main\investment.html:34
+msgid ""
+"Spread your investments across a range of products, reducing risk and "
+"maximizing potential returns."
+msgstr ""
+"قم بتوزيع استثماراتك عبر مجموعة من المنتجات، مما يقلل المخاطر ويزيد العائدات "
+"المحتملة إلى الحد الأقصى"
+
+#: .\templates\main\investment.html:35
+msgid "Transparency:"
+msgstr "الشفافية:"
+
+#: .\templates\main\investment.html:35
+msgid ""
+" We believe in open communication. Track your investments, "
+"monitorperformance, and stay informed about market trends."
+msgstr ""
+"نحن نؤمن بالتواصل المفتوح. تتبع استثماراتك، ومراقبة الأداء، والبقاء على علم "
+"باتجاهات السوق"
+
+#: .\templates\main\investment.html:36
+msgid "Expert Curation:"
+msgstr "رعاية الخبراء:"
+
+#: .\templates\main\investment.html:36
+msgid ""
+"Our team of experts carefully selects products with a proven track record, "
+"ensuring you invest in opportunities with real growth potential."
+msgstr ""
+"يقوم فريق الخبراء لدينا باختيار المنتجات التي تتمتع بسجل حافل بعناية، مما "
+"يضمن لك الاستثمار في الفرص التي تنطوي على إمكانات نمو حقيقية"
+
+#: .\templates\main\investment.html:43
+msgid "Get Started Today"
+msgstr "ابدأ اليوم"
+
+#: .\templates\main\investment.html:44
+msgid ""
+"Seize the moment and embark on a journey of financial growth with Your "
+"Company Name. Our Investmen Opportunity is not just an option; it's a "
+"gateway to a brighter and more prosperous future. Take control of your "
+"financial destiny and invest with confidence."
+msgstr ""
+"اغتنم اللحظة وابدأ رحلة النمو المالي باسم شركتك. إن فرصتنا للمستثمرين ليست "
+"مجرد خيار؛ إنها بوابة لمستقبل أكثر إشراقا وازدهارا. تحكم في مصيرك المالي "
+"واستثمر بثقة"
+
+#: .\templates\main\investment.html:45
+msgid "Your success is our success. Let's grow together."
+msgstr ".نجاحك هو نجاحنا. دعونا ننمو معا"
+
+#: .\templates\main\investment.html:46
+msgid "Explore Exciting Investment Opportunities"
+msgstr "استكشف فرص الاستثمار المثيرة"
+
+#: .\templates\main\investment_product.html:17
+msgid "Profitability:"
+msgstr "الربحية:"
+
+#: .\templates\main\investment_product.html:67
+msgid ""
+"Oops! Currently, there are no investments available. Please check back soon "
+"for exciting updates and new opportunities."
+msgstr ""
+"عذرا! حاليا، لا توجد استثمارات متاحة. يرجى التحقق مرة أخرى قريبًا للحصول على "
+"التحديثات المثيرة والفرص الجديدة"
+
+#: .\templates\main\investment_product.html:78
+msgid "Copy Link"
+msgstr "نسخ الوصلة"
+
+#: .\templates\main\job_application_form.html:7
+msgid "Complete the Job Application Form"
+msgstr "أكمل نموذج طلب الوظيفة"
+
+#: .\templates\main\job_application_success.html:5
+msgid "Job Application Submitted Successfully!"
+msgstr "تم تقديم طلب الوظيفة بنجاح!"
+
+#: .\templates\main\job_application_success.html:6
+msgid ""
+"Thank you for applying to our company. Your job application has been "
+"successfully submitted."
+msgstr ".شكرا لك على التقديم لشركتنا. لقد تم تقديم طلب الوظيفة الخاص بك بنجاح"
+
+#: .\templates\main\job_application_success.html:7
+msgid "We will review your information and get in touch with you soon."
+msgstr ".سنراجع معلوماتك ونتواصل معك قريبًا"
+
+#: .\templates\main\login.html:11
+msgid "User Information"
+msgstr "معلومات المستخدم"
+
+#: .\templates\main\login.html:21
+msgid "Forgot Password?"
+msgstr "هل نسيت كلمة السر؟"
+
+#: .\templates\main\order_investment.html:10
+msgid " Profitability:"
+msgstr ":الربحية"
+
+#: .\templates\main\order_investment.html:11
+msgid "Duration:"
+msgstr "مدة:"
+
+#: .\templates\main\order_investment.html:23
+#: .\templates\main\order_product.html:22
+msgid "Enter your name"
+msgstr "أدخل أسمك"
+
+
+
+#: .\templates\main\order_investment.html:27
+#: .\templates\main\order_product.html:26
+msgid "Enter your address"
+msgstr "أدخل عنوانك"
+
+#: .\templates\main\order_investment.html:29
+#: .\templates\main\order_product.html:28
+msgid "Enter your phone number"
+msgstr "أدخل رقم هاتفك"
+
+#: .\templates\main\order_investment.html:31
+#: .\templates\main\order_product.html:30
+msgid "Submit Order"
+msgstr "أكد الطلب"
+
+#: .\templates\main\order_product.html:10
+msgid " Price:"
+msgstr ":سعر"
+
+#: .\templates\main\order_product.html:11
+msgid "Information:"
+msgstr ":معلومة"
+
+#: .\templates\main\order_product.html:12
+msgid " Description:"
+msgstr ":وصف"
+
+#: .\templates\main\order_success.html:8
+msgid "Order Successfully Placed"
+msgstr "تم تقديم الطلب بنجاح"
+
+#: .\templates\main\order_success.html:9
+msgid ""
+"Thank you for placing your order with us! Your request has been received, "
+"and our team is processing it."
+msgstr ""
+".شكرا لك على تقديم طلبك معنا! لقد تم استلام طلبك، ويقوم فريقنا بمعالجته"
+
+#: .\templates\main\order_success.html:10
+msgid ""
+"Within the next 24 hours, our dedicated team will review your order details "
+"and contact you to confirm and provide further information."
+msgstr ""
+".سيقوم فريقنا المخصص بمراجعة تفاصيل طلبك والاتصال بك للتأكيد وتقديم المزيد "
+"من المعلومات خلال الـ 24 ساعة القادمة"
+
+#: .\templates\main\order_success.html:11
+msgid ""
+"We appreciate your business and look forward to serving you. If you have any "
+"urgent inquiries, please feel free to reach out to our customer support."
+msgstr ""
+".نحن نقدر عملك ونتطلع إلى خدمتك. إذا كانت لديك أي استفسارات عاجلة، فلا تتردد "
+"في التواصل مع دعم العملاء لدينا"
+
+#: .\templates\main\product_detail.html:36
+#: .\templates\main\search_results.html:37
+msgid "Quantity:"
+msgstr ":كمية"
+
+#: .\templates\main\product_detail.html:39
+#: .\templates\main\search_results.html:38
+msgid "Price:"
+msgstr ":سعر"
+
+#: .\templates\main\product_detail.html:42
+#: .\templates\main\search_results.html:39
+msgid "Quality:"
+msgstr ":جودة"
+
+#: .\templates\main\product_detail.html:49
+#: .\templates\main\search_results.html:45
+msgid "Order now"
+msgstr "اطلب الان"
+
+#: .\templates\main\product_detail.html:51
+#: .\templates\main\search_results.html:48
+msgid "Login to Order"
+msgstr "تسجيل الدخول للطلب"
+
+#: .\templates\main\product_detail.html:60
+msgid ""
+"We currently do not have the specified product in our inventory. Please "
+"check back soon,as we are continuously updating our selection and will be "
+"adding new products shortly"
+msgstr ""
+"ليس لدينا حاليًا المنتج المحدد في مخزوننا. يرجى التحقق مرة أخرى قريبًا، حيث "
+"نقوم بتحديث مجموعتنا بشكل مستمر وسنضيف منتجات جديدة قريبًا"
+
+#: .\templates\main\register.html:25 .\templates\main\register.html:37
+msgid "Register"
+msgstr "اشتراك"
+
+#: .\templates\main\register.html:26
+msgid "Create a new account to get started."
+msgstr "قم بإنشاء حساب جديد للبدء"
+
+#: .\templates\main\register.html:28
+msgid "Registration Information"
+msgstr "معلومات التسجيل"
+
+#: .\templates\main\register.html:39
+msgid "Already have an account?"
+msgstr "هل لديك حساب؟"
+
+#: .\templates\main\search_results.html:36
+msgid "Product name:"
+msgstr ":اسم المنتج"
+
+#: .\templates\main\search_results.html:57
+#, fuzzy
+#| msgid "No results found."
+msgid "No results found"
+msgstr "لم يتم العثور على نتائج"
+
+#: .\templates\main\search_results.html:62
+msgid ""
+"Searching for a particular product? Utilize our product search assistance. "
+"Complete the form, and allow our team to locate precisely what you're "
+"seeking."
+msgstr ""
+
+#: .\templates\main\search_results.html:63
+msgid "Click here"
+msgstr ""
+
+#: .\templates\main\success_submission.html:7
+msgid "Submission Successful!"
+msgstr "!تم التقديم بنجاح"
+
+#: .\templates\main\success_submission.html:8
+msgid "Thank you for submitting your product for collaboration."
+msgstr ".نشكرك على تقديم منتجك للتعاون"
+
+#: .\templates\main\success_submission.html:9
+msgid ""
+"Our team of experts will carefully review your submission, and we'll get "
+"back to you within 24 hours."
+msgstr ""
+".سيقوم فريق الخبراء لدينا بمراجعة طلبك بعناية، وسنقوم بالرد عليك في غضون 24 "
+"ساعة"
+
+#~ msgid "WhatsApp number:"
+#~ msgstr ":رقم الواتساب"

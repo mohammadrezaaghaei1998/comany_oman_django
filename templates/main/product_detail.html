@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+  <div class="container product_detail">
+    {% if product %}
+        <div class="row">
+            <div class="col-md-6">
+              <div id="carouselExample{{ product.id }}" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  {% for image in images %}
+                    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                      <img src="{{ image.image.url }}" class="d-block  mx-auto"   style="max-width: 50%; height: auto;" alt="Product Image">
+                    </div>
+                  {% endfor %}
+                
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample{{ product.id }}" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample{{ product.id }}" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text" style="background: white; color: black;">
+                          <i class="fas fa-cubes"></i><strong>{% translate "Quantity:" %}</strong>  {{ product.quantity }}
+                      </p>
+                      <p class="card-text" style="background: white; color: black;">
+                        <i class="fas fa-dollar-sign"></i> <strong>{% translate "Price:" %}</strong>  ${{ product.price }}
+                      </p>
+                      <p class="card-text" style="background: white; color: black;">
+                        <i class="fas fa-star"></i><strong>{% translate "Quality:" %}</strong>  {{ product.quality }}
+                      </p>
+                      <p class="card-text" style="background: white; color: black;">
+                        <i class="fas fa-globe"></i> <strong>{% translate "Origin:" %}</strong>{{ product.origin }}
+                      </p>
+                    </div>
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'order_product' product.id %}" class="btn btn-dark btn-outline-light">{% translate "Order now" %}</a>
+                    {% else %}
+                    <a href="{% url 'login' %}" class="btn btn-dark btn-outline-light">{% translate "Login to Order" %}</a>
+                    {% endif %}
+                </div>
+                
+            </div>
+        </div>
+    {% else %}
+    <div style="text-align: center;">
+      <strong>
+        <p>{% translate "We currently do not have the specified product in our inventory. Please check back soon,as we are continuously updating our selection and will be adding new products shortly" %}</p>
+      </strong>
+  </div>    {% endif %}
+</div>
+
+
+
+{% endblock content %}
+
+

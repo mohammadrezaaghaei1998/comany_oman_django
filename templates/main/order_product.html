@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container order-product">
+    <div class="product-card">
+        <h2>{{ product.name }}</h2>
+        <div class="product-info">
+            <p><i class="fas fa-dollar-sign"></i>{% translate " Price:" %} ${{ product.price }}</p>
+            <p><i class="fas fa-info-circle"></i> {% translate "Information:" %} {{ product.information }}</p>
+            <p><i class="fas fa-align-left"></i>{% translate " Description:" %} {{ product.description }}</p>
+            <p><i class="fas fa-globe"></i> {% translate "Origin:" %} {{ product.origin }}</p>
+            <p><i class="fas fa-box"></i>{% translate " Quantity:" %} {{ product.quantity }}</p>
+            <p><i class="fas fa-star"></i>{% translate " Quality:" %} {{ product.quality }}</p>
+        </div>
+    </div>
+
+    <div class="order-form">
+        <form method="post" action="{% url 'order_product' product.id %}">
+            {% csrf_token %}
+            <input type="text" name="name" placeholder="{% translate "Enter your name" %}" required>
+
+            <input type="email" name="email" placeholder="{% translate "Enter your Email" %}" required>
+
+            <textarea name="address" placeholder="{% translate "Enter your address" %}" required></textarea>
+
+            <input type="text" name="phone_number" placeholder="{% translate "Enter your phone number" %}" required>
+
+            <button class="btn btn-dark btn-outline-light" type="submit ">{% translate "Submit Order" %}</button>
+        </form>
+    </div>
+</body>
+</div>
+
+{% endblock content %}
+
+
+
+

@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+<section class="py-5" style="margin-top:-40px;">
+    <div class="container services">
+        <div class="row">
+            <div class="col-md-6 fade-up">
+                <img src="{% static 'assets/images/aboutus.jpeg' %}" alt="About Us Image" class="img-fluid rounded">
+            </div>
+  
+            <div class="col-md-6 fade-up" style="animation-delay: 0.5s;">
+                <h2 class="font-weight-bold title-style" id="about_us">{% translate "About Us" %}</h2>
+                <p class="lead">
+                    {% translate "Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and careers in Oman. As a dynamic newcomer, we simplify international transactions, drive strategic investments, and offer exciting career paths. Based in Muscat, we're dedicated to propelling businesses forward in the dynamic global marketplace. Join us on this journey towards simplified trade, strategic investments, and boundless career opportunities." %}
+                </p>            
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="py-5 " style="margin-top: -50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-5 title-style">
+                <h2 class="section-heading text-uppercase"> {% translate "Our Branches" %} </h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-2">
+            {% for branch in branches %}
+                <div class="col-lg-12 mb-2 pt-2 branch-item">
+                    <h3 class="branch-name mb-3">{{ branch.name }}</h3>
+                    <div class="row text-center">
+                        <div class="col-md-2 pb-5">
+                            <p><strong>{% translate "Location" %} </strong></p>
+                            {{ branch.country }}/{{ branch.city }}
+                        </div>
+                        <div class="col-md-2 pb-5">
+                            <p><strong>{% translate "Number" %} </strong></p>
+                            {{ branch.number }}
+                        </div>
+                        <div class="col-md-3 pb-5 email-column" style="margin-right:90px;">
+                            <p><strong>{% translate "Email" %} </strong></p>
+                            {{ branch.email }}
+                        </div>
+                        <div class="col-md-3 pb-5">
+                            <p><strong>{% translate "Address" %} </strong> </p>
+                            {{ branch.address }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+<section class="team-section">
+    <div class="container fade-up">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-5 title-style">
+                <h2 class="section-heading text-uppercase">{% translate "Our Team" %}</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for team_member in team %}
+                <div class="col-md-3 col-sm-6 fade-up">
+                    <div class="our-team">
+                        <img src="{{ team_member.image.url }}" alt="{{ team_member.name }}">
+                        <div class="team-content">
+                            <h3 class="post-title">{{ team_member.name }}</h3>
+                            <span class="post">{{ team_member.job_title }}</span>
+                            <p class="description">{{ team_member.description }}</p>
+                            <ul class="team_social">
+                                {% if team_member.linkedin_url %}<li><a href="{{ team_member.linkedin_url }}"><i class="fab fa-linkedin"></i></a></li>{% endif %}
+                                {% if team_member.twitter_url %}<li><a href="{{ team_member.twitter_url }}"><i class="fab fa-twitter"></i></a></li>{% endif %}
+                                {% if team_member.googleplus_url %}<li><a href="{{ team_member.googleplus_url }}"><i class="fab fa-google-plus"></i></a></li>{% endif %}
+                                {% if team_member.pinterest_url %}<li><a href="{{ team_member.pinterest_url }}"><i class="fab fa-pinterest"></i></a></li>{% endif %}
+                                {% if team_member.instagram_url %}<li><a href="{{ team_member.instagram_url }}"><i class="fab fa-instagram"></i></a></li>{% endif %}
+                                {% if team_member.telegram_url %}<li><a href="{{ team_member.telegram_url }}"><i class="fab fa-telegram"></i></a></li>{% endif %}
+                                {% if team_member.youtube_url %}<li><a href="{{ team_member.youtube_url }}"><i class="fab fa-youtube"></i></a></li>{% endif %}
+                            </ul>
+                        </div>
+                        <div class="team-prof">
+                            <h3 class="post-title">{{ team_member.name }}</h3>
+                            <span class="post">{{ team_member.job_title }}</span>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+

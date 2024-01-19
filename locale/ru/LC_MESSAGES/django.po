@@ -1,0 +1,1472 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-19 11:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\imports\apps.py:9
+msgid " imports"
+msgstr ""
+
+#: .\imports\forms.py:29 .\templates\main\login.html:15
+#, fuzzy
+#| msgid "Username:"
+msgid "Username"
+msgstr "Имя пользователя:"
+
+#: .\imports\forms.py:30
+msgid "First Name"
+msgstr "Имя"
+
+#: .\imports\forms.py:31
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: .\imports\forms.py:32 .\imports\forms.py:68
+#: .\templates\main\about_us.html:46
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .\imports\forms.py:33 .\templates\main\login.html:18
+#, fuzzy
+#| msgid "Forgot Password?"
+msgid "Password"
+msgstr "Забыли пароль?"
+
+#: .\imports\forms.py:34
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: .\imports\forms.py:67 .\templates\main\dashboard.html:165
+#: .\templates\main\dashboard.html:231
+msgid "Name"
+msgstr "Имя"
+
+#: .\imports\forms.py:69
+msgid "WhatsApp Number"
+msgstr "Номер WhatsApp"
+
+#: .\imports\forms.py:70
+msgid "Country"
+msgstr "Страна"
+
+#: .\imports\forms.py:71
+msgid "City"
+msgstr "Город"
+
+#: .\imports\forms.py:72
+msgid "Curriculum Vitae"
+msgstr "резюме"
+
+#: .\imports\models.py:12 .\imports\models.py:26 .\imports\models.py:41
+#: .\imports\models.py:53 .\imports\models.py:66 .\imports\models.py:84
+#: .\imports\models.py:128 .\imports\models.py:174 .\imports\models.py:195
+#: .\imports\models.py:235 .\imports\models.py:254 .\imports\models.py:272
+#: .\imports\models.py:321 .\imports\models.py:335
+#, fuzzy
+#| msgid "Username:"
+msgid "name"
+msgstr "Имя пользователя:"
+
+#: .\imports\models.py:16
+msgid " Brand"
+msgstr ""
+
+#: .\imports\models.py:17
+#, fuzzy
+#| msgid "Our Branches"
+msgid " Brands"
+msgstr "НАШИ ФИЛИАЛЫ"
+
+#: .\imports\models.py:27
+msgid "code"
+msgstr ""
+
+#: .\imports\models.py:30
+msgid " Color"
+msgstr ""
+
+#: .\imports\models.py:31
+msgid " Colors"
+msgstr ""
+
+#: .\imports\models.py:42 .\imports\models.py:83 .\imports\models.py:114
+#: .\imports\models.py:165 .\imports\models.py:204 .\imports\models.py:312
+msgid "image"
+msgstr ""
+
+#: .\imports\models.py:45
+#, fuzzy
+#| msgid "Categories"
+msgid "Category"
+msgstr "Категории"
+
+#: .\imports\models.py:46 .\imports\models.py:96 .\templates\header.html:76
+#: .\templates\main\home.html:50
+msgid "Categories"
+msgstr "Категории"
+
+#: .\imports\models.py:57
+msgid " Subfield"
+msgstr ""
+
+#: .\imports\models.py:58
+msgid " Subfields"
+msgstr ""
+
+#: .\imports\models.py:71
+msgid " Subfield_Item"
+msgstr ""
+
+#: .\imports\models.py:72
+msgid " Subfield_Items"
+msgstr ""
+
+#: .\imports\models.py:85
+#, fuzzy
+#| msgid "Price:"
+msgid "price"
+msgstr "Цена:"
+
+#: .\imports\models.py:86
+#, fuzzy
+#| msgid "Information:"
+msgid "information"
+msgstr "Информация:"
+
+#: .\imports\models.py:87 .\imports\models.py:151 .\imports\models.py:199
+#: .\imports\models.py:299 .\imports\models.py:337
+#, fuzzy
+#| msgid "Description"
+msgid "description"
+msgstr "Описание"
+
+#: .\imports\models.py:89 .\imports\models.py:150 .\imports\models.py:198
+#: .\imports\models.py:298
+#, fuzzy
+#| msgid "Origin"
+msgid "origin"
+msgstr "Источник"
+
+#: .\imports\models.py:90 .\imports\models.py:148 .\imports\models.py:296
+#, fuzzy
+#| msgid "Quantity"
+msgid "quantity"
+msgstr "Количество"
+
+#: .\imports\models.py:91 .\imports\models.py:149 .\imports\models.py:297
+#, fuzzy
+#| msgid "Quality"
+msgid "quality"
+msgstr "Качество"
+
+#: .\imports\models.py:94
+msgid "Subfield Item"
+msgstr ""
+
+#: .\imports\models.py:95
+msgid "Subfield"
+msgstr ""
+
+#: .\imports\models.py:97
+msgid "Brand"
+msgstr ""
+
+#: .\imports\models.py:98
+msgid "Color"
+msgstr ""
+
+#: .\imports\models.py:99
+msgid "discount_price "
+msgstr ""
+
+#: .\imports\models.py:104
+#, fuzzy
+#| msgid "Product Name"
+msgid "Product"
+msgstr "наименование товара"
+
+#: .\imports\models.py:105
+#, fuzzy
+#| msgid "Product Name"
+msgid "Products"
+msgstr "наименование товара"
+
+#: .\imports\models.py:118
+msgid "Image"
+msgstr ""
+
+#: .\imports\models.py:119
+msgid "Images"
+msgstr ""
+
+#: .\imports\models.py:129 .\imports\models.py:176 .\imports\models.py:236
+#: .\imports\models.py:255 .\imports\models.py:273 .\imports\models.py:324
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "Электронная почта"
+
+#: .\imports\models.py:130
+#, fuzzy
+#| msgid "Your Message:"
+msgid "message"
+msgstr "Ваше сообщение:"
+
+#: .\imports\models.py:133
+#, fuzzy
+#| msgid "Contact"
+msgid "Cntact"
+msgstr "Связаться с нами"
+
+#: .\imports\models.py:134
+#, fuzzy
+#| msgid "Contact"
+msgid "Contacs"
+msgstr "Связаться с нами"
+
+#: .\imports\models.py:147 .\imports\models.py:295
+#, fuzzy
+#| msgid "Product name:"
+msgid "product name"
+msgstr "Наименование товара:"
+
+#: .\imports\models.py:153 .\imports\models.py:177 .\imports\models.py:301
+msgid "whatsapp"
+msgstr ""
+
+#: .\imports\models.py:157 .\templates\header.html:82
+msgid "Collaboration"
+msgstr "Сотрудничество"
+
+#: .\imports\models.py:158
+#, fuzzy
+#| msgid "Collaboration"
+msgid "Collaborations"
+msgstr "Сотрудничество"
+
+#: .\imports\models.py:168
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImage"
+msgstr "Сотрудничество"
+
+#: .\imports\models.py:169
+#, fuzzy
+#| msgid "Collaboration"
+msgid " CollaborationImages"
+msgstr "Сотрудничество"
+
+#: .\imports\models.py:175
+#, fuzzy
+#| msgid "Username:"
+msgid "surname"
+msgstr "Имя пользователя:"
+
+#: .\imports\models.py:178 .\imports\models.py:275 .\imports\models.py:322
+msgid "country"
+msgstr ""
+
+#: .\imports\models.py:179 .\imports\models.py:276 .\imports\models.py:323
+msgid "city"
+msgstr ""
+
+#: .\imports\models.py:180
+msgid "company"
+msgstr ""
+
+#: .\imports\models.py:184
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfo"
+msgstr "информация о пользователе"
+
+#: .\imports\models.py:185
+#, fuzzy
+#| msgid "User Information"
+msgid " UserInfos"
+msgstr "информация о пользователе"
+
+#: .\imports\models.py:196
+#, fuzzy
+#| msgid "Profitability"
+msgid "profitability_percentage"
+msgstr "Рентабельность"
+
+#: .\imports\models.py:197
+msgid "duration_staying_money"
+msgstr ""
+
+#: .\imports\models.py:200
+#, fuzzy
+#| msgid "Start Date"
+msgid "start date"
+msgstr "Дата начала"
+
+#: .\imports\models.py:201
+msgid "end date"
+msgstr ""
+
+#: .\imports\models.py:202
+#, fuzzy
+#| msgid "Amount Invested"
+msgid "amount invested"
+msgstr "Сумма инвестиций"
+
+#: .\imports\models.py:208
+#, fuzzy
+#| msgid "Investment"
+msgid " Investment"
+msgstr "Инвестиции"
+
+#: .\imports\models.py:209
+#, fuzzy
+#| msgid "Investment"
+msgid " Investments"
+msgstr "Инвестиции"
+
+#: .\imports\models.py:222 .\imports\models.py:223
+#, fuzzy
+#| msgid "Your favorites"
+msgid " Favorite"
+msgstr "Ваши избранные"
+
+#: .\imports\models.py:237 .\imports\models.py:256 .\imports\models.py:326
+#, fuzzy
+#| msgid "Address"
+msgid "address"
+msgstr "Адрес"
+
+#: .\imports\models.py:238 .\imports\models.py:257
+#, fuzzy
+#| msgid "Enter your phone number"
+msgid "phone number"
+msgstr "Введите свой номер телефона"
+
+#: .\imports\models.py:241
+msgid " OrderProduct"
+msgstr ""
+
+#: .\imports\models.py:242
+msgid " OrderProducts"
+msgstr ""
+
+#: .\imports\models.py:260
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestment"
+msgstr "Инвестиции"
+
+#: .\imports\models.py:261
+#, fuzzy
+#| msgid "Investment"
+msgid " OrderInvestments"
+msgstr "Инвестиции"
+
+#: .\imports\models.py:274
+#, fuzzy
+#| msgid "WhatsApp Number:"
+msgid "whatsapp number"
+msgstr "Номер WhatsApp:"
+
+#: .\imports\models.py:277
+msgid "cv"
+msgstr ""
+
+#: .\imports\models.py:281
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplication"
+msgstr "Заполните форму заявления о приеме на работу"
+
+#: .\imports\models.py:282
+#, fuzzy
+#| msgid "Complete the Job Application Form"
+msgid " JobApplications"
+msgstr "Заполните форму заявления о приеме на работу"
+
+#: .\imports\models.py:300
+#, fuzzy
+#| msgid "product_images"
+msgid "product image"
+msgstr "изображения продуктов"
+
+#: .\imports\models.py:304
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistance"
+msgstr "Помощь в поиске продуктов"
+
+#: .\imports\models.py:305
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_Assistances"
+msgstr "Помощь в поиске продуктов"
+
+#: .\imports\models.py:316
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImage"
+msgstr "Помощь в поиске продуктов"
+
+#: .\imports\models.py:317
+#, fuzzy
+#| msgid "Product Search Assistance"
+msgid " Product_AssistanceImages"
+msgstr "Помощь в поиске продуктов"
+
+#: .\imports\models.py:325
+#, fuzzy
+#| msgid "Number"
+msgid "number"
+msgstr "Число"
+
+#: .\imports\models.py:329
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branch"
+msgstr "НАШИ ФИЛИАЛЫ"
+
+#: .\imports\models.py:330
+#, fuzzy
+#| msgid "Our Branches"
+msgid "Branches"
+msgstr "НАШИ ФИЛИАЛЫ"
+
+#: .\imports\models.py:336
+msgid "job title"
+msgstr ""
+
+#: .\templates\admin\base_site.html:12
+msgid "Businesses724  | ADMIN "
+msgstr ""
+
+#: .\templates\admin\base_site.html:24
+msgid "Businesses724 | ADMIN"
+msgstr ""
+
+#: .\templates\auth\change_password_done.html:8
+
+msgid "Password changed"
+msgstr " пароль изменен"
+
+#: .\templates\auth\change_password_done.html:9
+msgid "Your password has been changed successfully."
+msgstr "Ваш пароль был успешно изменен."
+
+#: .\templates\auth\change_password_done.html:10
+msgid "You can now "
+msgstr "Ты можешь сейчас"
+
+#: .\templates\auth\change_password_done.html:10
+msgid "LOG IN"
+msgstr "АВТОРИЗОВАТЬСЯ"
+
+#: .\templates\auth\password_reset_sent.html:8
+msgid "Password Reset Sent"
+msgstr "Сброс пароля отправлен"
+
+#: .\templates\auth\password_reset_sent.html:9
+msgid ""
+" If an account already exists with the email address you entered,we have "
+"emailed you instructions for setting your password.You should receive these "
+"soon. If you do not receive an email,please make sure you entered the "
+"address you registered with and check your spam folder. "
+msgstr "Если учетная запись с указанным вами адресом электронной почты уже существует, мы отправили вам инструкции по установке пароля. Вы должны получить их в ближайшее время. Если вы не получили электронное письмо, убедитесь, что вы ввели адрес, под которым зарегистрировались, и проверьте папку со спамом."
+
+#: .\templates\auth\reset_password.html:10
+
+msgid "Enter your email"
+msgstr "Введите адрес электронной почты"
+
+#: .\templates\auth\reset_password.html:12
+#, fuzzy
+#| msgid "Confirm Password"
+msgid "Confirm"
+msgstr "Подтвердите пароль"
+
+#: .\templates\footer.html:8
+msgid "Explore our branches"
+msgstr "Изучите наши филиалы"
+
+#: .\templates\footer.html:13
+msgid "Social Media"
+msgstr "Социальные медиа"
+
+#: .\templates\footer.html:26 .\templates\main\about_us.html:38
+msgid "Location"
+msgstr "Расположение"
+
+#: .\templates\header.html:30
+msgid "Lan"
+msgstr "язык"
+
+#: .\templates\header.html:33
+msgid "Enlish"
+msgstr "английский"
+
+#: .\templates\header.html:34
+msgid "Persian"
+msgstr "персидский"
+
+#: .\templates\header.html:35
+msgid "Deutch"
+msgstr "Немецкий"
+
+#: .\templates\header.html:36
+msgid "Russian"
+msgstr "Русский"
+
+#: .\templates\header.html:37
+msgid "Arabic"
+msgstr "арабский"
+
+#: .\templates\header.html:38
+msgid "Turkish"
+msgstr "турецкий"
+
+#: .\templates\header.html:48
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: .\templates\header.html:50 .\templates\main\login.html:9
+#: .\templates\main\login.html:20
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: .\templates\header.html:51
+msgid "Sign Up"
+msgstr "Войти"
+
+#: .\templates\header.html:72
+msgid "Home"
+msgstr "Дом"
+
+#: .\templates\header.html:79 .\templates\main\home.html:78
+msgid "Services"
+msgstr "Услуги"
+
+#: .\templates\header.html:85 .\templates\main\home.html:89
+#: .\templates\main\home.html:108
+msgid "Investment"
+msgstr "Инвестиции"
+
+#: .\templates\header.html:88 .\templates\main\about_us.html:15
+#: .\templates\main\home.html:33
+msgid "About Us"
+msgstr "О нас"
+
+#: .\templates\header.html:91
+msgid "Contact"
+msgstr "Связаться с нами"
+
+#: .\templates\header.html:94
+msgid "Apply for Job"
+msgstr "Подать заявку на работу"
+
+#: .\templates\header.html:112 .\templates\header.html:113
+msgid "Search"
+msgstr "поиск"
+
+#: .\templates\main\about_us.html:17 .\templates\main\home.html:35
+msgid ""
+"Welcome to AMIRAN FOR INVESTMENT, your hub for global trade, investment, and "
+"careers in Oman. As a dynamic newcomer, we simplify international "
+"transactions, drive strategic investments, and offer exciting career paths. "
+"Based in Muscat, we're dedicated to propelling businesses forward in the "
+"dynamic global marketplace. Join us on this journey towards simplified "
+"trade, strategic investments, and boundless career opportunities."
+msgstr ""
+"Добро пожаловать в AMIRAN FOR INVESTMENT, ваш центр глобальной торговли, "
+"инвестиций и карьеры в Омане. Будучи динамичным новичком, мы упрощаем "
+"международные транзакции, стимулируем стратегические инвестиции и предлагаем "
+"захватывающие возможности карьерного роста. Находясь в Маскате, мы стремимся "
+"продвигать бизнес на динамичном глобальном рынке. Присоединяйтесь к нам на "
+"пути к упрощенной торговле, стратегическим инвестициям и безграничным "
+"карьерным возможностям."
+
+#: .\templates\main\about_us.html:29
+msgid "Our Branches"
+msgstr "НАШИ ФИЛИАЛЫ"
+
+#: .\templates\main\about_us.html:42
+msgid "Number"
+msgstr "Число"
+
+#: .\templates\main\about_us.html:50
+msgid "Address"
+msgstr "Адрес"
+
+#: .\templates\main\about_us.html:65
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: .\templates\main\assistance_successful.html:7
+msgid "Your Request Has Been Successfully Submitted"
+msgstr "Ваш запрос был успешно отправлен"
+
+#: .\templates\main\assistance_successful.html:8
+msgid ""
+"Thank you for reaching out to us! We have received your request, and our "
+"team is on it."
+msgstr ""
+"Спасибо, что связались с нами! Мы получили ваш запрос и наша команда "
+"работает над ним."
+
+#: .\templates\main\assistance_successful.html:9
+msgid ""
+"Within the next 24 hours, our dedicated team will carefully review your "
+"request and get back to you with the necessary information."
+msgstr ""
+"В течение следующих 24 часов наша команда внимательно рассмотрит ваш запрос "
+"и свяжется с вами с необходимой информацией."
+
+#: .\templates\main\assistance_successful.html:13
+#: .\templates\main\job_application_success.html:9
+#: .\templates\main\order_success.html:13
+#: .\templates\main\success_submission.html:11
+msgid "Back to Home"
+msgstr "Вернуться домой"
+
+#: .\templates\main\collaboration.html:8
+msgid "Welcome to AMIRAN FOR INVESTMENT"
+msgstr "Добро пожаловать в АМИРАН ДЛЯ ИНВЕСТИЦИЙ"
+
+#: .\templates\main\collaboration.html:9
+msgid ""
+"We believe in the power of collaboration and providing a platform for "
+"exceptional products to thrive. If you have a unique product that you're "
+"passionate about and would like to share it with a wider audience, our "
+"collaboration program is designed just for you."
+msgstr ""
+"Мы верим в силу сотрудничества и в предоставление платформы для процветания "
+"исключительных продуктов. Если у вас есть уникальный продукт, которым вы "
+"увлечены и хотели бы поделиться им с более широкой аудиторией, наша "
+"программа сотрудничества разработана специально для вас."
+
+#: .\templates\main\collaboration.html:12
+msgid "How it works"
+msgstr "Как это работает"
+
+#: .\templates\main\collaboration.html:13
+msgid "1.Submit Your Product:"
+msgstr "1.Отправьте свой продукт:"
+
+#: .\templates\main\collaboration.html:15
+msgid ""
+"Share the details of your product by filling out our easy-to-use Product "
+"Collaboration Information Form.Provide information such as the product name, "
+"quantity, quality, origin, a captivating description,and multiple images to "
+"showcase its uniqueness."
+msgstr ""
+"Поделитесь подробностями о своем продукте, заполнив нашу простую в "
+"использовании информационную форму для совместной работы над продуктом. "
+"Предоставьте такую ​​информацию, как название продукта, количество, качество, "
+"происхождение, увлекательное описание и несколько изображений, чтобы "
+"продемонстрировать его уникальность."
+
+#: .\templates\main\collaboration.html:19
+msgid "2.Thorough Review Process:"
+msgstr "2. Процесс тщательной проверки:"
+
+#: .\templates\main\collaboration.html:21
+msgid ""
+"Our dedicated team carefully reviews each submission to ensure that the "
+"products featured on our platform meet our high standards of quality and "
+"innovation.We appreciate the diversity of ideas and are excited to discover "
+"products that stand out."
+msgstr ""
+"Наша преданная команда тщательно просматривает каждую заявку, чтобы "
+"убедиться, что продукты, представленные на нашей платформе, соответствуют "
+"нашим высоким стандартам качества и инноваций. Мы ценим разнообразие идей и "
+"рады открывать для себя продукты, которые выделяются."
+
+#: .\templates\main\collaboration.html:25
+msgid "3.Acceptance or Feedback:"
+msgstr "3. Принятие или обратная связь:"
+
+#: .\templates\main\collaboration.html:27
+msgid ""
+"Following the review process, we will notify you of the acceptance of your "
+"product for collaboration.If your product aligns with our vision and "
+"resonates with our audience,we'll be thrilled to feature it on our platform."
+msgstr ""
+"После процесса проверки мы уведомим вас о принятии вашего продукта для "
+"сотрудничества. Если ваш продукт соответствует нашему видению и находит "
+"отклик у нашей аудитории, мы будем рады представить его на нашей платформе."
+
+#: .\templates\main\collaboration.html:31
+msgid "4.Commence Collaboration:"
+msgstr "4.Начать сотрудничество:"
+
+#: .\templates\main\collaboration.html:33
+msgid ""
+"Once accepted, our team will reach out to discuss the details of the "
+"collaboration.This includes logistics, sales strategies,and any additional "
+"information needed to make the collaboration a success."
+msgstr ""
+"После принятия наша команда свяжется с вами, чтобы обсудить детали "
+"сотрудничества. Это включает в себя логистику, стратегии продаж и любую "
+"дополнительную информацию, необходимую для успешного сотрудничества."
+
+#: .\templates\main\collaboration.html:37
+msgid "5.Join a Community of Innovators:"
+msgstr "5.Присоединяйтесь к сообществу новаторов:"
+
+#: .\templates\main\collaboration.html:39
+msgid ""
+"Become part of a community of like-minded individuals and businesses that "
+"share a passion for innovation.Our platform is not just about selling "
+"products;it's about building lasting connections and supporting each other's "
+"growth."
+msgstr ""
+"Станьте частью сообщества единомышленников и компаний, которые разделяют "
+"страсть к инновациям. Наша платформа предназначена не только для продажи "
+"продуктов, но и для создания прочных связей и поддержки роста друг друга."
+
+#: .\templates\main\collaboration.html:44
+#: .\templates\main\product_assistance.html:11
+msgid "Submit Your Product for Collaboration"
+msgstr "Отправьте свой продукт для совместной работы"
+
+#: .\templates\main\collaboration.html:48
+#: .\templates\main\product_assistance.html:15
+msgid "Product Name"
+msgstr "наименование товара"
+
+#: .\templates\main\collaboration.html:49
+#: .\templates\main\product_assistance.html:16
+msgid "Enter product name"
+msgstr "Введите название продукта"
+
+#: .\templates\main\collaboration.html:52
+#: .\templates\main\product_assistance.html:19
+msgid "Quantity"
+msgstr "Количество"
+
+#: .\templates\main\collaboration.html:53
+#: .\templates\main\product_assistance.html:20
+msgid "Enter quantity"
+msgstr "Введите количество"
+
+#: .\templates\main\collaboration.html:56
+#: .\templates\main\product_assistance.html:23
+msgid "Quality"
+msgstr "Качество"
+
+#: .\templates\main\collaboration.html:57
+#: .\templates\main\product_assistance.html:24
+msgid "Enter quality"
+msgstr "Введите качество"
+
+#: .\templates\main\collaboration.html:60 .\templates\main\dashboard.html:168
+#: .\templates\main\dashboard.html:234
+#: .\templates\main\product_assistance.html:27
+msgid "Origin"
+msgstr "Источник"
+
+#: .\templates\main\collaboration.html:61
+#: .\templates\main\product_assistance.html:28
+msgid "Enter origin"
+msgstr "Введите Источник"
+
+#: .\templates\main\collaboration.html:64
+#: .\templates\main\product_assistance.html:31
+msgid "Description"
+msgstr "Описание"
+
+#: .\templates\main\collaboration.html:65
+#: .\templates\main\product_assistance.html:32
+msgid "Enter product description"
+msgstr "Введите описание продукта"
+
+#: .\templates\main\collaboration.html:68
+#: .\templates\main\product_assistance.html:35
+msgid "Product Images (4 or more)"
+msgstr "Изображения продукта (4 или более)"
+
+#: .\templates\main\collaboration.html:69
+#: .\templates\main\product_assistance.html:36
+msgid "product_images"
+msgstr "изображения продуктов"
+
+#: .\templates\main\collaboration.html:72
+#: .\templates\main\product_assistance.html:39
+msgid "Contact Number(Whatsapp)"
+msgstr "Контактный номер (WhatsApp)"
+
+#: .\templates\main\collaboration.html:73
+#: .\templates\main\product_assistance.html:40
+msgid "Enter WhatsApp number"
+msgstr "Введите номер WhatsApp"
+
+#: .\templates\main\collaboration.html:76
+#: .\templates\main\product_assistance.html:42
+msgid "Submit for Collaboration"
+msgstr "Отправить для сотрудничества"
+
+#: .\templates\main\collaboration.html:79 .\templates\main\home.html:133
+msgid "Log in to Submit"
+msgstr "Войдите, чтобы отправить"
+
+#: .\templates\main\dashboard.html:46
+msgid "Your submitted products for collaboration"
+msgstr "Представленные вами продукты для сотрудничества"
+
+#: .\templates\main\dashboard.html:60
+msgid "No images available"
+msgstr "Нет доступных изображений"
+
+#: .\templates\main\dashboard.html:77 .\templates\main\order_product.html:15
+msgid " Quality:"
+msgstr "Качество:"
+
+#: .\templates\main\dashboard.html:78 .\templates\main\order_product.html:14
+msgid " Quantity:"
+msgstr "Количество:"
+
+#: .\templates\main\dashboard.html:79
+#: .\templates\main\investment_product.html:19
+#: .\templates\main\order_product.html:13
+#: .\templates\main\product_detail.html:45
+msgid "Origin:"
+msgstr "Источник:"
+
+#: .\templates\main\dashboard.html:80
+msgid "Description:"
+msgstr "Описание:"
+
+#: .\templates\main\dashboard.html:81
+msgid "WhatsApp Number:"
+msgstr "Номер WhatsApp:"
+
+#: .\templates\main\dashboard.html:89
+msgid "You haven't submitted any products for collaboration"
+msgstr "Вы не отправили ни одного продукта для сотрудничества."
+
+#: .\templates\main\dashboard.html:99
+msgid "Welcome,"
+msgstr "Добро пожаловать,"
+
+#: .\templates\main\dashboard.html:100
+msgid " Here is your user information:"
+msgstr "Вот ваша пользовательская информация:"
+
+#: .\templates\main\dashboard.html:102
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: .\templates\main\dashboard.html:103
+msgid "First Name:"
+msgstr "Имя:"
+
+#: .\templates\main\dashboard.html:104
+msgid "Last Name:"
+msgstr "Фамилия:"
+
+#: .\templates\main\dashboard.html:105
+msgid "Email:"
+msgstr "Электронная почта:"
+
+#: .\templates\main\dashboard.html:113
+msgid "Investment Opportunities Await:"
+msgstr "Инвестиционные возможности ждут:"
+
+#: .\templates\main\dashboard.html:127 .\templates\main\dashboard.html:166
+#: .\templates\main\dashboard.html:232
+msgid "Profitability"
+msgstr "Рентабельность"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid " Duration:"
+msgstr "Продолжительность:"
+
+#: .\templates\main\dashboard.html:129
+#: .\templates\main\investment_product.html:18
+msgid "months"
+msgstr "месяцы"
+
+#: .\templates\main\dashboard.html:130
+#: .\templates\main\order_investment.html:12
+#: .\templates\main\search_results.html:40
+msgid " Origin:"
+msgstr "Источник:"
+
+#: .\templates\main\dashboard.html:131
+#: .\templates\main\order_investment.html:13
+msgid "Start Date:"
+msgstr "Дата начала:"
+
+#: .\templates\main\dashboard.html:132
+#: .\templates\main\order_investment.html:14
+msgid "End Date:"
+msgstr "Дата окончания:"
+
+#: .\templates\main\dashboard.html:133
+#: .\templates\main\investment_product.html:22
+#: .\templates\main\order_investment.html:15
+msgid "Amount Invested:"
+msgstr "Сумма инвестиций:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+#: .\templates\main\order_investment.html:16
+msgid "Active:"
+msgstr "Активный:"
+
+#: .\templates\main\dashboard.html:134
+#: .\templates\main\investment_product.html:23
+msgid "Yes"
+msgstr "Да"
+
+#: .\templates\main\dashboard.html:134
+msgid "No"
+msgstr "Нет"
+
+#: .\templates\main\dashboard.html:139
+msgid "Apply"
+msgstr "Применять"
+
+#: .\templates\main\dashboard.html:157
+msgid "Your favorites"
+msgstr "Ваши избранные"
+
+#: .\templates\main\dashboard.html:167 .\templates\main\dashboard.html:233
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: .\templates\main\dashboard.html:169 .\templates\main\dashboard.html:235
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: .\templates\main\dashboard.html:170 .\templates\main\dashboard.html:236
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: .\templates\main\dashboard.html:171 .\templates\main\dashboard.html:237
+msgid "Amount Invested"
+msgstr "Сумма инвестиций"
+
+#: .\templates\main\dashboard.html:172
+msgid "Active"
+msgstr "Активный"
+
+#: .\templates\main\dashboard.html:173
+msgid "Action"
+msgstr "Действие"
+
+#: .\templates\main\dashboard.html:198
+msgid "Remove"
+msgstr "Удалять"
+
+#: .\templates\main\dashboard.html:210
+msgid "No favorite investments found."
+msgstr "Любимые инвестиции не найдены."
+
+#: .\templates\main\dashboard.html:223
+msgid "Your Investment"
+msgstr "Ваши инвестиции"
+
+#: .\templates\main\dashboard.html:246
+msgid "Month"
+msgstr "Месяц"
+
+#: .\templates\main\home.html:13
+msgid "Welcome to Amiran for investment, where borders are not barriers"
+msgstr ""
+"Добро пожаловать в Амиран для инвестиций, где границы не являются преградой"
+
+#: .\templates\main\home.html:14
+msgid "Explore a world of seamless import and export solutions"
+msgstr "Откройте для себя мир удобных решений для импорта и экспорта"
+
+#: .\templates\main\home.html:84 .\templates\main\home.html:100
+msgid "Import & Export"
+msgstr "Импорт Экспорт"
+
+#: .\templates\main\home.html:94 .\templates\main\home.html:128
+msgid "Search Assistance"
+msgstr "Помощь в поиске"
+
+#: .\templates\main\home.html:101
+msgid ""
+"We specialize in providing tailored import and export solutions, ensuring a "
+"seamless and efficient flow of goods across international borders."
+msgstr ""
+"Мы специализируемся на предоставлении индивидуальных решений по импорту и "
+"экспорту, обеспечивая бесперебойный и эффективный поток товаров через "
+"международные границы."
+
+#: .\templates\main\home.html:102
+msgid ""
+"With expert knowledge in navigating regulations and a robust global network, "
+"we connect businesses to key markets, expanding their reach worldwide."
+msgstr ""
+"Обладая экспертными знаниями в области законодательства и надежной "
+"глобальной сетью, мы подключаем предприятия к ключевым рынкам, расширяя их "
+"присутствие по всему миру."
+
+#: .\templates\main\home.html:103
+msgid ""
+"Our reliable logistics, transparent processes, and cost-effective solutions "
+"make us the ideal partner for businesses seeking success in the global "
+"marketplace."
+msgstr ""
+"Наша надежная логистика, прозрачные процессы и экономически эффективные "
+"решения делают нас идеальным партнером для предприятий, стремящихся к успеху "
+"на мировом рынке."
+
+#: .\templates\main\home.html:104
+msgid ""
+"Whether you're an established player or new to international trade, AMIRAN "
+"FOR INVESTMENT is here to simplify your journey and optimize your global "
+"operations."
+msgstr ""
+"Независимо от того, являетесь ли вы опытным игроком или новичком в "
+"международной торговле, AMIRAN FOR INVESTMENT здесь, чтобы упростить ваше "
+"путешествие и оптимизировать ваши глобальные операции."
+
+#: .\templates\main\home.html:109
+msgid ""
+"Explore strategic growth opportunities worldwide with AMIRAN FOR INVESTMENT, "
+"your trusted global investment partner. Specializing in tailored investment "
+"solutions, we provide deep market insights and a transparent approach to "
+"empower your financial journey."
+msgstr ""
+"Исследуйте возможности стратегического роста по всему миру вместе с AMIRAN "
+"FOR INVESTMENT, вашим надежным глобальным инвестиционным партнером. "
+"Специализируясь на индивидуальных инвестиционных решениях, мы предоставляем "
+"глубокое понимание рынка и прозрачный подход, расширяющий возможности вашего "
+"финансового пути."
+
+#: .\templates\main\home.html:110
+msgid ""
+"Our diversified portfolios, crafted with a focus on risk management, aim to "
+"deliver resilience in dynamic market conditions. Leveraging our extensive "
+"global network, we offer unique and lucrative investment opportunities in "
+"various countries."
+msgstr ""
+"Наши диверсифицированные портфели, созданные с упором на управление рисками, "
+"направлены на обеспечение устойчивости в динамичных рыночных условиях. "
+"Используя нашу обширную глобальную сеть, мы предлагаем уникальные и выгодные "
+"инвестиционные возможности в различных странах."
+
+#: .\templates\main\home.html:111
+msgid ""
+"Whether you're an experienced investor or new to the financial realm, AMIRAN "
+"FOR INVESTMENT is dedicated to providing customized solutions that align "
+"with your goals. Join us in navigating the world of finance with confidence "
+"and innovation."
+msgstr ""
+"Являетесь ли вы опытным инвестором или новичком в финансовой сфере, AMIRAN "
+"FOR INVESTMENT стремится предоставить индивидуальные решения, "
+"соответствующие вашим целям. Присоединяйтесь к нам в уверенном и "
+"инновационном путешествии по миру финансов."
+
+#: .\templates\main\home.html:114
+msgid "Explore opportunities"
+msgstr "Изучите возможности"
+
+#: .\templates\main\home.html:120
+msgid "Product Search Assistance!"
+msgstr "Помощь в поиске товаров!"
+
+#: .\templates\main\home.html:121
+msgid ""
+"Discover the ease of our Product Search Assistance. Can't find what you need?"
+msgstr ""
+"Откройте для себя простоту нашей помощи в поиске продуктов. Не можете найти "
+"то, что вам нужно?"
+
+#: .\templates\main\home.html:122
+msgid ""
+"Click the Product Search Assistance button, fill the form, and let our team "
+"do the work."
+msgstr ""
+"Нажмите кнопку «Помощь в поиске продуктов», заполните форму и позвольте "
+"нашей команде выполнить всю работу."
+
+#: .\templates\main\home.html:123
+msgid ""
+"We'll find your item, share details promptly, and guide you through a hassle-"
+"free ordering process."
+msgstr ""
+"Мы найдем ваш товар, оперативно поделимся подробностями и проведем вас через "
+"процесс заказа без проблем."
+
+#: .\templates\main\home.html:124
+msgid "Trust us to turn your product dreams into reality!"
+msgstr "Доверьтесь нам, и мы воплотим ваши мечты о продукте в реальность!"
+
+#: .\templates\main\home.html:138
+msgid "Select a service to see the description."
+msgstr "Выберите услугу, чтобы увидеть описание."
+
+#: .\templates\main\home.html:154
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: .\templates\main\home.html:160
+msgid "Your Name:"
+msgstr "Ваше имя:"
+
+#: .\templates\main\home.html:165
+msgid "Your Email:"
+msgstr "Ваш адрес электронной почты:"
+
+#: .\templates\main\home.html:170
+msgid "Your Message:"
+msgstr "Ваше сообщение:"
+
+#: .\templates\main\home.html:174
+#: .\templates\main\job_application_form.html:52
+msgid "Submit"
+msgstr "Представлять на рассмотрение"
+
+#: .\templates\main\investment.html:10
+msgid "Welcome to Our Exclusive Investment Opportunity!"
+msgstr "Добро пожаловать на нашу эксклюзивную инвестиционную возможность!"
+
+#: .\templates\main\investment.html:11
+msgid "At"
+msgstr "В "
+
+#: .\templates\main\investment.html:11
+msgid "AMIRAN FOR INVESTMENT"
+msgstr "AMIRAN FOR INVESTMENT"
+
+#: .\templates\main\investment.html:11
+msgid "we believe in creating opportunities for growth and prosperity"
+msgstr "мы верим в создание возможностей для роста и процветания"
+
+#: .\templates\main\investment.html:19
+msgid "How It Works"
+msgstr "Как это работает"
+
+#: .\templates\main\investment.html:20
+msgid ""
+"Explore our curated selection of high-quality products, each with its own "
+"distinct investment season.This is the time when these products shine, "
+"presenting a golden opportunity for investors like you to reap significant "
+"returns."
+msgstr ""
+"Изучите нашу тщательно подобранную подборку высококачественных продуктов, "
+"каждый из которых имеет свой особый инвестиционный сезон. Это время, когда "
+"эти продукты сияют, предоставляя таким инвесторам, как вы, прекрасную "
+"возможность получить значительную прибыль."
+
+#: .\templates\main\investment.html:26
+msgid "Customizable Profitability"
+msgstr "Настраиваемая прибыльность"
+
+#: .\templates\main\investment.html:27
+#, fuzzy, python-format
+#| msgid ""
+#| "We understand that one size doesn't fit all. That's why we give you the "
+#| "flexibility to choose your level of involvement. Adjust the profitability "
+#| "rate according to your investment strategy, ranging from 5%% to 40%%. "
+#| "Whether you're a conservative investor or seeking higher returns, we've "
+#| "got options tailored for you."
+msgid ""
+"We understand that one size doesn't fit all. That's why we give you the "
+"flexibility to choose your level of involvement. Adjust the profitability "
+"rate according to your investment strategy, ranging from 5%% to 40%%. "
+"Whether you're a conservative investor or seeking higher returns, we've got "
+"options tailored for you."
+msgstr ""
+"Мы понимаем, что один размер не подходит всем. Вот почему мы даем вам "
+"возможность выбирать уровень вашего участия. Отрегулируйте ставку доходности "
+"в соответствии с вашей инвестиционной стратегией в диапазоне от 5% до 40%. "
+"Независимо от того, являетесь ли вы консервативным инвестором или ищете "
+"более высокую прибыль, у нас есть варианты, специально разработанные для вас."
+
+#: .\templates\main\investment.html:32
+msgid "Why Invest with Us"
+msgstr "Почему инвестируйте с нами"
+
+#: .\templates\main\investment.html:34
+msgid "Diversification:"
+msgstr "Диверсификация:"
+
+#: .\templates\main\investment.html:34
+msgid ""
+"Spread your investments across a range of products, reducing risk and "
+"maximizing potential returns."
+msgstr ""
+"распределите свои инвестиции по ряду продуктов, снижая риск и максимизируя "
+"потенциальную прибыль."
+
+#: .\templates\main\investment.html:35
+msgid "Transparency:"
+msgstr "Прозрачность:"
+
+#: .\templates\main\investment.html:35
+msgid ""
+" We believe in open communication. Track your investments, "
+"monitorperformance, and stay informed about market trends."
+msgstr ""
+"Мы верим в открытое общение. Отслеживайте свои инвестиции, отслеживайте "
+"производительность и будьте в курсе тенденций рынка."
+
+#: .\templates\main\investment.html:36
+msgid "Expert Curation:"
+msgstr "Экспертное курирование:"
+
+#: .\templates\main\investment.html:36
+msgid ""
+"Our team of experts carefully selects products with a proven track record, "
+"ensuring you invest in opportunities with real growth potential."
+msgstr ""
+"наша команда экспертов тщательно отбирает продукты с проверенной репутацией, "
+"гарантируя, что вы инвестируете в возможности с реальным потенциалом роста."
+
+#: .\templates\main\investment.html:43
+msgid "Get Started Today"
+msgstr "Начните сегодня"
+
+#: .\templates\main\investment.html:44
+msgid ""
+"Seize the moment and embark on a journey of financial growth with Your "
+"Company Name. Our Investmen Opportunity is not just an option; it's a "
+"gateway to a brighter and more prosperous future. Take control of your "
+"financial destiny and invest with confidence."
+msgstr ""
+"Воспользуйтесь моментом и отправляйтесь в путь финансового роста вместе с "
+"названием вашей компании. Наши инвестиционные возможности — это не просто "
+"вариант; это ворота в более светлое и процветающее будущее. Возьмите под "
+"свой контроль свою финансовую судьбу и инвестируйте с уверенностью."
+
+#: .\templates\main\investment.html:45
+msgid "Your success is our success. Let's grow together."
+msgstr "Ваш успех это и наш успех. Давайте расти вместе."
+
+#: .\templates\main\investment.html:46
+msgid "Explore Exciting Investment Opportunities"
+msgstr "Изучите захватывающие инвестиционные возможности"
+
+#: .\templates\main\investment_product.html:17
+msgid "Profitability:"
+msgstr "Рентабельность:"
+
+#: .\templates\main\investment_product.html:67
+msgid ""
+"Oops! Currently, there are no investments available. Please check back soon "
+"for exciting updates and new opportunities."
+msgstr ""
+"Упс! На данный момент инвестиций нет. Пожалуйста, зайдите в ближайшее время "
+"для получения интересных обновлений и новых возможностей."
+
+#: .\templates\main\investment_product.html:78
+msgid "Copy Link"
+msgstr "Копировать ссылку"
+
+#: .\templates\main\job_application_form.html:7
+msgid "Complete the Job Application Form"
+msgstr "Заполните форму заявления о приеме на работу"
+
+#: .\templates\main\job_application_success.html:5
+msgid "Job Application Submitted Successfully!"
+msgstr "Заявление о приеме на работу успешно отправлено!"
+
+#: .\templates\main\job_application_success.html:6
+msgid ""
+"Thank you for applying to our company. Your job application has been "
+"successfully submitted."
+msgstr ""
+"Благодарим Вас за обращение в нашу компанию. Ваша заявка на работу успешно "
+"отправлена."
+
+#: .\templates\main\job_application_success.html:7
+msgid "We will review your information and get in touch with you soon."
+msgstr "Мы проверим вашу информацию и свяжемся с вами в ближайшее время."
+
+#: .\templates\main\login.html:11
+msgid "User Information"
+msgstr "информация о пользователе"
+
+#: .\templates\main\login.html:21
+msgid "Forgot Password?"
+msgstr "Забыли пароль?"
+
+#: .\templates\main\order_investment.html:10
+msgid " Profitability:"
+msgstr "Рентабельность:"
+
+#: .\templates\main\order_investment.html:11
+msgid "Duration:"
+msgstr "Продолжительность:"
+
+#: .\templates\main\order_investment.html:23
+#: .\templates\main\order_product.html:22
+msgid "Enter your name"
+msgstr "Введите ваше имя"
+
+#: .\templates\main\order_investment.html:25
+#: .\templates\main\order_product.html:24
+msgid "Enter your Email"
+msgstr "Введите адрес электронной почты"
+
+#: .\templates\main\order_investment.html:27
+#: .\templates\main\order_product.html:26
+msgid "Enter your address"
+msgstr "Введите свой адрес"
+
+#: .\templates\main\order_investment.html:29
+#: .\templates\main\order_product.html:28
+msgid "Enter your phone number"
+msgstr "Введите свой номер телефона"
+
+#: .\templates\main\order_investment.html:31
+#: .\templates\main\order_product.html:30
+msgid "Submit Order"
+msgstr "Подтвердить заказ"
+
+#: .\templates\main\order_product.html:10
+msgid " Price:"
+msgstr "Цена:"
+
+#: .\templates\main\order_product.html:11
+msgid "Information:"
+msgstr "Информация:"
+
+#: .\templates\main\order_product.html:12
+msgid " Description:"
+msgstr "Описание:"
+
+#: .\templates\main\order_success.html:8
+msgid "Order Successfully Placed"
+msgstr "Заказ успешно размещен"
+
+#: .\templates\main\order_success.html:9
+msgid ""
+"Thank you for placing your order with us! Your request has been received, "
+"and our team is processing it."
+msgstr ""
+"Спасибо, что разместили у нас заказ! Ваш запрос получен, и наша команда его "
+"обрабатывает."
+
+#: .\templates\main\order_success.html:10
+msgid ""
+"Within the next 24 hours, our dedicated team will review your order details "
+"and contact you to confirm and provide further information."
+msgstr ""
+"В течение следующих 24 часов наша специальная команда проверит детали вашего "
+"заказа и свяжется с вами для подтверждения и предоставления дополнительной "
+"информации."
+
+#: .\templates\main\order_success.html:11
+msgid ""
+"We appreciate your business and look forward to serving you. If you have any "
+"urgent inquiries, please feel free to reach out to our customer support."
+msgstr ""
+"Мы ценим ваш бизнес и с нетерпением ждем возможности служить вам. Если у вас "
+"есть срочные вопросы, пожалуйста, свяжитесь с нашей службой поддержки "
+"клиентов."
+
+#: .\templates\main\product_detail.html:36
+#: .\templates\main\search_results.html:37
+msgid "Quantity:"
+msgstr "Количество:"
+
+#: .\templates\main\product_detail.html:39
+#: .\templates\main\search_results.html:38
+msgid "Price:"
+msgstr "Цена:"
+
+#: .\templates\main\product_detail.html:42
+#: .\templates\main\search_results.html:39
+msgid "Quality:"
+msgstr "Качество:"
+
+#: .\templates\main\product_detail.html:49
+#: .\templates\main\search_results.html:45
+msgid "Order now"
+msgstr "Заказать сейчас"
+
+#: .\templates\main\product_detail.html:51
+#: .\templates\main\search_results.html:48
+msgid "Login to Order"
+msgstr "Войдите, чтобы заказать"
+
+#: .\templates\main\product_detail.html:60
+msgid ""
+"We currently do not have the specified product in our inventory. Please "
+"check back soon,as we are continuously updating our selection and will be "
+"adding new products shortly"
+msgstr ""
+"На данный момент на нашем складе нет указанного товара. Пожалуйста, зайдите "
+"позже, так как мы постоянно обновляем наш выбор и в ближайшее время добавим "
+"новые продукты."
+
+#: .\templates\main\register.html:25 .\templates\main\register.html:37
+msgid "Register"
+msgstr "регистр"
+
+#: .\templates\main\register.html:26
+msgid "Create a new account to get started."
+msgstr "Создайте новую учетную запись, чтобы начать."
+
+#: .\templates\main\register.html:28
+msgid "Registration Information"
+msgstr "Регистрационная информация"
+
+#: .\templates\main\register.html:39
+msgid "Already have an account?"
+msgstr "У вас уже есть аккаунт?"
+
+#: .\templates\main\search_results.html:36
+msgid "Product name:"
+msgstr "Наименование товара:"
+
+#: .\templates\main\search_results.html:57
+#, fuzzy
+#| msgid "No results found."
+msgid "No results found"
+msgstr "Результатов не найдено"
+
+#: .\templates\main\search_results.html:62
+msgid ""
+"Searching for a particular product? Utilize our product search assistance. "
+"Complete the form, and allow our team to locate precisely what you're "
+"seeking."
+msgstr ""
+
+#: .\templates\main\search_results.html:63
+msgid "Click here"
+msgstr ""
+
+#: .\templates\main\success_submission.html:7
+msgid "Submission Successful!"
+msgstr "Подача успешна!"
+
+#: .\templates\main\success_submission.html:8
+msgid "Thank you for submitting your product for collaboration."
+msgstr "Благодарим за отправку продукта для сотрудничества."
+
+#: .\templates\main\success_submission.html:9
+msgid ""
+"Our team of experts will carefully review your submission, and we'll get "
+"back to you within 24 hours."
+msgstr ""
+"Наша команда экспертов внимательно рассмотрит вашу заявку и свяжется с вами "
+"в течение 24 часов."
+
+#~ msgid "Product Search Assistance"
+#~ msgstr "Помощь в поиске продуктов"

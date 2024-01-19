@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+<div class="container login-container mx-auto" style=" font-family: Courier New, monospace; font-weight:bold;">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="login-box">
+                <h2>{% translate "Login" %}</h2>
+                <div class="user-info-box">
+                    <h2>{% translate "User Information" %}</h2>
+                    <form method="post" action="{% url 'login' %}">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="{{ form.username.name }}" id="{{ form.username.id_for_label }}" placeholder={% translate "Username" %} required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="{{ form.password.name }}" id="{{ form.password.id_for_label }}" placeholder={% translate "Password" %} required>
+                        </div>
+                        <button type="submit" class="btn btn-dark btn-block" style=" font-family: Courier New, monospace; font-weight:bold;">{% translate "Login" %}</button>
+                        <a href="{% url 'reset_password' %}" style="color:black;">{% translate "Forgot Password?" %}</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,64 @@
+.container {
+    margin-top: 50px;
+    
+    
+  }
+  .collaboration-description {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 30px;
+    border: 1px solid #d3b53e;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgb(253, 251, 251);
+    margin-bottom:50px;
+
+  }
+  .collaboration-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .collaboration-description p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .collaboration-form {
+    background-color: rgb(255, 255, 255); 
+    padding: 30px;
+    border: 2px solid #d33e3e;
+    border-radius: 4px;
+    box-shadow: 0 0 20px #fdfdfc85;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    
+    backdrop-filter: blur(10px);
+    font-family: Courier New, monospace;
+}
+  .collaboration-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .collaboration-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .collaboration-form .form-control {
+    background:none;
+    border: none;
+    border-bottom: 1px solid  #fa0000;
+  }
+ 
+  .collaboration-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    color:rgb(5, 5, 5);
+    border-bottom: 3px solid  #d3b53e;
+    font-size: 20px;
+
+  }
+
+
+
+.coll-p{
+  color:white;
+}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="container order-product">
+    <div class="product-card">
+        <h2 style="margin-left:20px;">{{ investment.name }}</h2>
+        <div class="product-info">
+            <i class="fas fa-percent"></i>{% translate " Profitability:" %} {{ investment.profitability_percentage }}%<br>
+            <i class="far fa-clock"></i> {% translate "Duration:" %} {{ investment.duration_staying_money }} months<br>
+            <i class="fas fa-map-marker-alt"></i>{% translate " Origin:" %} {{ investment.origin }}<br>
+            <small>{% translate "Start Date:" %} {{ investment.start_date }}</small><br>
+            <small>{% translate "End Date:" %} {{ investment.end_date }}</small><br>
+            <i class="fas fa-money-bill"></i> {% translate "Amount Invested:" %} ${{ investment.amount_invested }}<br>
+            <i class="fas fa-toggle-on"></i> {% translate "Active:" %} {% if investment.is_active %}Yes{% else %}No{% endif %}
+        </div>
+    </div>
+
+    <div class="order-form">
+        <form method="post" action="{% url 'order_investment' investment_id=investment.id %}">
+            {% csrf_token %}
+            <input type="text" name="name" placeholder="{% translate "Enter your name" %}" required>
+
+            <input type="email" name="email" placeholder="{% translate "Enter your Email" %}" required>
+
+            <textarea name="address" placeholder="{% translate "Enter your address" %}" required></textarea>
+
+            <input type="text" name="phone_number" placeholder="{% translate "Enter your phone number" %}" required>
+
+            <button class="btn btn-dark btn-outline-light" type="submit ">{% translate "Submit Order" %}</button>
+        </form>
+    </div>
+</body>
+</div>
+
+{% endblock content %}
+
+
+
+
